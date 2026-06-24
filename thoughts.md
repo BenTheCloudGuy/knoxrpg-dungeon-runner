@@ -5,15 +5,12 @@
 - Specific rooms are locked down with "crystal colors" indicating which crystal the player needs to find to get the clue to open that room. The players will need to use Scrying Stone to get the clue too open that door.
 
 - Pick up Coins to represent loot. 
-- Height difference between table and cart = 1 3/4" + TV Height. 
-- Foam pit with underlights for Abyss. 
-
-
+- Teleport Troubles "Rainbow Road" 
+- 
 
 
 ## Lava Room 
 
-- This is where the "Ruins" are located and transitions from Caverns to Stone Dungeon. 
 - This is where the **Red Crystal** will be located
 - Players will encounter Fire Elementals and Imps. 
 
