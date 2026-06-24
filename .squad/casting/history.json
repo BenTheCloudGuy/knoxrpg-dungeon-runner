@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "assignments": [
+    {
+      "assignment_id": "2026-05-30-initial",
+      "created_at": "2026-05-30",
+      "universe": "dungeon-meshi",
+      "size": 5,
+      "shape": "content-only (no code) — dungeon module authoring",
+      "agents": ["laios", "marcille", "senshi", "chilchuck", "falin"]
+    }
+  ],
+  "universe_usage": {
+    "dungeon-meshi": ["2026-05-30-initial"]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "universe": "dungeon-meshi",
+  "agents": {
+    "laios": {
+      "persistent_name": "Laios",
+      "universe": "dungeon-meshi",
+      "role": "Dungeon Architect",
+      "created_at": "2026-05-30",
+      "legacy_named": false,
+      "status": "active"
+    },
+    "marcille": {
+      "persistent_name": "Marcille",
+      "universe": "dungeon-meshi",
+      "role": "Narrator & Voice",
+      "created_at": "2026-05-30",
+      "legacy_named": false,
+      "status": "active"
+    },
+    "senshi": {
+      "persistent_name": "Senshi",
+      "universe": "dungeon-meshi",
+      "role": "Quartermaster (Props & Handouts)",
+      "created_at": "2026-05-30",
+      "legacy_named": false,
+      "status": "active"
+    },
+    "chilchuck": {
+      "persistent_name": "Chilchuck",
+      "universe": "dungeon-meshi",
+      "role": "Encounter & Stat Block Designer",
+      "created_at": "2026-05-30",
+      "legacy_named": false,
+      "status": "active"
+    },
+    "falin": {
+      "persistent_name": "Falin",
+      "universe": "dungeon-meshi",
+      "role": "Prize Steward",
+      "created_at": "2026-05-30",
+      "legacy_named": false,
+      "status": "active"
+    },
+    "cleric": {
+      "persistent_name": "Cleric",
+      "universe": "exempt",
+      "role": "Session Logging",
+      "created_at": "2026-05-30",
+      "legacy_named": false,
+      "status": "active"
+    },
+    "paladin": {
+      "persistent_name": "Paladin",
+      "universe": "exempt",
+      "role": "Work Monitor",
+      "created_at": "2026-05-30",
+      "legacy_named": false,
+      "status": "active"
+    }
+  }
+}

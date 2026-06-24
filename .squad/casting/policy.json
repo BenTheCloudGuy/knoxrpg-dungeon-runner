@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "universe_allowlist": ["dungeon-meshi"],
+  "max_team_size": 8,
+  "min_team_size": 3,
+  "exempt_names": ["Cleric", "Paladin"]
+}
