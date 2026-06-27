@@ -43,6 +43,15 @@ Read-aloud paragraph, then `**Features**` list, then `**DM Notes**` (secrets, ho
 #### Stat blocks
 D&D 5e 2024 Monster Manual format. Inline spell summaries (range, save, damage, duration, concentration).
 
+#### Magic-item loot rarity (proposed; review only) — 2026-06-26 (via Falin)
+`items/magic-items/` is a full compendium dump, not a loot table. Proposed rule for this level-3, 40 HP-cap, one-night grinder: Common + Uncommon (consumable-heavy: potions, scrolls, oils, dusts, single-use beads) are general dungeon loot; Rare items are reserved for the Black Crystal grand-prize area only; Very Rare and above are skipped. Psychic/mind-themed items (e.g. potion-of-psionic-fortitude, ring-of-mind-shielding) are thematic to the Mind Flayer host. Nothing placed yet; tying any item to a crystal/room triggers a clue-chain audit plus placement notes for Laios and possibly Chilchuck.
+
+#### Magic-item balance bans — 2026-06-26 (via Chilchuck)
+To preserve lethality for 8-12 level-3 PCs at a 40 HP cap, ban as loot: passive/recharging healing, at-will hard CC, flight, teleport, and save-or-die weapons. ring-of-mind-shielding and ring-of-free-action are GM-curated only, not general drops.
+
+#### Prize token files + GP conversion rate — 2026-06-27 (via Falin)
+Each prize in [prizes.md](../prizes.md) now has a derived in-game item file in `items/tokens/` (15 files, one per row). GP conversion rate for prize tokens is canon: 1 GP = $0.10. Round each USD price UP to the nearest whole dollar, then multiply by 10 ($7.59 -> $8 -> 80 GP; $154.95 -> $155 -> 1550 GP). Files use the existing `items/treasure/*.md` format (YAML frontmatter with `category: Token`, `type: Prize`, `cost: <N> GP`; H1; bullet list). prizes.md was NOT modified and remains the source of truth. Tying any prize to a specific crystal/room requires a clue-chain audit (Falin) plus Laios/Chilchuck coordination.
+
 ## Governance
 
 - All meaningful changes require team consensus on direction; mechanical edits do not
