@@ -5,12 +5,12 @@ rarity: Common
 type: WondrousItem
 requires_attunement: No
 source: wgte
-image: https://cloudgeekcusgaming01.blob.core.windows.net/images/magic-items/5412.jpeg
+image: ../images/feather-token-feather-fall.png
 ---
 
 # Feather Token (Feather Fall)
 
-![Feather Token (Feather Fall)](https://cloudgeekcusgaming01.blob.core.windows.net/images/magic-items/5412.jpeg)
+![Feather Token (Feather Fall)](../images/feather-token-feather-fall.png)
 
 Wondrous Item, common 
  

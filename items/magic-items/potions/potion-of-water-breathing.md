@@ -5,12 +5,12 @@ rarity: Uncommon
 type: Potion
 requires_attunement: No
 source: free-rules, dmg, pg. 289
-image: https://cloudgeekcusgaming01.blob.core.windows.net/images/magic-items/9228940.jpeg
+image: ../images/potion-of-water-breathing.png
 ---
 
 # Potion of Water Breathing
 
-![Potion of Water Breathing](https://cloudgeekcusgaming01.blob.core.windows.net/images/magic-items/9228940.jpeg)
+![Potion of Water Breathing](../images/potion-of-water-breathing.png)
 
 Potion, uncommon 
  

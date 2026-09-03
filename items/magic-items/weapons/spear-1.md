@@ -4,10 +4,14 @@ category: Magic Item
 rarity: Uncommon
 type: Weapon
 requires_attunement: No
+cost: 150 GP
 source: free-rules
+image: ../images/spear-1.png
 ---
 
 # Spear, +1
+
+![Spear, +1](../images/spear-1.png)
 
 Weapon (spear), uncommon 
  

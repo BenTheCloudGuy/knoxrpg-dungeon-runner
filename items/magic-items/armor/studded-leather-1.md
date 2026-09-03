@@ -4,10 +4,14 @@ category: Magic Item
 rarity: Rare
 type: Armor
 requires_attunement: No
+cost: 100 GP
 source: free-rules
+image: ../images/studded-leather-1.png
 ---
 
 # Studded Leather, +1
+
+![Studded Leather, +1](../images/studded-leather-1.png)
 
 Armor (studded leather), rare 
  

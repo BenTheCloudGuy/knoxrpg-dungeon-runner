@@ -4,10 +4,14 @@ category: Magic Item
 rarity: Rare
 type: Armor
 requires_attunement: No
+cost: 150 GP
 source: free-rules
+image: ../images/breastplate-1.png
 ---
 
 # Breastplate, +1
+
+![Breastplate, +1](../images/breastplate-1.png)
 
 Armor (breastplate), rare 
  

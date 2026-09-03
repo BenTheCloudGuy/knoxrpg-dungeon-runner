@@ -4,10 +4,14 @@ category: Magic Item
 rarity: Uncommon
 type: Armor
 requires_attunement: No
+cost: 100 GP
 source: free-rules, pg. 200
+image: ../images/shield-1.png
 ---
 
 # Shield, +1
+
+![Shield, +1](../images/shield-1.png)
 
 Armor (shield), uncommon 
  

@@ -5,12 +5,12 @@ rarity: Uncommon
 type: Scroll
 requires_attunement: No
 source: free-rules, pg. 305
-image: https://cloudgeekcusgaming01.blob.core.windows.net/images/magic-items/10588811.png
+image: ../images/spell-scroll-of-fireball.png
 ---
 
 # Spell Scroll of Fireball
 
-![Spell Scroll of Fireball](https://cloudgeekcusgaming01.blob.core.windows.net/images/magic-items/10588811.png)
+![Spell Scroll of Fireball](../images/spell-scroll-of-fireball.png)
 
 Scroll, uncommon 
  

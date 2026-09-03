@@ -5,12 +5,12 @@ rarity: Uncommon
 type: WondrousItem
 requires_attunement: No
 source: dmg-2024, wdotmm, pg. 254
-image: https://cloudgeekcusgaming01.blob.core.windows.net/images/magic-items/9228521.jpeg
+image: ../images/driftglobe.png
 ---
 
 # Driftglobe
 
-![Driftglobe](https://cloudgeekcusgaming01.blob.core.windows.net/images/magic-items/9228521.jpeg)
+![Driftglobe](../images/driftglobe.png)
 
 Wondrous Item, uncommon 
  

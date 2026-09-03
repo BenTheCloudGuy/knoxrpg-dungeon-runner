@@ -4,10 +4,14 @@ category: Magic Item
 rarity: Rare
 type: Armor
 requires_attunement: No
+cost: 100 GP
 source: free-rules
+image: ../images/leather-1.png
 ---
 
 # Leather, +1
+
+![Leather, +1](../images/leather-1.png)
 
 Armor (leather), rare 
  

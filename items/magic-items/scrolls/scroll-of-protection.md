@@ -5,12 +5,12 @@ rarity: Rare
 type: Scroll
 requires_attunement: No
 source: dmg-2024, wpm, pg. 302
-image: https://cloudgeekcusgaming01.blob.core.windows.net/images/magic-items/9229002.png
+image: ../images/scroll-of-protection.png
 ---
 
 # Scroll of Protection
 
-![Scroll of Protection](https://cloudgeekcusgaming01.blob.core.windows.net/images/magic-items/9229002.png)
+![Scroll of Protection](../images/scroll-of-protection.png)
 
 Scroll, rare 
  

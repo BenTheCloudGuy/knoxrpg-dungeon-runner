@@ -1,0 +1,6 @@
+# Oversized master deck PDF (~213 MB) exceeds GitHub's 100 MB per-file limit.
+# The deck is tracked instead as per-card front+back PDFs under items/example_cards/deck/.
+items/example_cards/Dungeons & Dragons Equipment Cards PDF.pdf
+
+# Node scratch dirs (never commit these)
+node_modules/

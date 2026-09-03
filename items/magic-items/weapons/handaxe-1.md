@@ -4,10 +4,14 @@ category: Magic Item
 rarity: Uncommon
 type: Weapon
 requires_attunement: No
+cost: 150 GP
 source: free-rules
+image: ../images/handaxe-1.png
 ---
 
 # Handaxe, +1
+
+![Handaxe, +1](../images/handaxe-1.png)
 
 Weapon (handaxe), uncommon 
  

@@ -5,12 +5,12 @@ rarity: Common
 type: Scroll
 requires_attunement: No
 source: phb-2024, pg. 228
-image: https://cloudgeekcusgaming01.blob.core.windows.net/images/magic-items/9229076.png
+image: ../images/spell-scroll.png
 ---
 
 # Spell Scroll (Cantrip)
 
-![Spell Scroll (Cantrip)](https://cloudgeekcusgaming01.blob.core.windows.net/images/magic-items/9229076.png)
+![Spell Scroll (Cantrip)](../images/spell-scroll.png)
 
 Scroll, common 
  

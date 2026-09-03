@@ -4,10 +4,14 @@ category: Magic Item
 rarity: Rare
 type: Armor
 requires_attunement: No
+cost: 200 GP
 source: free-rules
+image: ../images/plate-1.png
 ---
 
 # Plate, +1
+
+![Plate, +1](../images/plate-1.png)
 
 Armor (plate), rare 
  

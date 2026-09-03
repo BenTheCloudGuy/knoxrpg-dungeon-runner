@@ -5,9 +5,12 @@ rarity: Common
 type: WondrousItem
 requires_attunement: No
 source: xgte, pg. 257
+image: ../images/enduring-spellbook.png
 ---
 
 # Enduring Spellbook
+
+![Enduring Spellbook](../images/enduring-spellbook.png)
 
 Wondrous Item, common 
  

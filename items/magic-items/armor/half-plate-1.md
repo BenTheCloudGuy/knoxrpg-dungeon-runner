@@ -4,10 +4,14 @@ category: Magic Item
 rarity: Rare
 type: Armor
 requires_attunement: No
+cost: 150 GP
 source: free-rules
+image: ../images/half-plate-1.png
 ---
 
 # Half Plate, +1
+
+![Half Plate, +1](../images/half-plate-1.png)
 
 Armor (half plate), rare 
  

@@ -4,10 +4,14 @@ category: Magic Item
 rarity: Uncommon
 type: Weapon
 requires_attunement: No
+cost: 150 GP
 source: free-rules
+image: ../images/greatsword-1.png
 ---
 
 # Greatsword, +1
+
+![Greatsword, +1](../images/greatsword-1.png)
 
 Weapon (greatsword), uncommon 
  

@@ -4,10 +4,14 @@ category: Magic Item
 rarity: Uncommon
 type: Weapon
 requires_attunement: No
+cost: 150 GP
 source: free-rules
+image: ../images/warhammer-1.png
 ---
 
 # Warhammer, +1
+
+![Warhammer, +1](../images/warhammer-1.png)
 
 Weapon (warhammer), uncommon 
  

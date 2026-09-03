@@ -4,10 +4,14 @@ category: Magic Item
 rarity: Uncommon
 type: Weapon
 requires_attunement: No
+cost: 150 GP
 source: free-rules
+image: ../images/dagger-1.png
 ---
 
 # Dagger, +1
+
+![Dagger, +1](../images/dagger-1.png)
 
 Weapon (dagger), uncommon 
  

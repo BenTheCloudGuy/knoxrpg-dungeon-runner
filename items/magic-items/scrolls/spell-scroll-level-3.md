@@ -5,12 +5,12 @@ rarity: Uncommon
 type: Scroll
 requires_attunement: No
 source: free-rules, pg. 305
-image: https://cloudgeekcusgaming01.blob.core.windows.net/images/magic-items/9229077.png
+image: ../images/spell-scroll.png
 ---
 
 # Spell Scroll (Level 3)
 
-![Spell Scroll (Level 3)](https://cloudgeekcusgaming01.blob.core.windows.net/images/magic-items/9229077.png)
+![Spell Scroll (Level 3)](../images/spell-scroll.png)
 
 Scroll, uncommon 
  

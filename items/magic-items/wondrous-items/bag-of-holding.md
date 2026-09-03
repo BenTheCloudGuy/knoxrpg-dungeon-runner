@@ -5,12 +5,12 @@ rarity: Uncommon
 type: WondrousItem
 requires_attunement: No
 source: free-rules, dmg, pg. 234
-image: https://cloudgeekcusgaming01.blob.core.windows.net/images/magic-items/9228356.jpeg
+image: ../images/bag-of-holding.png
 ---
 
 # Bag of Holding
 
-![Bag of Holding](https://cloudgeekcusgaming01.blob.core.windows.net/images/magic-items/9228356.jpeg)
+![Bag of Holding](../images/bag-of-holding.png)
 
 Wondrous Item, uncommon 
  

@@ -4,10 +4,14 @@ category: Magic Item
 rarity: Uncommon
 type: Weapon
 requires_attunement: No
+cost: 150 GP
 source: free-rules
+image: ../images/rapier-1.png
 ---
 
 # Rapier, +1
+
+![Rapier, +1](../images/rapier-1.png)
 
 Weapon (rapier), uncommon 
  

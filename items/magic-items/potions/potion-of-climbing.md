@@ -5,9 +5,12 @@ rarity: Common
 type: Potion
 requires_attunement: No
 source: free-rules, pg. 187
+image: ../images/potion-of-climbing.png
 ---
 
 # Potion of Climbing
+
+![Potion of Climbing](../images/potion-of-climbing.png)
 
 Potion, common 
  

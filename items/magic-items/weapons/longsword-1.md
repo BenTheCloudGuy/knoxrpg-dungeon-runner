@@ -4,10 +4,14 @@ category: Magic Item
 rarity: Uncommon
 type: Weapon
 requires_attunement: No
+cost: 150 GP
 source: free-rules
+image: ../images/longsword-1.png
 ---
 
 # Longsword, +1
+
+![Longsword, +1](../images/longsword-1.png)
 
 Weapon (longsword), uncommon 
  

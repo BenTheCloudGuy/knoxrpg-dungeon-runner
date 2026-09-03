@@ -5,12 +5,12 @@ rarity: Uncommon
 type: Potion
 requires_attunement: No
 source: free-rules
-image: https://cloudgeekcusgaming01.blob.core.windows.net/images/magic-items/8960641.png
+image: ../images/potion-of-healing-greater.png
 ---
 
 # Potion of Healing (Greater)
 
-![Potion of Healing (Greater)](https://cloudgeekcusgaming01.blob.core.windows.net/images/magic-items/8960641.png)
+![Potion of Healing (Greater)](../images/potion-of-healing-greater.png)
 
 Potion, uncommon 
  

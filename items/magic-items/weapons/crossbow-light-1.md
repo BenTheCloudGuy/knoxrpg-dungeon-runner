@@ -4,10 +4,14 @@ category: Magic Item
 rarity: Uncommon
 type: Weapon
 requires_attunement: No
+cost: 150 GP
 source: free-rules
+image: ../images/crossbow-light-1.png
 ---
 
 # Crossbow, Light, +1
+
+![Crossbow, Light, +1](../images/crossbow-light-1.png)
 
 Weapon (crossbow, light), uncommon 
  

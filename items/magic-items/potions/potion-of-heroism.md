@@ -5,9 +5,12 @@ rarity: Rare
 type: Potion
 requires_attunement: No
 source: free-rules, pg. 188
+image: ../images/potion-of-heroism.png
 ---
 
 # Potion of Heroism
+
+![Potion of Heroism](../images/potion-of-heroism.png)
 
 Potion, rare 
  

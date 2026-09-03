@@ -5,9 +5,12 @@ rarity: Uncommon
 type: WondrousItem
 requires_attunement: No
 source: free-rules, dmg, pg. 301
+image: ../images/rope-of-climbing.png
 ---
 
 # Rope of Climbing
+
+![Rope of Climbing](../images/rope-of-climbing.png)
 
 Wondrous Item, uncommon 
  

@@ -5,9 +5,12 @@ rarity: Uncommon
 type: Potion
 requires_attunement: No
 source: free-rules, pg. 188
+image: ../images/potion-of-resistance.png
 ---
 
 # Potion of Resistance
+
+![Potion of Resistance](../images/potion-of-resistance.png)
 
 Potion, uncommon 
  

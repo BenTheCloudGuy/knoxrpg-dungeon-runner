@@ -4,10 +4,14 @@ category: Magic Item
 rarity: Uncommon
 type: Weapon
 requires_attunement: No
+cost: 150 GP
 source: free-rules
+image: ../images/mace-1.png
 ---
 
 # Mace, +1
+
+![Mace, +1](../images/mace-1.png)
 
 Weapon (mace), uncommon 
  

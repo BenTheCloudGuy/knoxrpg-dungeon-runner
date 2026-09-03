@@ -4,10 +4,14 @@ category: Magic Item
 rarity: Rare
 type: Armor
 requires_attunement: No
+cost: 150 GP
 source: free-rules
+image: ../images/chain-shirt-1.png
 ---
 
 # Chain Shirt, +1
+
+![Chain Shirt, +1](../images/chain-shirt-1.png)
 
 Armor (chain shirt), rare 
  

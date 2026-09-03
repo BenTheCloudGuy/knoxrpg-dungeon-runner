@@ -35,3 +35,15 @@ Balance verdicts for this dungeon (8-12 PCs, lvl 3, 40 HP cap, no long rest, 3 s
 - **Category: anti-Mind-Flayer counters = GM-CURATED ONLY.** ring-of-mind-shielding (immune to thought-reading, nullifies Xhal'theris's psychic schtick) and ring-of-free-action (immune to paralysis/restrain — neuters the iconic illithid stun + grapple) gut the host's threat. Fine as a deliberate, telegraphed reward; dangerous as random loot.
 - **SAFE baseline:** single-use consumables (spell-scroll-*, oils, feather-tokens, single resistance/utility potions), flat +X weapons/armor (weapon-1/2/3, armor-1/2/3, +1 shields), and bounded-charge utility (immovable-rod, rope-of-climbing, driftglobe, bag-of-holding). Limited charges + finite uses keep attrition intact.
 - **Rule of thumb I'm applying:** permanent recurring power (passive heal, recharging CC, at-will flight) erodes the grinder; finite consumables preserve it. When in doubt, hand it out as a potion/scroll, not an attuned permanent.
+
+### Survival loot curation — 39-item pick (2026-09-02)
+
+Ben asked for the specific loot to place for a 12-PC level-3 table. Built a curated list within the "max +1, scrolls, spellbooks-as-scrolls, utility only" cap (extends the 2026-06-26 verdicts). All files verified to exist.
+
+- **+1 weapons** (from `weapons/*-1.md`, base types only): `longsword-1`, `rapier-1`, `shortbow-1`, `dagger-1`, `mace-1`, `greatsword-1`, `handaxe-1`, `spear-1`, `warhammer-1`, `crossbow-light-1`. Avoid the named riders `monster-hunter-s-*`, `true-name-*`, `vicious-rapier-1` unless a fancier find is wanted.
+- **+1 armor + shields** (from `armor/*-1.md`): `leather-1`, `studded-leather-1`, `hide-1`, `chain-shirt-1`, `breastplate-1`, `half-plate-1`, `plate-1`, `shield-1`. Avoid `mithral-half-plate-1`, `shield-of-marius-renathyr-1` unless intended as premium.
+- **Scrolls** (`scrolls/`): `spell-scroll-cantrip`, `spell-scroll-level-1/2/3`, `spell-scroll-of-fireball`, `scroll-of-protection-<type>`. Note duplicate naming: `spell-scroll-1st-level` vs `spell-scroll-level-1`. (Ben cut `scroll-of-mapping` from the loot list on 2026-09-02.)
+- **Spellbook:** `wondrous-items/enduring-spellbook` (common, indestructible), framed as a package of scrolls.
+- **Potions** (`potions/`): `potion-of-healing` (+`-greater`/`-superior` for later zones), `potion-of-resistance` + typed resistances, `potion-of-climbing`, `potion-of-water-breathing`, `potion-of-heroism`.
+- **Wondrous utility** (`wondrous-items/`): `bag-of-holding`, `rope-of-climbing`, `driftglobe`, `feather-token-feather-fall`.
+- **Banned scrolls reaffirmed:** `scroll-of-tarrasque-summoning`, `scroll-of-titan-summoning`, `nether-scroll-of-azumar`, `scroll-of-the-comet`, `scroll-of-spell-power`, `scroll-of-nightmares`.

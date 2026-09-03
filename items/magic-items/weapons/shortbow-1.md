@@ -4,10 +4,14 @@ category: Magic Item
 rarity: Uncommon
 type: Weapon
 requires_attunement: No
+cost: 150 GP
 source: free-rules
+image: ../images/shortbow-1.png
 ---
 
 # Shortbow, +1
+
+![Shortbow, +1](../images/shortbow-1.png)
 
 Weapon (shortbow), uncommon 
  

@@ -5,12 +5,12 @@ rarity: Common
 type: Potion
 requires_attunement: No
 source: free-rules, pg. 228
-image: https://cloudgeekcusgaming01.blob.core.windows.net/images/magic-items/8960641.png
+image: ../images/potion-of-healing.png
 ---
 
 # Potion of Healing
 
-![Potion of Healing](https://cloudgeekcusgaming01.blob.core.windows.net/images/magic-items/8960641.png)
+![Potion of Healing](../images/potion-of-healing.png)
 
 Potion, common 
  
