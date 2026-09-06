@@ -4,6 +4,7 @@ category: Magic Item
 rarity: Common
 type: WondrousItem
 requires_attunement: No
+cost: 25 GP
 source: wgte
 image: ../images/feather-token-feather-fall.png
 ---

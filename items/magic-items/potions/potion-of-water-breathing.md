@@ -4,6 +4,7 @@ category: Magic Item
 rarity: Uncommon
 type: Potion
 requires_attunement: No
+cost: 40 GP
 source: free-rules, dmg, pg. 289
 image: ../images/potion-of-water-breathing.png
 ---

@@ -4,6 +4,7 @@ category: Magic Item
 rarity: Uncommon
 type: WondrousItem
 requires_attunement: No
+cost: 100 GP
 source: dmg-2024, wdotmm, pg. 254
 image: ../images/driftglobe.png
 ---

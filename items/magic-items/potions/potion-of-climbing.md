@@ -4,6 +4,7 @@ category: Magic Item
 rarity: Common
 type: Potion
 requires_attunement: No
+cost: 40 GP
 source: free-rules, pg. 187
 image: ../images/potion-of-climbing.png
 ---

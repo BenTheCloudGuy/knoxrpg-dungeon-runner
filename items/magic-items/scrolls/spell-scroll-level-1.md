@@ -4,6 +4,7 @@ category: Magic Item
 rarity: Common
 type: Scroll
 requires_attunement: No
+cost: 25 GP
 source: phb-2024, pg. 228
 image: ../images/spell-scroll.png
 ---

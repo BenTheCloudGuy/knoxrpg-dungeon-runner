@@ -4,6 +4,7 @@ category: Magic Item
 rarity: Uncommon
 type: Potion
 requires_attunement: No
+cost: 75 GP
 source: free-rules
 image: ../images/potion-of-healing-greater.png
 ---

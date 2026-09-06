@@ -4,6 +4,7 @@ category: Magic Item
 rarity: Uncommon
 type: WondrousItem
 requires_attunement: No
+cost: 75 GP
 source: free-rules, dmg, pg. 301
 image: ../images/rope-of-climbing.png
 ---

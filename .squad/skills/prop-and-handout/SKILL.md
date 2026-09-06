@@ -17,7 +17,7 @@ Hand any in-world *text* on a prop or handout to Marcille via [narrative-prose](
 ## Reference order
 
 1. [thoughts.md](../../../thoughts.md) — "Switch to Poker Chips with picture of items" note; Lava Room / Artificer's Lair prop ideas
-2. Existing props — [props/scryingstone.md](../../../props/scryingstone.md), [props/ArtificersCube.md](../../../props/ArtificersCube.md), [props/healthpotions.md](../../../props/healthpotions.md), [props/itemcards.md](../../../props/itemcards.md), [props/rainbowroomClue.md](../../../props/rainbowroomClue.md)
+2. Existing props — [props/scryingstone.md](../../../props/scryingstone.md), [props/itemcards.md](../../../props/itemcards.md)
 3. Existing handouts — [handouts/grolvikk’s-fate.md](../../../handouts/grolvikk’s-fate.md), [handouts/prisoners-letter.md](../../../handouts/prisoners-letter.md)
 4. [prizes.md](../../../prizes.md) — what the Scrying Stone has to reveal
 5. Room files in [rooms/](../../../rooms/) — for what physical pieces each room needs

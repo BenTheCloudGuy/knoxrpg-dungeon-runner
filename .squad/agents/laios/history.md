@@ -17,3 +17,10 @@
 - H-shaped layout with lava/ruins divider between Caves and Stone Dungeon
 
 ## Learnings
+
+### 2026-09-04 — Cross-agent: coin economy + loot placement land on you (via Cleric)
+
+- **Coin drop LOCKED at 2,845 GP** (Falin, Ben-owned total). Homebrew coin values are canon: Copper 1, Silver 5, Gold 10, Platinum 50 GP. 525 physical coins total (295 copper, 110 silver, 100 gold, 20 platinum).
+- **Placement is yours.** Falin's recommended risk-tier distribution: Copper + Silver (845 GP) on the main escape path, Gold (1,000 GP) in optional/danger rooms, Platinum (1,000 GP) only in the Black Crystal area and the hardest optional rooms. Keeps the escape route lean and the Black Crystal grand prize off it. Ben may override with a flat spread; if he does, expect faster kit-out and a less-lean escape path.
+- **Survival loot cap** (Chilchuck) governs what curated items you place: +1 gear only, single-use healing potions only, consumable scrolls only, bounded utility. Suggested placement rhythm: potions early/mid, protection scrolls before boss rooms, utility in hazard-matching rooms.
+- The curated loot is now a real 46-card deck (Senshi) with `cost:` prices applied, so treasure you place can reference actual priced items.

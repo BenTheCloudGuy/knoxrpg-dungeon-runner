@@ -25,46 +25,57 @@ This dungeon is supposed to kill people. Traps and puzzles are how it does most 
 
 ## Trap format
 
+Traps live as a `### TRAP` block inside a room in a Dungeon Section page (see [ArtificersLair.md](../../../rooms/ArtificersLair.md)). Hand the read-aloud line to Marcille.
+
 ```markdown
-## [Trap Name]
+### TRAP
 
-> [One or two sentences for when the trap fires. Hand to Marcille for final phrasing.]
+**Read Aloud (when triggered)**
+> [Optional. One or two sentences for when the trap fires. Hand to Marcille for final phrasing.]
 
-**Trigger:** [Pressure plate / tripwire / proximity / opened container / magic word / line-of-sight / passive — be specific about distance and timing]
-**Effect:** [Damage dice + type, save type + DC, secondary effects (prone, restrained, stunned, on fire). State whether half-on-save applies.]
-**Detect:** Passive Perception [N] or Investigation DC [N]. **Clue:** [What the PCs actually see that gives it away.]
-**Disable:** [Tool, spell, skill check, DC. State who can do it.]
-**Countermeasures:** [How a clever party can bypass without rolling. At least one option.]
-**Reset:** [Yes / No. If yes, how long.]
+- **Type**: [Mechanical / magical, plus the area it affects and where is safe]
+- **Trigger**: [Pressure plate / tripwire / proximity / opened container / magic word / line-of-sight / passive. Be specific about distance and timing.]
+- **Detection**:
+  - Perception DC [N]: [what the PCs actually see that gives it away]
+  - Investigation DC [N]: [what a closer look reveals]
+- **Deactivate**: [Tool, spell, or skill check + DC, or state it cannot be stopped by mechanical means]
+  - **Success** - [result]
+  - **Failure** - [result. State whether the failed save itself deals damage.]
+  - [Escalation / Natural 20 / Countermeasure / Reset as needed]
 
-### DM Notes
+#### [Named Mechanic, when the effect needs its own rules]
 
-- [Why this trap is here. Who built it. What it guards.]
-- [TPK warning if a bad roll can wipe multiple PCs.]
-- [How it interacts with adjacent rooms or the crystal it guards.]
+**Save DC**: [N] [Ability]
+
+[Damage dice + type, a round-by-round table, or an initiative-count expansion table. State whether half-on-save applies.]
+
+#### HISTORY
+> [!NOTE] GM NOTE
+> [Why this trap is here. Who built it. What it guards. TPK warning if a bad roll can wipe multiple PCs.]
 ```
+
+Every save-or-die still needs a real, findable countermeasure. State it under **Deactivate** or in the HISTORY callout.
 
 ## Puzzle format
 
-Puzzles are not traps. They're decision problems with a mechanical resolution. Same lethality contract applies if failure damages or kills.
+Puzzles are not traps. They're decision problems with a mechanical resolution. Same lethality contract applies if failure damages or kills. A puzzle uses a `### PUZZLE` block in place of `### TRAP`.
 
 ```markdown
-## [Puzzle Name]
+### PUZZLE
 
+**Read Aloud**
 > [Read-aloud setup. Hand to Marcille.]
 
-**Premise:** [What the PCs see and what they're trying to solve.]
-**Resolution path A (intended):** [The clean solve. What check, what DC, what action sequence.]
-**Resolution path B (clever):** [How a smart party can bypass.]
-**Failure state:** [What happens on wrong answer. Damage dice, saves, doors locking, room flooding. State whether retries are allowed.]
-**Hint chain:** [What the party can find in the room that progressively gives away the solve. Tie to Perception / Investigation / Arcana / History DCs.]
-**Time pressure:** [None, or a clock — "the room fills with water at 1 ft / round."]
+- **Premise**: [What the PCs see and what they're trying to solve.]
+- **Solve (intended)**: [The clean solve. What check, what DC, what action sequence.]
+- **Solve (clever)**: [How a smart party can bypass.]
+- **Failure**: [What happens on a wrong answer. Damage dice, saves, doors locking, room flooding. State whether retries are allowed.]
+- **Hint chain**: [What the party can find that progressively gives away the solve. Tie to Perception / Investigation / Arcana / History DCs.]
+- **Time pressure**: [None, or a clock. "The room fills with water at 1 ft / round."]
 
-### DM Notes
-
-- [Which crystal this puzzle gates, if any.]
-- [Common wrong solves and what the DM should do.]
-- [Interactions with Xhal'theris commentary if he taunts during it.]
+#### HISTORY
+> [!NOTE] GM NOTE
+> [Which crystal this puzzle gates, if any. Common wrong solves and what the DM should do. Xhal'theris commentary cues.]
 ```
 
 ## Step-by-step
@@ -73,7 +84,7 @@ Puzzles are not traps. They're decision problems with a mechanical resolution. S
 2. Pick a damage band that fits the lethality budget for this point in the dungeon.
 3. Write the Trigger / Effect / Detect / Disable / Countermeasures (or the Premise / Path A / Path B / Failure / Hints).
 4. Run the **lethality contract** checks above. If a save-or-die has no countermeasure, fix it before publishing.
-5. Drop the block into the relevant `rooms/*.md` file under `## Trap` or `## Puzzle`.
+5. Drop the block into the relevant room in the Dungeon Section page under a `### TRAP` or `### PUZZLE` heading.
 6. Hand the read-aloud to Marcille. Hand any prop requirements to Senshi. If it guards a crystal, hand the crystal impact to Falin.
 
 ## Damage bands (for a level-3 party with 40 HP cap)
@@ -97,6 +108,4 @@ A 40 HP PC is down at 0. Track it. If a single fail can drop two PCs to dying, t
 
 ## Learned from
 
-- [rooms/sphere_anniliation.md](../../../rooms/sphere_anniliation.md) — the canonical save-or-die-with-countermeasure precedent
-- [rooms/colorcodedtrap.md](../../../rooms/colorcodedtrap.md) — telegraphed-trap format
-- [rooms/chess_puzzle.md](../../../rooms/chess_puzzle.md), [rooms/rainbowroom.md](../../../rooms/rainbowroom.md) — puzzle precedent with hint chains
+- [rooms/ArtificersLair.md](../../../rooms/ArtificersLair.md): Room 1 (timed crush trap with a cinematic brace countermeasure) and Room 2 (Grovlikk's cloud, a solve-the-joke puzzle-trap) are the current trap and puzzle precedent

@@ -38,7 +38,7 @@ Laios does NOT write read-aloud prose (that's Marcille), build stat blocks (that
 - The safest path must not be the most rewarding. The most rewarding must not be the safest.
 - The Black Crystal sits in a high-danger optional area, never on the main escape route.
 - Maximum 3 short rests across the whole run. Place rest-eligible safe rooms intentionally and rarely.
-- Identify gear-gates explicitly: "this passage needs the iron key from goblins_lair.md" rather than vague hand-waves.
+- Identify gear-gates explicitly: "this passage needs the iron key from the goblins' lair" rather than vague hand-waves.
 
 ## Skills
 

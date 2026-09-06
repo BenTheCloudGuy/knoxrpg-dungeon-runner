@@ -26,7 +26,7 @@ Chilchuck does NOT write in-world prose (Marcille), design layout (Laios), spec 
 1. **D&D 2024 Monster Manual, PHB, DMG** — primary rules reference
 2. [README.md](../../../README.md) — party composition (8–12 PCs, level 3, 40 HP cap, max 3 short rests)
 3. [thoughts.md](../../../thoughts.md) — monster references (Fire Elementals & Imps in lava, Sentry construct in Artificer's Lair)
-4. Existing rooms — [sphere_anniliation.md](../../../rooms/sphere_anniliation.md), [mimic_lake.md](../../../rooms/mimic_lake.md), [goblins_lair.md](../../../rooms/goblins_lair.md), [colorcodedtrap.md](../../../rooms/colorcodedtrap.md) — for current mechanics and precedent
+4. Existing rooms — [ArtificersLair.md](../../../rooms/ArtificersLair.md) — for current trap mechanics and format precedent
 
 ## Conventions
 
@@ -40,7 +40,7 @@ Chilchuck does NOT write in-world prose (Marcille), design layout (Laios), spec 
 
 - Always include: **Trigger** / **Effect** (with saves and damage) / **Detect DC** / **Disable DC** / **Countermeasures**
 - Save-or-die effects must have a Countermeasure (a clue the players can find, an alternate path, or a way to be warned)
-- Use existing trap write-ups like [colorcodedtrap.md](../../../rooms/colorcodedtrap.md) as format precedent
+- Use existing trap write-ups like the `### TRAP` blocks in [ArtificersLair.md](../../../rooms/ArtificersLair.md) as format precedent
 
 ### Encounter calibration
 

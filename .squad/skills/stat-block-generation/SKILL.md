@@ -18,7 +18,7 @@ For trap mechanics or puzzle DCs, use [trap-and-puzzle-design](../trap-and-puzzl
 1. **D&D 2024 Monster Manual, PHB, DMG** — primary rules reference
 2. [README.md](../../../README.md) — party composition (8–12 PCs, level 3, 40 HP cap, 3 short rests max)
 3. [thoughts.md](../../../thoughts.md) — known creature slots (Fire Elementals + Imps in lava, Sentry in Artificer's Lair, Mimic Lake variants)
-4. Existing rooms — [sphere_anniliation.md](../../../rooms/sphere_anniliation.md), [mimic_lake.md](../../../rooms/mimic_lake.md), [goblins_lair.md](../../../rooms/goblins_lair.md), [colorcodedtrap.md](../../../rooms/colorcodedtrap.md)
+4. Existing rooms — [ArtificersLair.md](../../../rooms/ArtificersLair.md) (current-dungeon monsters and traps; more rooms pending)
 5. [.squad/decisions.md](../../decisions.md) — encounter calibration decisions
 
 ## Party math (the calibration constraint)
@@ -140,6 +140,5 @@ Example:
 
 ## Learned from
 
-- [rooms/sphere_anniliation.md](../../../rooms/sphere_anniliation.md) — save-or-die with countermeasure precedent
-- [rooms/mimic_lake.md](../../../rooms/mimic_lake.md), [rooms/goblins_lair.md](../../../rooms/goblins_lair.md) — existing creature placements
+- [rooms/ArtificersLair.md](../../../rooms/ArtificersLair.md) — current-dungeon trap and creature precedent (Room 1 crush trap, Room 2 cloud puzzle-trap, Room 5 skeletons)
 - [thoughts.md](../../../thoughts.md) — Sentry, Fire Elemental, Imp, Mirror Trap creature slots

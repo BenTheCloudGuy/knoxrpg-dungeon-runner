@@ -32,7 +32,7 @@ This is a content workspace for **The Vault of the Starving Mind** — a lethal 
 
 - D&D 5e 2024 rules (Monster Manual, PHB, DMG)
 - Markdown only — no code, no app build
-- Filename convention: lowercase or existing convention (e.g. `chess_puzzle.md`, `rainbowroom.md`)
+- Filename convention: match the existing convention (e.g. `ArtificersLair.md`)
 - Room files live in `rooms/`, props in `props/`, handouts in `handouts/`, art refs in `images/rooms/`
 - The campaign-level facts (HP cap of 40, level 3 start, 7 crystals, ROYGBIV puzzle, etc.) live in [README.md](README.md) and [prizes.md](prizes.md). Treat those as canon.
 
@@ -48,9 +48,89 @@ This is a content workspace for **The Vault of the Starving Mind** — a lethal 
 
 ## Conventions
 
-- Always check existing room files (e.g. [rainbowroom.md](rooms/rainbowroom.md), [chess_puzzle.md](rooms/chess_puzzle.md)) before introducing a new format.
+- Always check [ArtificersLair.md](rooms/ArtificersLair.md) as the format exemplar before writing a new page.
 - Stat blocks follow D&D 5e 2024 Monster Manual format.
-- Trap write-ups include: Trigger, Effect (with saves and damage), Detect DC, Disable DC, Countermeasures.
-- Room write-ups include: short read-aloud paragraph, then **Features** list, then **DM Notes** (secrets, hooks, mechanics).
 - The Black Crystal is the grand-prize gate ($150 gift card). Keep it in a high-danger optional area, never on the main escape route.
 - Don't guess campaign canon. If the README, prizes, or thoughts files don't say it, ask the user.
+
+## Page & Room Format (canon)
+
+A **page** is one Dungeon Section (an area of the dungeon), saved as a single file in `rooms/`. Each page holds one or more numbered rooms. [ArtificersLair.md](rooms/ArtificersLair.md) is the reference exemplar. Match it.
+
+**Heading depth:**
+- `#` Dungeon Section (page title), with the section art image directly beneath it
+- `##` Room, titled `Room N "Name"` (add tags like `[DUNGEON EXIT]` in the title when useful)
+- `###` `TRAP` or `PUZZLE` block inside a room
+- `####` A named mechanic (e.g. a gas cloud) or `HISTORY`
+- `#####` A sub-detail of a mechanic (e.g. Visibility)
+
+Separate rooms with a `---` divider.
+
+**Page skeleton:**
+
+```markdown
+# [Dungeon Section Name]
+
+![alt text](../images/rooms/[SectionName].jpg)
+
+## Room 1 "[Room Name]"
+
+**Description**
+> [Read-aloud paragraph the DM reads verbatim. Concrete, plainspoken, no em-dashes.]
+  - [Optional hidden cue: DC 12 Perception to notice ...]
+  - [Optional hidden cue: DC 16 Investigation to find ...]
+
+**Treasure**:
+- [item]
+
+**Monsters**: [inline note, or a list]
+
+### TRAP
+
+**Read Aloud (when triggered)**
+> [Optional. One or two sentences for the moment the trap fires.]
+
+- **Type**: [Mechanical / magical, plus the area it affects and where is safe]
+- **Trigger**: [What sets it off. Be specific about action, distance, timing.]
+- **Detection**:
+  - Perception DC [N]: [what they see]
+  - Investigation DC [N]: [what a closer look reveals]
+- **Deactivate**: [How it stops, or state it cannot be stopped by mechanical means]
+  - **Success** - [result]
+  - **Failure** - [result]
+  - [Escalation / Natural 20 / Countermeasure / Reset as needed]
+
+#### [Named Mechanic, when the effect needs its own rules]
+
+**Save DC**: [N] [Ability]
+
+[Round-by-round or initiative-count table]
+
+##### [Sub-detail, e.g. Visibility]
+- [bullets]
+
+On a Failure:
+- [bullets]
+
+On a Success:
+- [bullets]
+
+> [A standing rule or clarification goes in a blockquote.]
+
+#### HISTORY
+> [!NOTE] GM NOTE
+> [Backstory. Why this room or trap exists. Never read aloud.]
+
+---
+
+## Room 2 "[Room Name]"
+[...]
+```
+
+**Format rules:**
+- GM-facing notes and history use GitHub callouts: `> [!NOTE] GM NOTE` on the first line, note body on the following blockquote lines. Do not use a bold `**GM Note**:` label.
+- Spell the deactivation bullet `**Deactivate**`, never `Deactive`.
+- `**Read Aloud (when triggered)**` is optional per trap; include it when the trigger moment needs its own boxed text.
+- Read-aloud text always sits in a `>` blockquote under a `**Description**` (rooms) or `**Read Aloud ...**` (traps) label.
+- Rooms without a trap omit the `### TRAP` block. Rooms with a puzzle use `### PUZZLE` in its place.
+- The writing hard rules above (no em-dashes, "would a DM say this out loud", no flowery prose) apply to every read-aloud and note.

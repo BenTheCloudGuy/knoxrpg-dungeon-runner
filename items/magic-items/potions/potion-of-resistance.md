@@ -4,6 +4,7 @@ category: Magic Item
 rarity: Uncommon
 type: Potion
 requires_attunement: No
+cost: 40 GP
 source: free-rules, pg. 188
 image: ../images/potion-of-resistance.png
 ---

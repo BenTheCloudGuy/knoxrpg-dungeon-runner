@@ -39,3 +39,11 @@
 - Filenames are lowercase, hyphen-separated, apostrophes/`&`/`+` stripped sensibly (e.g. `dnd-2024-core-rulebook-set-gm-screen.md`, `young-adventurers-collection-box-set-1.md`).
 - Did NOT modify prizes.md. These token files are a derived view of the prize table for in-game item handling.
 
+### 2026-09-04 — Dungeon coin drop LOCKED at 2,845 GP (homebrew denominations)
+
+- Ben locked the total dungeon coin drop at **2,845 GP**, about 1,045 GP over my earlier ~1,800 GP Treasure Goblin budget. The 2,845 is canon; I reconciled the economy note to it.
+- **Homebrew coin values (canon for this dungeon):** Copper 1 GP, Silver 5 GP, Gold 10 GP, Platinum 50 GP. Drop is 295 Copper (295) + 110 Silver (550) + 100 Gold (1,000) + 20 Platinum (1,000) = 2,845 GP across 525 physical coins.
+- **Per-player kit-out:** pooled and split, that is ~237 GP (12 PCs) to ~355 GP (8 PCs) each. At the 108 GP catalog average that is roughly 2-3 items per player, up from the old one-item plan. A party pooling all of it could buy about 57% of the 46-card, 4,985 GP deck.
+- **My recommendation (Ben owns the total):** map the denominations onto risk tiers so the escape path stays lean. Copper + Silver (845 GP) on the main path, Gold (1,000 GP) in optional danger, Platinum (1,000 GP) in the Black Crystal grand-prize area. Safe play still gets ~1 item each; diving deep earns the full 2-3. Since gear stays on the body, the richest hauls strand on corpses and feed the survivor-loot loop.
+- Updated the economy note ([.squad/decisions/inbox/falin-treasure-goblin-economy.md](../../decisions/inbox/falin-treasure-goblin-economy.md)) and my repo memory canon file. Did NOT touch prizes.md; the coin drop lives in the economy note, not the crystal/prize table.
+

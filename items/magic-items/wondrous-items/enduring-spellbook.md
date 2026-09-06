@@ -4,6 +4,7 @@ category: Magic Item
 rarity: Common
 type: WondrousItem
 requires_attunement: No
+cost: 100 GP
 source: xgte, pg. 257
 image: ../images/enduring-spellbook.png
 ---

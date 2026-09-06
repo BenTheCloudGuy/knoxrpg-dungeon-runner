@@ -47,3 +47,14 @@ Ben asked for the specific loot to place for a 12-PC level-3 table. Built a cura
 - **Potions** (`potions/`): `potion-of-healing` (+`-greater`/`-superior` for later zones), `potion-of-resistance` + typed resistances, `potion-of-climbing`, `potion-of-water-breathing`, `potion-of-heroism`.
 - **Wondrous utility** (`wondrous-items/`): `bag-of-holding`, `rope-of-climbing`, `driftglobe`, `feather-token-feather-fall`.
 - **Banned scrolls reaffirmed:** `scroll-of-tarrasque-summoning`, `scroll-of-titan-summoning`, `nether-scroll-of-azumar`, `scroll-of-the-comet`, `scroll-of-spell-power`, `scroll-of-nightmares`.
+
+### Vial of Poison rework (items/magic-items/potions/vial-of-poison.md) — 2026-09-04
+
+Ben respec'd the Vial of Poison (Uncommon, 40 GP, injury). Final rule:
+
+- **Application:** Action to coat one weapon or up to three pieces of ammunition. **One application per vial.** Coating lasts **1 minute.**
+- **On-hit:** For that minute, **every** creature that takes damage from the coated weapon takes an extra **2d4 Poison** on that hit (changed from "first creature struck only"). This 2d4 is automatic, no save.
+- **Ongoing DoT:** A creature that takes the 2d4 then takes **1d4 Poison at the start of each of its turns.** It repeats a **DC 12 Constitution** save at the **end of each of its turns**, ending the ongoing damage on a success (so it eats at least one 1d4 tick).
+- **No-reapply clause:** Once a creature succeeds on the save, it **can't be affected by this poison again** — kills stacking/perma-DoT abuse.
+- **DC call:** kept at **DC 12.** The 2d4 on-hit is guaranteed; the save only governs the minor 1d4 trickle with a re-save every turn, so the DC is low-stakes. DC 12 sits in the standard 5e injury-poison band (11-14) and matches the item's prior tuning. Dropped the old "Poisoned condition" clause entirely.
+- **Canon check:** ongoing 1d4 DoT does NOT trip the 2026-06-26 balance bans (no passive healing, hard CC, flight/teleport, save-or-die). It's finite consumable offense in the players' hands. Front-matter (Uncommon / Poison / 40 GP / source / image) unchanged.

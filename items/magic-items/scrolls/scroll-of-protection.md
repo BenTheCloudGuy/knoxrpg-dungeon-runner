@@ -4,6 +4,7 @@ category: Magic Item
 rarity: Rare
 type: Scroll
 requires_attunement: No
+cost: 50 GP
 source: dmg-2024, wpm, pg. 302
 image: ../images/scroll-of-protection.png
 ---

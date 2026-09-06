@@ -50,7 +50,7 @@ Xhal'theris, the Velvet Maw, is the host. He is cruel, amused, theatrical, and c
 1. [README.md](../../../README.md) — Xhal'theris persona, core premise, tone
 2. [thoughts.md](../../../thoughts.md) — zone flavor notes
 3. [prizes.md](../../../prizes.md) — Scrying Stone clue phrasing (already in canon voice)
-4. Existing rooms — [rainbowroom.md](../../../rooms/rainbowroom.md), [chess_puzzle.md](../../../rooms/chess_puzzle.md), [thecells.md](../../../rooms/thecells.md) — for current format and voice
+4. Existing rooms — [ArtificersLair.md](../../../rooms/ArtificersLair.md) — for current page format and voice
 5. Existing handouts — [grolvikk’s-fate.md](../../../handouts/grolvikk’s-fate.md), [prisoners-letter.md](../../../handouts/prisoners-letter.md)
 6. [.squad/decisions.md](../../decisions.md) — locked voice and content decisions
 
@@ -66,32 +66,31 @@ Xhal'theris, the Velvet Maw, is the host. He is cruel, amused, theatrical, and c
 
 ### Room / location
 
+Rooms live inside a Dungeon Section page (see [ArtificersLair.md](../../../rooms/ArtificersLair.md)). Your prose is the `**Description**` read-aloud and any GM-facing notes. Mechanics stay in Chilchuck's `### TRAP` block.
+
 ```markdown
-# [Room Name]
+## Room N "[Room Name]"
 
-> [One short paragraph the DM can read verbatim. What they see, hear, smell first. Concrete. No mood adjectives without an object. No em-dashes.]
+**Description**
+> [One short paragraph the DM reads verbatim. What they see, hear, smell first. Concrete. No mood adjectives without an object. No em-dashes.]
+  - [Optional hidden cue the DM surfaces on a check: DC 14 Perception to notice ...]
 
-**Features**
-- [What is actually in the room: furniture, exits, light sources, smells, sounds]
-- [Anything interactive: doors, levers, containers, bodies, crystals]
-- [Anything obviously dangerous or out of place]
-
-**DM Notes**
-- [Secrets, hidden passages, perception/investigation cues]
-- [How the room connects to the rest of the dungeon]
-- [What changes if a crystal is taken / a trap fires / a monster dies]
-- [Xhal'theris cue lines, if any]
+> [!NOTE] GM NOTE
+> [Any GM-facing secret, hook, or rationale. Never read aloud.]
 ```
 
-Mechanics (DCs, damage, saves, stat blocks) belong inside Chilchuck's trap/monster write-ups, not in the prose section.
+GM-facing notes and backstory use the `> [!NOTE] GM NOTE` callout, not a bold label. Longer lore goes in a `#### HISTORY` block at the end of the room, also as a `> [!NOTE] GM NOTE` callout. Mechanics (DCs, damage, saves, stat blocks) belong inside Chilchuck's `### TRAP` write-up, not in the prose section.
 
 ### Trap reveal (the read-aloud half — the mechanical block is Chilchuck)
 
+The trap's boxed text sits under a `**Read Aloud (when triggered)**` label inside Chilchuck's `### TRAP` block.
+
 ```markdown
+**Read Aloud (when triggered)**
 > [One or two sentences describing what the party experiences when the trap fires. Present tense. Concrete. The DM should be able to read this without rehearsal.]
 ```
 
-Hand the Trigger / Effect / Detect / Disable / Countermeasures block to Chilchuck.
+Hand the Type / Trigger / Detection / Deactivate block to Chilchuck.
 
 ### Monster / creature reveal
 
@@ -118,5 +117,5 @@ Match the implied writer's voice. A desperate prisoner sounds different from a s
 ## Learned from
 
 - [.github/copilot-instructions.md](../../../.github/copilot-instructions.md) — the project voice rules
-- [rooms/rainbowroom.md](../../../rooms/rainbowroom.md), [rooms/chess_puzzle.md](../../../rooms/chess_puzzle.md) — existing room format
+- [rooms/ArtificersLair.md](../../../rooms/ArtificersLair.md) — existing page and room format
 - [handouts/grolvikk’s-fate.md](../../../handouts/grolvikk’s-fate.md), [handouts/prisoners-letter.md](../../../handouts/prisoners-letter.md) — handout voice precedent

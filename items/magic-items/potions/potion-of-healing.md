@@ -4,6 +4,7 @@ category: Magic Item
 rarity: Common
 type: Potion
 requires_attunement: No
+cost: 25 GP
 source: free-rules, pg. 228
 image: ../images/potion-of-healing.png
 ---

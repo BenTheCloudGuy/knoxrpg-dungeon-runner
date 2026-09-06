@@ -23,7 +23,7 @@ Senshi does NOT design layout (Laios), write in-world prose (Marcille — Senshi
 ## Reference Sources
 
 1. [thoughts.md](../../../thoughts.md) — "Switch to Poker Chips with picture of items" note; Lava Room / Artificer's Lair prop ideas
-2. Existing props — [scryingstone.md](../../../props/scryingstone.md), [ArtificersCube.md](../../../props/ArtificersCube.md), [healthpotions.md](../../../props/healthpotions.md), [itemcards.md](../../../props/itemcards.md), [rainbowroomClue.md](../../../props/rainbowroomClue.md)
+2. Existing props — [scryingstone.md](../../../props/scryingstone.md), [itemcards.md](../../../props/itemcards.md)
 3. [prizes.md](../../../prizes.md) — what the Scrying Stone has to reveal
 4. Room files — for what physical pieces each room needs
 

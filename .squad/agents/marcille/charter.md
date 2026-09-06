@@ -26,7 +26,7 @@ Marcille does NOT design layout (Laios), build stat blocks or trap mechanics (Ch
 1. [README.md](../../../README.md) — Xhal'theris persona, core premise, tone
 2. [thoughts.md](../../../thoughts.md) — zone flavor notes
 3. [prizes.md](../../../prizes.md) — Scrying Stone clue phrasing (already in canon voice)
-4. Existing rooms — [rainbowroom.md](../../../rooms/rainbowroom.md), [chess_puzzle.md](../../../rooms/chess_puzzle.md), [thecells.md](../../../rooms/thecells.md) — format and voice precedent
+4. Existing rooms — [ArtificersLair.md](../../../rooms/ArtificersLair.md) — format and voice precedent
 5. Existing handouts — [grolvikk’s-fate.md](../../../handouts/grolvikk’s-fate.md), [prisoners-letter.md](../../../handouts/prisoners-letter.md)
 
 ## Conventions

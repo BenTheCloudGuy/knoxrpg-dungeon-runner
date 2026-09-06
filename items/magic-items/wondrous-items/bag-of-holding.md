@@ -4,6 +4,7 @@ category: Magic Item
 rarity: Uncommon
 type: WondrousItem
 requires_attunement: No
+cost: 200 GP
 source: free-rules, dmg, pg. 234
 image: ../images/bag-of-holding.png
 ---

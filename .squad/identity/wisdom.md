@@ -17,5 +17,5 @@ Hard-won lessons that apply across the squad. Append-only.
 ## Workflow
 
 - Read [README.md](../../README.md) and [prizes.md](../../prizes.md) before writing any new room or prop. They are canon.
-- Reuse existing room formats ([rainbowroom.md](../../rooms/rainbowroom.md), [chess_puzzle.md](../../rooms/chess_puzzle.md)) before inventing a new structure.
+- Reuse the existing room format ([ArtificersLair.md](../../rooms/ArtificersLair.md)) before inventing a new structure.
 - When canon is unclear, ask the user. Don't invent.

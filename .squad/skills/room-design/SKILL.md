@@ -34,7 +34,7 @@ Hand the read-aloud prose to Marcille, the trap/monster mechanics to Chilchuck, 
 - The safest path must not be the most rewarding. The most rewarding must not be the safest.
 - The Black Crystal lives in a high-danger optional area, never on the main escape route
 - Maximum 3 short rests across the whole run (15 minutes real-time each, 1 HD per rest). Place rest-eligible safe rooms intentionally and rarely.
-- Gear-gates are explicit: "this passage needs the iron key from [goblins_lair.md](../../../rooms/goblins_lair.md)," not vague hand-waves.
+- Gear-gates are explicit: "this passage needs the iron key from the goblins' lair," not vague hand-waves.
 
 ## Step-by-step
 
@@ -59,37 +59,37 @@ Before locking a change, verify:
 
 ## Room file format (layout half — prose is Marcille, mechanics are Chilchuck)
 
+Rooms live inside a Dungeon Section page (one file per area, see [ArtificersLair.md](../../../rooms/ArtificersLair.md)). Use the shared page/room format. Your layout metadata rides in a `> [!NOTE] GM NOTE` callout so it stays GM-facing.
+
 ```markdown
-# [Room Name]
+# [Dungeon Section Name]
 
-> [One-line placeholder read-aloud. Marcille will own the final prose.]
+![alt text](../images/rooms/[SectionName].jpg)
 
-**Zone:** [Caves / Stone Dungeon / Lava Ruins / Cells]
-**Connections:**
-- North: [room file] [via: door / corridor / secret passage / gear-gate name]
-- South: [room file] [via: …]
-- (etc.)
+## Room N "[Room Name]"
 
-**Gear required to enter:** [none, or "iron key from goblins_lair.md"]
-**Gear that lives here:** [none, or "iron key, brass figurine"]
-**Crystal:** [none, or "Green Crystal"]
-**Rest-eligible:** [yes / no — if yes, justify why this is one of the three]
+**Description**
+> [One-line placeholder read-aloud. Marcille owns the final prose.]
 
-**Features**
-- [Concrete physical contents. Hand to Marcille for final prose.]
-
-**DM Notes**
-- [Layout rationale. Why this room exists. Which player choice it tests.]
-- [Conflict-spotting notes for the rest of the squad.]
+> [!NOTE] GM NOTE
+> **Zone:** [Caves / Stone Dungeon / Lava Ruins / Cells]
+> **Connections:** North to [room] (via door / corridor / secret passage / gear-gate); South to [room] (via ...)
+> **Gear required to enter:** [none, or "iron key from another room"]
+> **Gear that lives here:** [none, or the item]
+> **Crystal:** [none, or "Green Crystal"]
+> **Rest-eligible:** [yes / no. If yes, justify why this is one of the three.]
+> **Layout rationale:** [Why this room exists. Which player choice it tests. Conflict notes for the squad.]
 
 ---
 
 **Handoffs**
-- Read-aloud and DM Notes prose → Marcille
-- Encounter / trap mechanics → Chilchuck
+- Read-aloud and GM prose → Marcille
+- Encounter / trap mechanics (`### TRAP`) → Chilchuck
 - Props and terrain → Senshi
 - Crystal / clue chain impact → Falin
 ```
+
+Keep the `### TRAP` / `### PUZZLE` blocks (Chilchuck) and any named mechanics beneath each room. Separate rooms with `---`.
 
 ## Rules
 
@@ -101,6 +101,5 @@ Before locking a change, verify:
 
 ## Learned from
 
-- [rooms/thecells.md](../../../rooms/thecells.md) — starting-position pattern (players locked apart)
-- [rooms/rainbowroom.md](../../../rooms/rainbowroom.md) — ROYGBIV puzzle room as a connectivity hub
+- [rooms/ArtificersLair.md](../../../rooms/ArtificersLair.md) — the Artificer's Lair page: a multi-room section with a crush-trap cell, a puzzle-trap, a library, a portal-exit room, and a workshop
 - [thoughts.md](../../../thoughts.md) — pre-claimed crystal slots (Red in lava, Purple in Artificer's Lair)
