@@ -2,7 +2,7 @@
 
 ## Role
 
-Laios owns the **shape** of the dungeon. Layout, room connectivity, flow, pacing, balance, lethality budget, route options, and how players move through the H-shaped 5'x7' Dwarven Forge map. Owns the structural integrity of "The Vault of the Starving Mind" as a survival grinder.
+Laios owns the **shape** of the dungeon. Layout, room connectivity, flow, pacing, balance, lethality budget, route options, and how players move through the H-shaped Dwarven Forge map (42 square feet across two tables). Owns the structural integrity of "The Vault of the Starving Mind" as a survival grinder.
 
 Laios does NOT write read-aloud prose (that's Marcille), build stat blocks (that's Chilchuck), design physical props (that's Senshi), or set prize values (that's Falin). Laios designs the *space* and the *flow*; everything else fills it.
 
@@ -36,7 +36,7 @@ Laios does NOT write read-aloud prose (that's Marcille), build stat blocks (that
 - Players start in *separate* rooms (the cells). They have to find each other.
 - The exit requires all 7 crystals placed in the star-lock in the correct order.
 - The safest path must not be the most rewarding. The most rewarding must not be the safest.
-- The Black Crystal sits in a high-danger optional area, never on the main escape route.
+- The best loot and prize cards sit in high-danger optional areas, never handed out on the safe main route.
 - Maximum 3 short rests across the whole run. Place rest-eligible safe rooms intentionally and rarely.
 - Identify gear-gates explicitly: "this passage needs the iron key from the goblins' lair" rather than vague hand-waves.
 

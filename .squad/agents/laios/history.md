@@ -24,3 +24,15 @@
 - **Placement is yours.** Falin's recommended risk-tier distribution: Copper + Silver (845 GP) on the main escape path, Gold (1,000 GP) in optional/danger rooms, Platinum (1,000 GP) only in the Black Crystal area and the hardest optional rooms. Keeps the escape route lean and the Black Crystal grand prize off it. Ben may override with a flat spread; if he does, expect faster kit-out and a less-lean escape path.
 - **Survival loot cap** (Chilchuck) governs what curated items you place: +1 gear only, single-use healing potions only, consumable scrolls only, bounded utility. Suggested placement rhythm: potions early/mid, protection scrolls before boss rooms, utility in hazard-matching rooms.
 - The curated loot is now a real 46-card deck (Senshi) with `cost:` prices applied, so treasure you place can reference actual priced items.
+
+### 2026-09-06 - Cross-agent: locked loot model affects flow (via Cleric)
+
+- Ben locked the empty-sheet start. The Room 1 Cells supply pile in `rooms/ArtificersLair.md` is now the party's first equipment deck and must support 8-12 characters from nothing. Treat it as a required kit-out point before lethal pressure.
+- Room 4 Portal Room is deliberately bare: Crystal Sphere prop plus blank seven-socket diagram only, no crystal, coin, or magic.
+- Open: the 7-clue-to-treasure mapping does not exist yet, and Scrying Stone crystal ratification remains pending with Ben.
+
+### 2026-09-06 - Cross-agent: crystals decoupled from prizes (via Cleric)
+
+- Ben decoupled the 7 Crystal Shards from real-world prizes. Treat crystals as dungeon props for color-locked doors and the final exit-lock puzzle only.
+- The Scrying Stone now reveals color-locked door clues and the correct final exit-lock order. It should not point to treasure locations, bigger Treasure Items, prize tiers, prize cards, or real-world prizes.
+- Real-world prizes are separate prize Item Cards from Treasure Goblins. Audit older crystal-to-prize language before reusing it.

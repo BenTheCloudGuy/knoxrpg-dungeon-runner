@@ -27,12 +27,12 @@ Hand the read-aloud prose to Marcille, the trap/monster mechanics to Chilchuck, 
 
 ## Layout invariants (non-negotiable unless the user rewrites them)
 
-- The map is roughly 5' x 7' Dwarven Forge, H-shaped, with a lava / ruins zone splitting the two halves
+- The map is 42 square feet of Dwarven Forge terrain across two tables, H-shaped, with a lava / ruins zone splitting the two halves
 - Caves on one side, Stone Dungeon on the other
 - Players start locked in separate rooms (the cells). They have to find each other before they can cooperate.
 - The exit requires all 7 crystals in the star-lock, in the correct order
 - The safest path must not be the most rewarding. The most rewarding must not be the safest.
-- The Black Crystal lives in a high-danger optional area, never on the main escape route
+- High-value loot and prize cards live in high-danger optional areas, never handed out on the safe main route
 - Maximum 3 short rests across the whole run (15 minutes real-time each, 1 HD per rest). Place rest-eligible safe rooms intentionally and rarely.
 - Gear-gates are explicit: "this passage needs the iron key from the goblins' lair," not vague hand-waves.
 
@@ -53,7 +53,7 @@ Before locking a change, verify:
 1. **Crystal uniqueness:** does any other room file claim the same crystal? (`grep -i "{color} crystal" rooms/`)
 2. **Gear-gate reachability:** if a passage needs an item, is that item placed in a room the party can reach from the cells without already having it?
 3. **Rest budget:** total rest-eligible rooms across the dungeon stay at or under 3. Count them.
-4. **Black Crystal placement:** confirm it is NOT on the main escape route and IS behind real lethality.
+4. **Prize-card / high-value loot placement:** confirm the richest rewards are behind real lethality, not on the safe main route.
 5. **Crystal order:** the star-lock order must be satisfiable by the clue chain. Coordinate with Falin if you change a crystal's location.
 6. **Single source of truth:** if a room file contradicts [README.md](../../../README.md) or [prizes.md](../../../prizes.md), the canon files win. Surface the conflict to the user.
 
@@ -93,10 +93,10 @@ Keep the `### TRAP` / `### PUZZLE` blocks (Chilchuck) and any named mechanics be
 
 ## Rules
 
-- Never invent a crystal placement that contradicts [prizes.md](../../../prizes.md) without flagging it.
+- Never invent a crystal placement or exit-lock order that contradicts [README.md](../../../README.md) without flagging it.
 - Never silently move a crystal. Always drop a decision note in `.squad/decisions/inbox/` so Falin and Marcille can react.
 - Never add a fourth rest-eligible room.
-- Never put the Black Crystal on the main path.
+- Never put the best prize cards on the safe main path.
 - When in doubt, calibrate up. This dungeon is supposed to kill people.
 
 ## Learned from

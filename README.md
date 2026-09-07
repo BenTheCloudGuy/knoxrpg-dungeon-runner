@@ -1,6 +1,22 @@
 # The Vault of the Starving Mind
 
+![The Vault of the Starving Mind](images/dungeonRunnerDemo.png)
+
 A lethal D&D one-shot grinder built around survival, exploration, greed, and player choice.
+
+## Event Announcement
+
+You wake up with nothing useful. No armor. No weapons. No coin. Xhal'theris the Velvet Maw has taken you prisoner, and his Vault is already moving around you.
+
+This is a lethal D&D 5e 2024 one-shot dungeon grinder for 8 to 12 players, built on 42 square feet of Dwarven Forge terrain across two tables. Level 3 pregenerated characters, dice, and miniatures are provided, so you do not need to bring or build anything. Everyone starts at level 3, with a 40 HP cap. Find the others, arm yourself with gear from the dungeon, and race for the exit.
+
+Death is final. If your character dies, you are out.
+
+To escape, the survivors must find all 7 Crystal Shards and place them in the final puzzle in the correct order. More than $500 worth of real-world prizes are also on the line. The top prize is a Dungeons & Dragons 2024 Core Rulebook Set + GM Screen.
+
+**Event:** 10/10/2026, 12:00 PM to 8:00 PM EST, at the Open Workshops.
+
+Show up ready to play. Claim a seat if you want to see how far you get.
 
 ## Overview
 
@@ -8,7 +24,7 @@ A lethal D&D one-shot grinder built around survival, exploration, greed, and pla
 
 The dungeon is run by **Xhal’theris, the Velvet Maw**, a Mind Flayer who has taken the characters prisoner and placed them inside his private death game. The characters are not here to save the world. They are here to survive, escape, and decide how much risk they are willing to take for real-world prizes.
 
-The dungeon is built as a massive physical layout using **Dwarven Forge terrain**, stretching roughly **5' x 7'** across the play area. It contains dozens of rooms, corridors, traps, puzzles, hazards, monsters, hidden areas, prize rooms, shortcuts, locked routes, and escape paths.
+The dungeon is built as a massive physical layout using **Dwarven Forge terrain**, spanning **42 square feet across two tables**. It contains dozens of rooms, corridors, traps, puzzles, hazards, monsters, hidden areas, prize rooms, shortcuts, locked routes, and escape paths.
 
 What the players see on the table is the dungeon. The Players will start at one end of the Table locked in different rooms within the caves. They'll be able to join forces pretty quickly. The dungeon is H shaped with with the players needing to find where the exit is located. The middle (lava/ruins) seperated Caves from Stone Dungeon. 
 
@@ -24,7 +40,7 @@ The players must decide whether to:
 - push toward the exit
 - search for better weapons and supplies
 - explore dangerous side rooms
-- hunt for prize crystals
+- hunt for prize cards
 - take shortcuts
 - solve puzzles
 - avoid monsters
@@ -36,23 +52,16 @@ Death is final. If a character dies, that player is out and their treasure stays
 
 Characters begin at **level 3**.
 
-They start with:
+They start with nothing on their sheets except the clothes they wear. They have no armor equipped, no weapons, no shield, no spellcasting focus, no component pouch, no holy symbol, no coin, and no useful adventuring gear.
 
-- basic light armor
-- basic weapons
-- very limited spell materials
-- little or no useful adventuring gear
-- no meaningful surplus supplies
+All armor, weapons, tools, spellcasting gear, and adventuring supplies are Item Cards found inside the dungeon. The first supply pile is in the Cells of the Artificer's Lair.
 
-Anything better must be found inside the dungeon.
+Players can find and upgrade with:
 
-This includes:
-
-- better weapons
-- armor upgrades
-- shields
+- mundane weapons
+- scarce armor and shields
 - ammunition
-- rope
+- rope and climbing gear
 - tools
 - spell components
 - arcane focuses
@@ -61,7 +70,9 @@ This includes:
 - keys
 - maps
 - clues
-- magic items
+- consumable magic
+- coin
+- permanent magic items bought from Treasure Goblin vendors
 
 The dungeon should reward scavenging, planning, and opportunism.
 
@@ -75,3 +86,5 @@ When a character dies:
 - There are no replacement characters
 - The dead character’s gear and crystals remain in the dungeon
 - Surviving characters may loot the body if they can reach it
+
+

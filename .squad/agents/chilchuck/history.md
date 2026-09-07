@@ -58,3 +58,15 @@ Ben respec'd the Vial of Poison (Uncommon, 40 GP, injury). Final rule:
 - **No-reapply clause:** Once a creature succeeds on the save, it **can't be affected by this poison again** — kills stacking/perma-DoT abuse.
 - **DC call:** kept at **DC 12.** The 2d4 on-hit is guaranteed; the save only governs the minor 1d4 trickle with a re-save every turn, so the DC is low-stakes. DC 12 sits in the standard 5e injury-poison band (11-14) and matches the item's prior tuning. Dropped the old "Poisoned condition" clause entirely.
 - **Canon check:** ongoing 1d4 DoT does NOT trip the 2026-06-26 balance bans (no passive healing, hard CC, flight/teleport, save-or-die). It's finite consumable offense in the players' hands. Front-matter (Uncommon / Poison / 40 GP / source / image) unchanged.
+
+### 2026-09-06 - Cross-agent: locked loot model affects encounter assumptions (via Cleric)
+
+- Ben locked the empty-sheet start. Before the Room 1 Cells supply pile, assume characters have no weapons, armor, or gear unless Ben says otherwise. After the pile, assume the party has scavenged Item Cards from the equipment deck.
+- Room treasure is consumables, mundane gear, and coin only. Permanent magic item balance now runs through Treasure Goblin vendors, not room drops.
+- Open: the 7-clue-to-treasure mapping does not exist yet, so avoid encounter mechanics that depend on the final crystal clue chain until Falin resolves it.
+
+### 2026-09-06 - Cross-agent: crystals decoupled from prizes (via Cleric)
+
+- Ben decoupled the 7 Crystal Shards from real-world prizes. Treat crystals as dungeon props for color-locked doors and the final exit-lock puzzle only.
+- The Scrying Stone now reveals color-locked door clues and the correct final exit-lock order. It should not point to treasure locations, bigger Treasure Items, prize tiers, prize cards, or real-world prizes.
+- Real-world prizes are separate prize Item Cards from Treasure Goblins. Guard crystals or prize cards based on room risk, but do not treat crystals as prize gates.

@@ -47,3 +47,23 @@
 - **My recommendation (Ben owns the total):** map the denominations onto risk tiers so the escape path stays lean. Copper + Silver (845 GP) on the main path, Gold (1,000 GP) in optional danger, Platinum (1,000 GP) in the Black Crystal grand-prize area. Safe play still gets ~1 item each; diving deep earns the full 2-3. Since gear stays on the body, the richest hauls strand on corpses and feed the survivor-loot loop.
 - Updated the economy note ([.squad/decisions/inbox/falin-treasure-goblin-economy.md](../../decisions/inbox/falin-treasure-goblin-economy.md)) and my repo memory canon file. Did NOT touch prizes.md; the coin drop lives in the economy note, not the crystal/prize table.
 
+
+### 2026-09-06: Locked room loot and Item Card start model
+
+- Ben locked the loot model: room loot is consumables, coin, and mundane gear only. Permanent magic items, including +1 weapons, Bag of Holding, Rope of Climbing, and permanent spellbooks, come only from Treasure Goblin vendors.
+- Character sheets start empty except the clothes worn by the characters. Equipment, weapons, armor, and spellcasting tools are Item Cards found in the dungeon, starting with the supply pile in Room 1 of `rooms/ArtificersLair.md`.
+- Key paths touched: `rooms/ArtificersLair.md`, `README.md`, `.squad/agents/falin/history.md`. Referenced `prizes.md` but did not edit it.
+
+### 2026-09-06 - Cross-agent: crystals decoupled from prizes (via Cleric)
+
+- Ben decoupled the 7 Crystal Shards from real-world prizes. Treat crystals as dungeon props for color-locked doors and the final exit-lock puzzle only.
+- The Scrying Stone now reveals color-locked door clues and the correct final exit-lock order. It should not point to treasure locations, bigger Treasure Items, prize tiers, prize cards, or real-world prizes.
+- Real-world prizes are separate prize Item Cards from Treasure Goblins. Audit older crystal-to-prize language before reusing it.
+
+### 2026-09-06 - Crystal and prize economies decoupled
+
+- Ben decoupled crystals from real-world prizes. Crystals are now pure dungeon props for escape routing: all 7 Crystal Shards go into the final star-lock in the correct order, and Crystal Shards also gate color-locked doors.
+- The Black Crystal is one of the seven exit crystals. It has no prize role, no grand-prize gate role, and no rule keeping it off the main escape route.
+- Real-world prizes are now represented by prize Item Cards. Players either find a prize Item Card in the dungeon or buy it from a Treasure Goblin with in-dungeon gold at the listed price in `prizes.md`.
+- The 2024 Core Rulebook Set + GM Screen is the highest-value prize card. It is not a crystal grand prize.
+- Key paths: `prizes.md`, `.squad/skills/crystal-economy/SKILL.md`, `.squad/agents/falin/charter.md`, `.squad/decisions/inbox/falin-crystal-prize-decoupling.md`.

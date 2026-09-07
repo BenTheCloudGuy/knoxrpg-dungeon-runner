@@ -22,8 +22,8 @@ How to decide who handles what.
 | Props, item cards, physical pieces             | Senshi      | Scrying Stone, Artificer's Cube, health potion cards              |
 | Dwarven Forge layout notes                     | Senshi      | What terrain pieces, table footprint, room dressing               |
 | Handout production (format / layout)           | Senshi      | Paper props, card design, print-ready handouts                    |
-| Prize tiers & gift card budget                 | Falin       | Crystal → prize mapping, value tuning, what's still TBD           |
-| Scrying Stone clue chain                       | Falin       | Crystal → clue → next crystal sequence, integrity check           |
+| Prize item cards & budget                      | Falin       | Prize card economy (found or bought from Treasure Goblins), value tuning, what's still TBD |
+| Crystal exit-lock & Scrying Stone door clues   | Falin       | Star-lock order and crystal-door clue integrity                   |
 | Table logistics & player onboarding            | Falin       | Briefing players, rest tracking, death-out flow                   |
 | Memory, decisions, session logs                | Cleric      | Automatic — never needs routing                                   |
 | Work queue monitoring                          | Paladin     | Backlog, what's unfinished, what's blocked                        |

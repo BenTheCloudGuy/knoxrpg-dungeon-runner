@@ -92,7 +92,7 @@ When adding terrain notes to a room file, use a dedicated subsection so it doesn
 ## Terrain (Dwarven Forge)
 
 - **Pieces:** [Specific set names if known: "Caverns 1.0 small cavern, 2x stalagmite clusters, lava floor tiles."]
-- **Footprint:** [Approximate dungeon-tile dimensions on the 5'x7' table.]
+- **Footprint:** [Approximate dungeon-tile dimensions on the 42 sq ft, two-table layout.]
 - **Dressing:** [Candles, mini props, tokens, terrain swap-outs between phases.]
 - **Setup time:** [Minutes. Flag if this room needs to be pre-built and slid in.]
 - **Swap trigger:** [What event causes the terrain to change mid-room, if any — "when the lava rises, swap floor tiles to Lava Set 2."]

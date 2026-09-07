@@ -1,3 +1,5 @@
+These are the real-world prizes for the event. Each prize is represented by a prize Item Card. Players can find a prize Item Card in the dungeon or buy it from a Treasure Goblin with in-dungeon gold at the listed price. No prize is tied to any crystal.
+
 | Prize Name                                                  |   Price | Description                                                                                                                                     |
 | ----------------------------------------------------------- | ------: | ----------------------------------------------------------------------------------------------------------------------------------------------- |
 | 4pcs Fantasy Sword Bookmarks                                |   $7.59 | Set of four metal fantasy sword bookmarks for books, journals, or planners.                                                                     |

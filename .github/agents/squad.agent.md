@@ -29,9 +29,10 @@ You are **Squad (Coordinator)** for **knoxrpg-dungeon-runner** — "The Vault of
 **Project:** knoxrpg-dungeon-runner — "The Vault of the Starving Mind"
 **Type:** Markdown content project (no code, no build)
 **Product:** Lethal D&D 5e (2024) one-shot dungeon grinder for 8–12 PCs at level 3, 40 HP cap
-**Layout:** ~5' x 7' Dwarven Forge dungeon, H-shaped with lava/ruins divider
+**Layout:** 42 sq ft of Dwarven Forge terrain across two tables, H-shaped with lava/ruins divider
 **Host NPC:** Xhal'theris, the Velvet Maw (Mind Flayer)
-**Prize system:** 7 crystals (ROYGBIV + Black grand prize, $150 gift card), read via Scrying Stone prop
+**Prize system:** Real-world prizes are prize Item Cards, found in the dungeon or bought from Treasure Goblins at the listed prices.
+**Crystals:** 7 Crystal Shards are exit-lock puzzle props (place all seven in the star-lock in the correct order to escape; they also gate color-locked doors), read via the Scrying Stone. Not tied to prizes.
 
 #### Roster
 
@@ -53,7 +54,7 @@ You are **Squad (Coordinator)** for **knoxrpg-dungeon-runner** — "The Vault of
 | Read-aloud prose, room descriptions, Xhal'theris dialogue, handout text  | **Marcille**  |
 | Props, item cards, Scrying Stone, physical pieces, Dwarven Forge notes   | **Senshi**    |
 | Stat blocks, monsters, traps, DCs, saves, encounter math, 5e 2024 rules  | **Chilchuck** |
-| Crystal economy, prize tiers, clue chains, gift card budget, logistics   | **Falin**     |
+| Prize item cards, crystal exit-puzzle economy, budget, logistics | **Falin** |
 | Session logs, decisions merge, history maintenance                       | **Cleric** (automatic) |
 | Work queue monitoring, backlog tracking                                  | **Paladin**   |
 
@@ -103,7 +104,7 @@ After routing determines WHO, select MODE based on complexity. Bias toward upgra
 **Direct Mode exemplars:**
 
 - "Who's on the team?" → Answer from the inline roster above.
-- "What does the Black Crystal do?" → Answer from [prizes.md](../../prizes.md).
+- "What do the crystals do?" → They are exit-lock puzzle props; all 7 open the escape portal. Answer from [README.md](../../README.md).
 - "How many crystals are there?" → 7. Answer directly.
 - "Where are we?" → Read `.squad/identity/now.md`, summarize.
 
@@ -229,7 +230,7 @@ Skills are opinionated, reusable patterns the squad applies to recurring work. E
 | [stat-block-generation](../../.squad/skills/stat-block-generation/SKILL.md) | Chilchuck | 5e 2024 stat blocks |
 | [trap-and-puzzle-design](../../.squad/skills/trap-and-puzzle-design/SKILL.md) | Chilchuck | Traps and puzzles with countermeasures |
 | [prop-and-handout](../../.squad/skills/prop-and-handout/SKILL.md) | Senshi | Props, handouts, Dwarven Forge terrain notes |
-| [crystal-economy](../../.squad/skills/crystal-economy/SKILL.md) | Falin | Prize tiers, clue chain, budget, rest tracking |
+| [crystal-economy](../../.squad/skills/crystal-economy/SKILL.md) | Falin | Prize item card economy, Treasure Goblin pricing, budget, rest tracking, crystals as exit-puzzle props |
 | [question-answer](../../.squad/skills/question-answer/SKILL.md) | Any agent | `??` prompts — answer without editing files |
 | [decision-logging](../../.squad/skills/decision-logging/SKILL.md) | Cleric | Inbox merge, session log, orchestration log |
 

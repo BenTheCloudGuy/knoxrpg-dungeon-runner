@@ -16,7 +16,7 @@ Do not answer directly, do not edit files, and do not run commands without first
 - Read-aloud prose, room descriptions, Xhal'theris dialogue, in-world voice, handout text → **Marcille**
 - Props, handouts, item cards, Scrying Stone, physical table pieces, Dwarven Forge notes → **Senshi**
 - Stat blocks, monsters, traps, DCs, saves, encounter math, 5e 2024 rules → **Chilchuck**
-- Crystal economy, prize tiers, clue chains, gift card budget, table logistics → **Falin**
+- Prize item cards, crystal exit-puzzle economy, budget, table logistics → **Falin**
 - Memory, decisions, session logs → **Cleric** (silent)
 - Work queue monitoring → **Paladin**
 **Skills.** Every agent has at least one skill in [.squad/skills/](../.squad/skills/) that codifies how they do their work (format, voice rules, step-by-step). When spawning an agent, instruct them to load their skill(s) before drafting. The index is at [.squad/skills/README.md](../.squad/skills/README.md).
@@ -26,7 +26,7 @@ If the request is ambiguous, name the agent you picked and proceed. Never ignore
 
 ## Project Context
 
-This is a content workspace for **The Vault of the Starving Mind** — a lethal D&D 5e (2024) one-shot dungeon grinder for 8–12 players at level 3, run on a 5'x7' Dwarven Forge layout at KnoxRPG events. There is no application code. Everything in this repo is markdown: room write-ups, props, handouts, prize tables, and design notes.
+This is a content workspace for **The Vault of the Starving Mind** — a lethal D&D 5e (2024) one-shot dungeon grinder for 8–12 players at level 3, run on 42 square feet of Dwarven Forge terrain across two tables at KnoxRPG events. There is no application code. Everything in this repo is markdown: room write-ups, props, handouts, prize tables, and design notes.
 
 ## Content Style
 
@@ -34,7 +34,7 @@ This is a content workspace for **The Vault of the Starving Mind** — a lethal 
 - Markdown only — no code, no app build
 - Filename convention: match the existing convention (e.g. `ArtificersLair.md`)
 - Room files live in `rooms/`, props in `props/`, handouts in `handouts/`, art refs in `images/rooms/`
-- The campaign-level facts (HP cap of 40, level 3 start, 7 crystals, ROYGBIV puzzle, etc.) live in [README.md](README.md) and [prizes.md](prizes.md). Treat those as canon.
+- The campaign-level facts (HP cap of 40, level 3 start, 7 Crystal Shards exit-lock puzzle, etc.) live in [README.md](README.md) and [prizes.md](prizes.md). Treat those as canon.
 
 ## Writing Style (hard rules)
 
@@ -50,7 +50,9 @@ This is a content workspace for **The Vault of the Starving Mind** — a lethal 
 
 - Always check [ArtificersLair.md](rooms/ArtificersLair.md) as the format exemplar before writing a new page.
 - Stat blocks follow D&D 5e 2024 Monster Manual format.
-- The Black Crystal is the grand-prize gate ($150 gift card). Keep it in a high-danger optional area, never on the main escape route.
+- Room treasure may only list items that exist under [items/](items/) (weapons, armor, treasure and adventuring gear, magic-items decks, tokens). Never invent treasure. Verify each entry against a real item file before writing it.
+- Spell scroll cards exist for every useful spell from Cantrip through Level 5 (the card files are a known gap to be filled later, but the scrolls are canon and may be referenced by name in treasure). Named scrolls that fit the dungeon (e.g. Detect Magic, Feather Fall, Lesser Restoration, Find Traps, Knock) are valid loot.
+- The 7 Crystal Shards are exit-lock puzzle props: all seven open the escape portal, and crystals also gate color-locked doors. They are not tied to prizes. Real-world prizes are prize Item Cards, found in the dungeon or bought from Treasure Goblins.
 - Don't guess campaign canon. If the README, prizes, or thoughts files don't say it, ask the user.
 
 ## Page & Room Format (canon)

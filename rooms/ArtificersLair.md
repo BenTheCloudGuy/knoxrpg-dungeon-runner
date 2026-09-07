@@ -11,11 +11,27 @@
 
 **Trap**: If the keys are lifted from the hook. Players hear an audible *click*, followed by grinding stone as the ceiling in both cells begins to lower. 
 
-**Treasure**: 
-- x2 Daggers
+**Treasure**:
+- 2 Daggers
 - Short Sword
-- Short Bow + Quiver with 12 arrows. 
-- 
+- Short Bow + Quiver (12 arrows)
+- 2 Clubs
+- Quarterstaff/Spear
+- Sling + 20 bullets
+- Leather Armor
+- Padded Armor
+- 1 Shield
+- 50 ft Rope + Grappling Hook
+- 6 Torches + Tinderbox
+- Healer's Kit (stabilize only)
+- Waterskins + Rations
+- Crowbar, Hammer, and Iron Spikes
+- Component Pouch
+- Arcane Focus
+- Holy Symbol
+
+> [!NOTE] GM NOTE
+> Hand these out as equipment-deck Item Cards. Character sheets start empty, so this pile is how the party arms itself.
 
 ### TRAP
 **Read Aloud (when triggered)**
@@ -52,6 +68,14 @@ The ceiling begins at **7 ft** above the cell floor and descends **1 ft per roun
 
 **Description**
 > Standing in the center of the room is a statue of a tall man in flowing robes his right hand extended with a single finger pointing at the door to the Cells. The statue is carved of pure stone with every detailed perfectly captured. 
+
+**Treasure**:
+- 1 Potion of Poison Resistance (single-use), awarded when the party finishes the joke
+- 2 Antitoxin
+- About 30 gp mixed coin
+
+> [!NOTE] GM NOTE
+> The potion is a reward for playing along with Grovlikk. Do not hand it out if the party only breaks things and flees.
 
 ### TRAP
 
@@ -124,10 +148,22 @@ On a Success:
 **Description**
 > Shelves cover the walls of this room, with all manner of book and scroll lining the shelves.
 
-- Treasure: Shelves have Spell Book(s)
+**Treasure**:
+- Spell Scroll (L1): Detect Magic
+- Spell Scroll (L1): Feather Fall
+- Spell Scroll (L2): Lesser Restoration
+- Spell Scroll (L2): Find Traps
+- Map case
+- Ink
+- Spare mundane component pouch
+- Spare mundane arcane focus
+- About 40 gp mixed coin
+
+> [!NOTE] GM NOTE
+> The library's permanent and themed spellbooks are Treasure Goblin vendor stock, not free room loot. The portal-instruction scroll is a handout gated on the crystal clue chain. That chain is still an open flag.
+
 - Entire Section on Comedy of different Cultures and Species.
-- DC 16 to find Scroll explaning how to use the powerful Portal mirror located above this Library.
-    - **I need to create the scroll as physical handout - it needs to be tied to the various crystals scattered around the dungeon!.**
+- DC 16 to find the portal-instruction scroll handout once the crystal clue chain is ready.
 - DC 15 Perception to spot hidden door in the cieling that leads to the portal room. 
   - Will need rope or something to reach 15' high opening
   - If the players don't find it themselves, use the handout to give them a clue, and if that does not work then 
@@ -138,6 +174,12 @@ On a Success:
 
 **Description**
 > A large mirror stands against the far wall in front of it sits a large cyrstal sphere on a pedestal. The images on the mirror are blurry and change rapidly. The pedestal has 7 distinct round slots that ring the sphere.  
+
+**Treasure**:
+- None. The room holds the Crystal Sphere control prop and a blank 7-socket diagram players use to track the crystal order.
+
+> [!NOTE] GM NOTE
+> This room is deliberately bare. Do not place coin, magic items, or a crystal here.
 
 - Crystal Sphere controls the Portal Mirror using the various Crystal Shards (Kyber Crystals) found through out this dungeon.. Once all the Crystals are gathered, they can be used to open a portal to safety - outside the Dungeon.. This is the only way to escape the dungeon! 
 
@@ -153,6 +195,19 @@ On a Success:
 **Description**
 > This large room contains the remains of several of Grovlikk's followers, long sense dead. 
 
-- Treasure: Coin + Magical Supplies
+**Treasure**:
+- About 140 gp mixed coin
+- 2 Alchemist's Fire (Flask)
+- 2 Acid (Vial)
+- 2 Oil (Flask)
+- 1 Poison, Basic (Vial)
+- 1 Potion of Healing (single-use)
+
+> [!NOTE] GM NOTE
+> The skeletons guard this stash. Any permanent magic items for this area, such as a +1 weapon, Bag of Holding, or Rope of Climbing, are Treasure Goblin vendor stock, not chest loot.
+
 - Monsters: Skeletons attack players as they enter the room. 
+
+
+
 

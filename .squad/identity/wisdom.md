@@ -12,7 +12,7 @@ Hard-won lessons that apply across the squad. Append-only.
 
 - This is a grinder. Pressure beats fairness. Death is a feature.
 - Players need to *choose* between safety and reward. If a path is both safe and rewarding, it's broken.
-- The Black Crystal sits behind real lethality. Never put it on the main path.
+- The best loot and prize cards sit behind real lethality. Never hand them out on the safe path.
 
 ## Workflow
 
