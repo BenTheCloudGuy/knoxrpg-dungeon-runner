@@ -5,7 +5,7 @@ weapon_category: Martial Melee Weapons
 damage: 1d12 Slashing
 cost: 30 GP
 weight: 7 lb.
-source: phb-2024, free-rules, ddvram
+source: phb-2024, free-rules
 ---
 
 # Greataxe
@@ -16,4 +16,4 @@ source: phb-2024, free-rules, ddvram
 - **Mastery:** Cleave
 - **Cost:** 30 GP
 - **Weight:** 7 lb.
-- **Source:** phb-2024, free-rules, ddvram
+- **Source:** phb-2024, free-rules

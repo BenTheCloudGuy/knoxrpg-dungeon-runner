@@ -21,13 +21,13 @@ Preview specific cards:
 
 ## Duplex / printer
 
-For a **short-edge** duplex flip (Ben's HP 3201dw), `assemble-deck.mjs` does two things to the back pages: it row-mirrors the positions (`(ROWS-1-r)*COLS + c`) so each back prints behind its own front, and it rotates each back 180 degrees (`sharp(...).rotate(180)`) so the back reads upright when you flip the cut card left-to-right. The back pages therefore look upside-down in the PDF on purpose.
+For Ben's HP 3301dw **long-edge** duplex flip, `assemble-deck.mjs` column-mirrors the back positions (`r*COLS + (COLS-1-c)`) but does not rotate the backs, so both PDF pages read upright on screen. The printer flips the back left-to-right while keeping the content upright, so each back stays in its own row and only its column flips, which lands the correct back right-side up behind its own front.
 
-**Print at Actual Size / 100%** (page scaling off), or the front and back will not line up.
+**Print at Actual Size / 100%** (page scaling off), or the crop marks drift toward the corners and the front and back will not line up.
 
-**Back-registration offset.** Ben's HP 3201dw lays the back about 1.75 mm high, so the backs are nudged down 1.75 mm by default (`BACK_DY_MM`). To re-measure on another printer, cut a card, compare the back frame to the front frame, and set the env vars in mm: `BACK_DY_MM` (+ down), `BACK_DX_MM` (+ right). Example: `BACK_DY_MM=1.75 node assemble-deck.mjs`. Only the cards shift; the crop marks stay put so the cut lines still match the front.
+**Back-registration offset.** The default back nudge is `BACK_DY_MM=-2.5` (`BACK_DX_MM=0`), tuned to Ben's HP 3301dw. A negative page-space dy pushes the printed back down 2.5 mm, which cancels the printer's vertical drift so the back lands on the front. The env-var overrides are still there if another printer drifts: cut a card, compare the back frame to the front frame, and set the env vars in mm. `BACK_DY_MM` negative moves the printed back down and `BACK_DX_MM` positive moves it right. Example: `BACK_DY_MM=-3 node assemble-deck.mjs`. The crop marks shift by the same offset as the cards on each page, so the cut lines stay on the card corners on both pages.
 
-For a long-edge printer instead: change the mapping to `r*COLS + (COLS-1-c)` (column mirror) and drop the `.rotate(180)` on the back buffers.
+For a short-edge printer instead: change the mapping to `(ROWS-1-r)*COLS + c` (row mirror) and leave the backs unrotated.
 
 ## Prices
 

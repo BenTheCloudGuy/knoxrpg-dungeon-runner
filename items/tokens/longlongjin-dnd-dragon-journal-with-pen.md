@@ -5,6 +5,7 @@ type: Prize
 cost: 1250 GP
 weight:
 source: prizes.md
+copies: 3
 ---
 
 # LongLongJin DND Dragon Journal with Pen

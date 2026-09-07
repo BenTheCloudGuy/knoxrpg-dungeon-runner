@@ -19,10 +19,17 @@ const toolsDir = path.dirname(fileURLToPath(import.meta.url));
 const miDir = path.resolve(toolsDir, "..", ".."); // items/magic-items
 
 const PRICES = {
-  "scrolls/spell-scroll-cantrip.md": "10 GP",
-  "scrolls/spell-scroll-level-1.md": "25 GP",
-  "scrolls/spell-scroll-level-2.md": "50 GP",
-  "scrolls/spell-scroll-level-3.md": "100 GP",
+  "scrolls/spell-scroll-of-fire-bolt.md": "10 GP",
+  "scrolls/spell-scroll-of-mind-sliver.md": "10 GP",
+  "scrolls/spell-scroll-of-guidance.md": "10 GP",
+  "scrolls/spell-scroll-of-cure-wounds.md": "25 GP",
+  "scrolls/spell-scroll-of-magic-missile.md": "25 GP",
+  "scrolls/spell-scroll-of-shield.md": "25 GP",
+  "scrolls/spell-scroll-of-scorching-ray.md": "50 GP",
+  "scrolls/spell-scroll-of-lesser-restoration.md": "50 GP",
+  "scrolls/spell-scroll-of-see-invisibility.md": "50 GP",
+  "scrolls/spell-scroll-of-mass-healing-word.md": "100 GP",
+  "scrolls/spell-scroll-of-dispel-magic.md": "100 GP",
   "scrolls/spell-scroll-of-fireball.md": "100 GP",
   "scrolls/scroll-of-protection.md": "50 GP",
   "wondrous-items/enduring-spellbook.md": "100 GP",

@@ -67,3 +67,14 @@
 - Real-world prizes are now represented by prize Item Cards. Players either find a prize Item Card in the dungeon or buy it from a Treasure Goblin with in-dungeon gold at the listed price in `prizes.md`.
 - The 2024 Core Rulebook Set + GM Screen is the highest-value prize card. It is not a crystal grand prize.
 - Key paths: `prizes.md`, `.squad/skills/crystal-economy/SKILL.md`, `.squad/agents/falin/charter.md`, `.squad/decisions/inbox/falin-crystal-prize-decoupling.md`.
+### 2026-09-06 — Named spell-scroll roster (replacing 4 generic deck cards)
+
+- The 46-card magic-item deck carried 6 scroll cards: 4 GENERIC level-based cards (`spell-scroll-cantrip`, `spell-scroll-level-1`, `spell-scroll-level-2`, `spell-scroll-level-3`) plus `spell-scroll-of-fireball` and `scroll-of-protection`. Ben wants the 4 generics replaced with cards for ACTUAL named spells, each carrying that spell's details. `spell-scroll-of-fireball` is the format exemplar; `scroll-of-protection` stays.
+- Deck manifest lives in `items/magic-items/deck/tools/assemble-deck.mjs` (line ~37) and the price map in `apply-prices.mjs`. The compendium `scrolls/` folder ALSO holds many other generic files (`spell-scroll-0-cantrip`, `spell-scroll-1st-level` ... `spell-scroll-9th-level`, `spell-scroll-level-4`..`9`, `spell-scroll.md`) that are NOT in the deck — out of scope, leave them.
+- **Curated roster (11 new cards):** Cantrips (3): Fire Bolt, Mind Sliver, Guidance. 1st (3): Cure Wounds, Magic Missile, Shield. 2nd (3): Scorching Ray, Lesser Restoration, See Invisibility. 3rd new (2): Mass Healing Word, Dispel Magic. Fireball KEPT as the marquee 3rd.
+- **Prices per the deflated scale (decisions.md):** cantrip 10, 1st 25, 2nd 50, 3rd 100 GP. Rarity: Common cantrip/1st, Uncommon 2nd/3rd. None flagged Rare, so all are general Treasure Goblin stock (no grand-prize gating).
+- **Scroll cast math (deck convention + 2024 DMG):** DC 13 / +5 attack holds for cantrip through 3rd (2024 DMG scroll table: 2nd-3rd is still DC 13 / +5). Matches the existing Fireball card.
+- **Ban check:** avoided all bans (no hard CC, flight, teleport, save-or-die, summon). Deliberately EXCLUDED Counterspell (would neuter Xhal'theris), Hold Person / Web / Hypnotic Pattern (hard CC), Misty Step / Fly / Levitate (movement bans). Noted Protection from Energy as a strong optional 3rd for the lava zone (fire resistance) if Ben wants a 12th.
+- **Net deck change:** 46 - 4 generic + 11 named = **53 cards**. One-of-each GP total rises ~+270 GP (scroll subtotal 335 → 605), moving the ~4,985 GP deck figure to ~5,255 GP — an economy fact to reconcile if Ben cares about the round number.
+- Flagged for Chilchuck (2024 text audit): Guidance (2024 recast as a Reaction, Instantaneous), Mass Healing Word (2024 heal die may be 2d4 vs 1d4), Mind Sliver (2024 PHB, not SRD 5.1), Cure Wounds (2024 is 2d8+mod). Did NOT build cards — roster + specs only, handed to Chilchuck (rules) and Senshi (build).
+

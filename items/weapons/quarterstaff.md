@@ -3,9 +3,9 @@ title: "Quarterstaff"
 category: Weapon
 weapon_category: Simple Melee Weapons
 damage: 1d6 Bludgeoning
-cost: 2 SP
+cost: 1 gp
 weight: 4 lb.
-source: phb-2024, free-rules, ddvram
+source: phb-2024, free-rules
 ---
 
 # Quarterstaff
@@ -14,6 +14,6 @@ source: phb-2024, free-rules, ddvram
 - **Damage:** 1d6 Bludgeoning
 - **Properties:** Versatile (1d8)
 - **Mastery:** Topple
-- **Cost:** 2 SP
+- **Cost:** 1 gp
 - **Weight:** 4 lb.
-- **Source:** phb-2024, free-rules, ddvram
+- **Source:** phb-2024, free-rules

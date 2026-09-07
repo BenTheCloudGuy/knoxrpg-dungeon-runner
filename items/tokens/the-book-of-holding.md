@@ -5,6 +5,7 @@ type: Prize
 cost: 1250 GP
 weight:
 source: prizes.md
+copies: 2
 ---
 
 # The Book of Holding

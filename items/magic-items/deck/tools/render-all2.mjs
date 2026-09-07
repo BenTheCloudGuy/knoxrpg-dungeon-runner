@@ -4,7 +4,7 @@
 // and renders a 750x1050 px (2.5"x3.5" @ 300 dpi) card-front PNG.
 //
 // Card look: parchment radial #f2e8d0 -> #d9c8a2, maroon frame #5b1a1a,
-// gold inner line #b8963e, Georgia serif. This is the authoritative 46-file
+// gold inner line #b8963e, Georgia serif. This is the authoritative 53-file
 // list and category order for the deck.
 //
 // Paths are repo-relative (resolved from this file's location), so the fronts
@@ -26,12 +26,12 @@ const mi = path.resolve(toolsDir, "..", ".."); // items/magic-items
 const outDir = path.join(deckDir, "build", "fronts");
 fs.mkdirSync(outDir, { recursive: true });
 
-// Authoritative 46-card list, in deck sort order (category grouping).
+// Authoritative 53-card list, in deck sort order (category grouping).
 const files = [
   "weapons/gob-stopper.md",
   "potions/goblin-juice.md", "potions/flask-of-acid.md", "potions/vial-of-poison.md", "potions/potion-of-cure-disease.md",
   "spellbooks/artificer-s-arsenal.md", "spellbooks/protector-s-codex.md", "spellbooks/healer-s-gift.md", "spellbooks/tomb-warden.md", "spellbooks/escape-route.md", "spellbooks/scout-s-tome.md",
-  "scrolls/spell-scroll-cantrip.md", "scrolls/spell-scroll-level-1.md", "scrolls/spell-scroll-level-2.md", "scrolls/spell-scroll-level-3.md", "scrolls/spell-scroll-of-fireball.md", "scrolls/scroll-of-protection.md",
+  "scrolls/spell-scroll-of-fire-bolt.md", "scrolls/spell-scroll-of-mind-sliver.md", "scrolls/spell-scroll-of-guidance.md", "scrolls/spell-scroll-of-cure-wounds.md", "scrolls/spell-scroll-of-magic-missile.md", "scrolls/spell-scroll-of-shield.md", "scrolls/spell-scroll-of-scorching-ray.md", "scrolls/spell-scroll-of-lesser-restoration.md", "scrolls/spell-scroll-of-see-invisibility.md", "scrolls/spell-scroll-of-mass-healing-word.md", "scrolls/spell-scroll-of-dispel-magic.md", "scrolls/spell-scroll-of-fireball.md", "scrolls/scroll-of-protection.md",
   "wondrous-items/enduring-spellbook.md", "wondrous-items/bag-of-holding.md", "wondrous-items/rope-of-climbing.md", "wondrous-items/driftglobe.md", "wondrous-items/feather-token-feather-fall.md",
   "potions/potion-of-healing.md", "potions/potion-of-healing-greater.md", "potions/potion-of-resistance.md", "potions/potion-of-climbing.md", "potions/potion-of-water-breathing.md", "potions/potion-of-heroism.md",
   "weapons/longsword-1.md", "weapons/greatsword-1.md", "weapons/rapier-1.md", "weapons/shortbow-1.md", "weapons/dagger-1.md", "weapons/mace-1.md", "weapons/handaxe-1.md", "weapons/spear-1.md", "weapons/warhammer-1.md", "weapons/crossbow-light-1.md",

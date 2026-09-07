@@ -4,6 +4,10 @@
 // items/tokens/*.md and their generated art in items/tokens/images/<name>.png.
 //
 // Output: build/fronts/<name>.png and build/backs/<name>.png
+// Card count is copy-driven: a token with `copies: N` in its frontmatter (default
+// 1) also gets identical extra PNGs <name>-2.png .. <name>-N.png written into BOTH
+// build/fronts and build/backs, so the deck has one card per physical prize copy.
+// Cleanup is idempotent: stale extra copies are removed when `copies` is lowered.
 // Sample: ONLY=beholder-potato-head-figure node prize-render.mjs
 
 import fs from "fs";
@@ -67,6 +71,7 @@ function parse(name) {
     rarity: usd,                 // shown in the meta line (e.g. "$35")
     type: "Prize",
     cost: (fm.cost || "").trim(),
+    copies: Math.max(1, parseInt(fm.copies || "1", 10) || 1),
     imageAbs: fs.existsSync(imgAbs) ? imgAbs : null,
     shortDesc,
     paras: desc ? [desc] : [],
@@ -173,15 +178,33 @@ async function renderBack(d, outPath) {
   await base.composite(comps).png().toFile(outPath);
 }
 
+const escapeRe = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+
+// For a token, write identical extra copies <name>-2.png .. <name>-N.png into a
+// build dir, and delete any stale extra copies (index outside 2..copies) so
+// re-running with a lowered `copies` value is idempotent.
+function syncCopies(dir, name, copies) {
+  const re = new RegExp("^" + escapeRe(name) + "-(\\d+)\\.png$");
+  const src = path.join(dir, name + ".png");
+  for (let i = 2; i <= copies; i++) fs.copyFileSync(src, path.join(dir, `${name}-${i}.png`));
+  for (const f of fs.readdirSync(dir)) {
+    const m = f.match(re);
+    if (m) { const idx = parseInt(m[1], 10); if (idx < 2 || idx > copies) fs.unlinkSync(path.join(dir, f)); }
+  }
+}
+
 const only = (process.env.ONLY || "").split(",").map((s) => s.trim()).filter(Boolean);
-let n = 0;
+let n = 0, cards = 0;
 for (const name of FILES) {
   if (only.length && !only.includes(name)) continue;
   if (!fs.existsSync(path.join(tokensDir, name + ".md"))) { console.log("MISSING md:", name); continue; }
   const d = parse(name);
   await renderFront(d, path.join(frontsDir, name + ".png"));
   await renderBack(d, path.join(backsDir, name + ".png"));
+  syncCopies(frontsDir, name, d.copies);
+  syncCopies(backsDir, name, d.copies);
   n++;
-  console.log("rendered", name, `| ${d.cost} | ${d.rarity}`);
+  cards += d.copies;
+  console.log("rendered", name, `| ${d.cost} | ${d.rarity}` + (d.copies > 1 ? ` | x${d.copies}` : ""));
 }
-console.log(`done: ${n} prize cards (front+back)`);
+console.log(`done: ${n} prize tokens, ${cards} cards (front+back)`);

@@ -1,0 +1,3 @@
+items\magic-items\deck\tools sharp=False pdf-lib=False
+items\tokens\tools sharp=False pdf-lib=False
+items\equipment-deck\tools sharp=False pdf-lib=False

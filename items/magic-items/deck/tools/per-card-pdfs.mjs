@@ -1,7 +1,8 @@
 // per-card-pdfs.mjs — export each card as its own 2-page (front, back) PDF at
 // true card size (2.5 x 3.5 in). Page 1 is the front upright; page 2 is the back
-// rotated 180 degrees so a SHORT-edge duplex print lands it upright behind the
-// front (same convention as the print-and-play sheet).
+// upright, NOT rotated. Ben's HP 3301dw flips duplex on the long edge (left-to-right),
+// but each card is its own page here, so the front and back always pair correctly with
+// no grid mirror needed. Both PDF pages read upright on screen.
 //
 // Defaults to this deck's build/ dirs; override with FRONTS_DIR / BACKS_DIR / OUT_DIR.
 // Run:  node per-card-pdfs.mjs
@@ -28,7 +29,7 @@ for (const name of names) {
   if (!fs.existsSync(bp)) { console.log("no back for", name); continue; }
   const doc = await PDFDocument.create();
   const front = await sharp(fp).jpeg({ quality: 92, chromaSubsampling: "4:4:4" }).toBuffer();
-  const back = await sharp(bp).rotate(180).jpeg({ quality: 92, chromaSubsampling: "4:4:4" }).toBuffer();
+  const back = await sharp(bp).jpeg({ quality: 92, chromaSubsampling: "4:4:4" }).toBuffer();
   const fImg = await doc.embedJpg(front);
   doc.addPage([PT_W, PT_H]).drawImage(fImg, { x: 0, y: 0, width: PT_W, height: PT_H });
   const bImg = await doc.embedJpg(back);
