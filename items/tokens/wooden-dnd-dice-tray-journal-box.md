@@ -5,6 +5,7 @@ type: Prize
 cost: 5000 GP
 weight:
 source: prizes.md
+copies: 2
 ---
 
 # Wooden DnD Dice Tray & Journal Box

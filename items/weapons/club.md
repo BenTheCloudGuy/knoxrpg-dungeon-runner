@@ -3,9 +3,9 @@ title: "Club"
 category: Weapon
 weapon_category: Simple Melee Weapons
 damage: 1d4 Bludgeoning
-cost: 1 SP
+cost: 1 gp
 weight: 2 lb.
-source: phb-2024, free-rules, ddvram
+source: phb-2024, free-rules
 ---
 
 # Club
@@ -14,6 +14,6 @@ source: phb-2024, free-rules, ddvram
 - **Damage:** 1d4 Bludgeoning
 - **Properties:** Light
 - **Mastery:** Slow
-- **Cost:** 1 SP
+- **Cost:** 1 gp
 - **Weight:** 2 lb.
-- **Source:** phb-2024, free-rules, ddvram
+- **Source:** phb-2024, free-rules

@@ -5,7 +5,7 @@ weapon_category: Simple Ranged Weapons
 damage: 1d6 Piercing
 cost: 25 GP
 weight: 2 lb.
-source: phb-2024, free-rules, ddvram
+source: phb-2024, free-rules
 ---
 
 # Shortbow
@@ -16,4 +16,4 @@ source: phb-2024, free-rules, ddvram
 - **Mastery:** Vex
 - **Cost:** 25 GP
 - **Weight:** 2 lb.
-- **Source:** phb-2024, free-rules, ddvram
+- **Source:** phb-2024, free-rules

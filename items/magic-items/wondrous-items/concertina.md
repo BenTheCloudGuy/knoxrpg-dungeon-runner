@@ -4,7 +4,7 @@ category: Magic Item
 rarity: Rare
 type: WondrousItem
 requires_attunement: No
-source: ddvram, pg. 26
+source:
 ---
 
 # Concertina

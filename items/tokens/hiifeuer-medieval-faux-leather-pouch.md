@@ -5,6 +5,7 @@ type: Prize
 cost: 1200 GP
 weight:
 source: prizes.md
+copies: 2
 ---
 
 # HiiFeuer Medieval Faux Leather Pouch

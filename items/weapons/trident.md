@@ -5,7 +5,7 @@ weapon_category: Martial Melee Weapons
 damage: 1d8 Piercing
 cost: 5 GP
 weight: 4 lb.
-source: phb-2024, free-rules, ddvram
+source: phb-2024, free-rules
 ---
 
 # Trident
@@ -16,4 +16,4 @@ source: phb-2024, free-rules, ddvram
 - **Mastery:** Topple
 - **Cost:** 5 GP
 - **Weight:** 4 lb.
-- **Source:** phb-2024, free-rules, ddvram
+- **Source:** phb-2024, free-rules

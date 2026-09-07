@@ -5,7 +5,7 @@ weapon_category: Simple Melee Weapons
 damage: 1d4 Bludgeoning
 cost: 2 GP
 weight: 2 lb.
-source: phb-2024, free-rules, ddvram
+source: phb-2024, free-rules
 ---
 
 # Light Hammer
@@ -16,4 +16,4 @@ source: phb-2024, free-rules, ddvram
 - **Mastery:** Nick
 - **Cost:** 2 GP
 - **Weight:** 2 lb.
-- **Source:** phb-2024, free-rules, ddvram
+- **Source:** phb-2024, free-rules

@@ -3,7 +3,7 @@ title: "Sling"
 category: Weapon
 weapon_category: Simple Ranged Weapons
 damage: 1d4 Bludgeoning
-cost: 1 SP
+cost: 1 gp
 weight: —
 source: phb-2024, free-rules
 ---
@@ -14,6 +14,6 @@ source: phb-2024, free-rules
 - **Damage:** 1d4 Bludgeoning
 - **Properties:** Ammunition (Range 30/120; Bullet)
 - **Mastery:** Slow
-- **Cost:** 1 SP
+- **Cost:** 1 gp
 - **Weight:** —
 - **Source:** phb-2024, free-rules

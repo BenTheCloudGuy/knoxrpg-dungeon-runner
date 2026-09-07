@@ -5,9 +5,9 @@
 // gold inner line #b8963e, Georgia serif. Central faceted-gem motif, the deck
 // name up top, and "LOOT" below.
 //
-// The art is horizontally symmetric on purpose: with one shared back, duplex
-// long-edge printing needs no column mirroring and the flip orientation of the
-// back never matters.
+// The art is horizontally symmetric. It is not vertically symmetric, so the
+// deck's SHORT-edge duplex layout rotates each placed back 180 (the sheet
+// assemblers handle the rotation, not this module).
 //
 // Import:  import { buildBackPng } from "./make-back.mjs";
 // Standalone:  node make-back.mjs   ->  writes items/magic-items/deck/back.png

@@ -5,7 +5,7 @@ weapon_category: Martial Melee Weapons
 damage: 2d6 Bludgeoning
 cost: 10 GP
 weight: 10 lb.
-source: phb-2024, free-rules, ddvram
+source: phb-2024, free-rules
 ---
 
 # Maul
@@ -16,4 +16,4 @@ source: phb-2024, free-rules, ddvram
 - **Mastery:** Topple
 - **Cost:** 10 GP
 - **Weight:** 10 lb.
-- **Source:** phb-2024, free-rules, ddvram
+- **Source:** phb-2024, free-rules

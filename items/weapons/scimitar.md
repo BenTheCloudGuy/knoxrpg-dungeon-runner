@@ -5,7 +5,7 @@ weapon_category: Martial Melee Weapons
 damage: 1d6 Slashing
 cost: 25 GP
 weight: 3 lb.
-source: phb-2024, free-rules, ddvram
+source: phb-2024, free-rules
 ---
 
 # Scimitar
@@ -16,4 +16,4 @@ source: phb-2024, free-rules, ddvram
 - **Mastery:** Nick
 - **Cost:** 25 GP
 - **Weight:** 3 lb.
-- **Source:** phb-2024, free-rules, ddvram
+- **Source:** phb-2024, free-rules

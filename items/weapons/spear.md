@@ -5,7 +5,7 @@ weapon_category: Simple Melee Weapons
 damage: 1d6 Piercing
 cost: 1 GP
 weight: 3 lb.
-source: phb-2024, free-rules, ddvram
+source: phb-2024, free-rules
 ---
 
 # Spear
@@ -16,4 +16,4 @@ source: phb-2024, free-rules, ddvram
 - **Mastery:** Sap
 - **Cost:** 1 GP
 - **Weight:** 3 lb.
-- **Source:** phb-2024, free-rules, ddvram
+- **Source:** phb-2024, free-rules
