@@ -1,1 +1,0 @@
-winget: C:\Users\bemitchell\AppData\Local\Microsoft\WindowsApps\winget.exe

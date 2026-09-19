@@ -1,0 +1,17 @@
+{
+  "name": "tools",
+  "version": "1.0.0",
+  "description": "1. Set the key only in the current PowerShell process, then generate sketches:    `$env:OPENAI_API_KEY = [Environment]::GetEnvironmentVariable('OPENAI_API_KEY','User'); node props\\journal-deck\\tools\\journal-sketch-gen.mjs` 2. Render the journal PDF:    `node props\\journal-deck\\tools\\journal-render.mjs`",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@napi-rs/canvas": "^1.0.9",
+    "pdf-lib": "^1.17.1"
+  }
+}

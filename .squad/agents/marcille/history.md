@@ -37,3 +37,25 @@
 - Drafted a player-facing announcement ad for The Vault of the Starving Mind.
 - Voice choices: punchy, plainspoken marketing copy with two short Xhal'theris hook lines, focused on survival, final death, scavenged gear, and the table scale.
 - Confirmed prize language: real-world prizes are separate prize Item Cards found in the dungeon or bought from Treasure Goblins. Prizes are not tied to Crystal Shards.
+
+### 2026-09-16 - Berhan journal prop draft
+
+- Drafted `props/alchemist-journal-draft.md` as a 15-page continuous notebook prop.
+- Preserved all 10 potion recipe names, ingredient quantities, order dependencies, successful reactions, and wrong-order clues from `alchemists_workshop.md`.
+- Included the earlier Green Transmutation Crystal vat accident, the Lesser Healing Potion rescue, and the Potion of Invulnerability's 1-minute duration.
+- Closed with Berhan's final journal fragment copied verbatim from `npc/berhan-voss.md`.
+- Added bracketed production notes using exact ingredient-card names for Senshi.
+
+### 2026-09-16 - Berhan journal completion handoff
+
+- The completed draft at `props/alchemist-journal-draft.md` contains 16 numbered journal pages, not 15. It includes all 10 recipes, exact ingredient quantities and order clues, observations, marginalia, the vat accident, production notes, and the final fragment.
+- Ingredient references use the established ingredient-card names. The prop is ready for Senshi's physical/table-format review and for cross-checking against Berhan's NPC narrative.
+
+### 2026-09-16 - Berhan journal physical prop completion (via Cleric)
+
+- Senshi completed the print-ready physical treatment of the approved 16-page Berhan Voss journal. The PDF preserves the journal page order, recipe text, margin annotations, and production-note artwork placement; Marcille's source draft remains the content reference.
+
+### 2026-09-16 - Journal Page 1 caution note
+
+- Added a short Berhan note identifying Grovlikk only as the once powerful Artificer of Xhal'theris turned to stone for mocking Xhal'theris, with careful documentation and no improvisation as the caution.
+

@@ -82,3 +82,21 @@ Audited Falin's 11 curated scrolls against 2024 PHB / SRD 5.2 so Senshi can prin
 - **Other 2024 deltas that matter on a card:** Lesser Restoration ends Blinded/Deafened/Paralyzed/Poisoned (school Abjuration, unchanged). Fire Bolt, Magic Missile (3 darts 1d4+1 Force auto-hit), Shield (+5 AC reaction), Scorching Ray (3 rays 2d6 Fire), See Invisibility (1 hour, no concentration), Dispel Magic (auto-ends level 3 and lower; DC 10 + spell level check for 4th+) are mechanically unchanged from 2014.
 - **Fireball note (out of scope card):** 2024 Fireball is still 8d6 Fire, Dex save, 20-ft radius, but as a **3rd-level** scroll its save is **DC 15**, not 13. If the existing Fireball card prints DC 13, fix it.
 - **Encounter-math flags for Ben (no roster change, Falin already ban-checked):** Mass Healing Word (2d4+mod to six as a bonus action, up to ~42 party HP from one card) and Dispel Magic (auto-kills the dungeon's own level-3-and-lower magical effects and traps, and can strip Xhal'theris's lower spells) are the two strongest attrition-breakers in the set. Both are legal single-use consumables under the survival loot cap; flagging for awareness only. Both healing scrolls only function for a user who has the spell on their class list, and the "+ mod" uses that caster's own spellcasting modifier.
+
+
+### Alchemist's Workshop potion recipe revision — 2026-09-16
+
+Chilchuck completed the user-requested revision in `alchemists_workshop.md`, editing only the Potion Recipes section. The revised set uses 6-8 distinct unlabeled ingredients with quantities for every entry, and each recipe uses fair description-based clues in varied styles while preserving the canon outcomes and the intended puzzle solvability.
+
+## Learnings (2026-09-16, Berhan Voss stat block)
+
+- Created new convention: monsters/berhan-voss.md for standalone monster stat blocks not tied to a single room in a Dungeon Section page. No monsters/ folder existed before this; it's now the place for roaming/cross-room creatures whose stat block doesn't fit cleanly into one ooms/*.md room heading.
+- Berhan Voss (npc/berhan-voss.md, Marcille's file) is confirmed canon as the mutated creature from Room 5 "Alchemists Lab" vat in rooms/DungeonOfFun.md. His stat block name is "Berhan Voss, the Vat-Touched." CR 5, HP 105, roams Rooms 1/3/4/5 of the Alchemist wing (never Rooms 7/8).
+- Aggro logic is crystal-possession-based, not sight-based: he only attacks a PC carrying the Green Transmutation Crystal exposed (not sealed in a container). This keeps him simple to run as a roaming non-mandatory threat, and creates tension around using the Green Crystal's boon near his territory.
+- He is a post-acquisition hazard for the Green Crystal, not a guardian; the crystal is retrieved via the Alchemist's Workshop puzzle (alchemists_workshop.md) before he becomes relevant. Falin should not treat him as a "guardian defeated" gate for the Green Crystal in the prize/crystal economy.
+- Did not edit rooms/DungeonOfFun.md or npc/berhan-voss.md per the requesting instructions; only added the new monsters/berhan-voss.md file.
+
+### 2026-09-16 - Berhan roaming stat-block handoff
+
+- The Berhan Voss stat-block decision was merged from inbox: `monsters/berhan-voss.md` is the canonical CR 5, 105 HP roaming creature file, with exposed Green Transmutation Crystal possession as the attack trigger and no crystal guardian gate.
+- Marcille's completed journal prop at `props/alchemist-journal-draft.md` is the narrative handoff for the same NPC and vat mutation.

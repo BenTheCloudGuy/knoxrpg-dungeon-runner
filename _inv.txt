@@ -1,9 +1,0 @@
-equipment sheets: 23
-magic-items sheets: 6
-prizes sheets: 2
-items\magic-items\deck\build fronts=MISSING backs=MISSING
-items\tokens\deck\build fronts=MISSING backs=MISSING
-items\equipment-deck\build fronts=MISSING backs=MISSING
-items\magic-items\deck\tools node_modules=MISSING
-items\tokens\tools node_modules=MISSING
-items\equipment-deck\tools node_modules=MISSING

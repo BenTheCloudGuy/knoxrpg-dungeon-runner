@@ -36,3 +36,14 @@
 - Ben decoupled the 7 Crystal Shards from real-world prizes. Treat crystals as dungeon props for color-locked doors and the final exit-lock puzzle only.
 - The Scrying Stone now reveals color-locked door clues and the correct final exit-lock order. It should not point to treasure locations, bigger Treasure Items, prize tiers, prize cards, or real-world prizes.
 - Real-world prizes are separate prize Item Cards from Treasure Goblins. Audit older crystal-to-prize language before reusing it.
+
+### 2026-09-16 — Replaced potion-puzzle revision
+
+- Replaced the rejected potion-puzzle revision in `alchemists_workshop.md`.
+- Expanded `## Ingredients` with 20 sensory-test ingredients and rewrote all 10 existing potion formulas in the requested structured form while preserving their original outcomes.
+- Validation reported 6–8 distinct quantified ingredients per formula, 68 ingredient references resolving to the inventory, and descriptive brewing clues.
+
+### 2026-09-16 — Cross-agent: Five Seals room image asset refreshed (via Cleric)
+
+- Senshi regenerated `images/rooms/FiveSeals.png` for the Five Seals wall in `rooms/gauntlet.md` by using the approved canon image as the edit reference and restaging it as a richer medallion-wall scene.
+- Preserve the room's five-seal order, the five heavy levers, and illegible inscription surfaces. No room prose or layout changed in this pass.

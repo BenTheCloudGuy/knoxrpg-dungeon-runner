@@ -1,0 +1,3 @@
+[submodule "props/knoxrpg-netheril-prop"]
+	path = props/knoxrpg-netheril-prop
+	url = https://github.com/BenTheCloudGuy/knoxrpg-netheril-prop.git
