@@ -182,13 +182,15 @@ const part4Intro = [
 // computes parity and injects a blank page before any map that would land on
 // a RIGHT (odd) page.
 //
-// Left Dungeon is the two-map case: dungeon-left.jpg (overview, pins 1-11 =
-// D1-D11) is the primary left-page map; ArtificersLair.jpg (closeup, pins 1-5
-// = D1-D5) is a SECOND left-page map placed immediately before the D1 "The
-// Cells" room data so it faces that detail. Both are whole original photos
-// (no crops, no AI redraws). Because two full-page maps on consecutive pages
-// always have opposite parity, exactly one blank page will fall between them -
-// the solver discovers that automatically.
+// Left Dungeon is the two-map "run" case: dungeon-left.jpg (overview, pins
+// 1-11 = D1-D11) and ArtificersLair.jpg (closeup, pins 1-5 = D1-D5) are TWO
+// consecutive map pages with no room data between them. Per Ben's imposition
+// refinement, back-to-back maps are placed one per page on FACING pages with
+// NO blank between them: the overview on the LEFT (even) page, the closeup on
+// the immediately following RIGHT (odd) facing page. Both are whole original
+// photos (no crops, no AI redraws). Only the FIRST map of a run is parity-
+// locked to a LEFT page; the 2nd+ maps follow immediately and fall on the
+// alternating facing pages.
 const DUNGEON_BLOCKS = [
   { kind: "map", caption: "Dungeon - Left (D1-D11)", id: "dungeon-left",
     alt: "Left Dungeon overview", imgClass: "area-map area-map-intro", intro: true },
@@ -204,6 +206,25 @@ for (const [caption, id, , data] of AREAS) {
 // Maps numbered 0..N-1 in reading order; the parity solver targets these.
 const MAP_ORDER = DUNGEON_BLOCKS.filter((b) => b.kind === "map");
 const MAP_COUNT = MAP_ORDER.length;
+
+// Group maps into "runs" of consecutive map pages (no data block between).
+// RUN_LEADER[mapIdx] is true for the FIRST map of each run and false for every
+// follower. Only run-leaders are parity-locked to a LEFT (even) page; the 2nd+
+// maps of a run follow IMMEDIATELY with no blank, so they land on the
+// alternating facing pages (a run of 2 = LEFT then RIGHT). Today only the Left
+// Dungeon is a run of length 2; every other area is a run of length 1.
+const RUN_LEADER = [];
+{
+  let prevWasMap = false;
+  for (const b of DUNGEON_BLOCKS) {
+    if (b.kind === "map") {
+      RUN_LEADER.push(!prevWasMap);
+      prevWasMap = true;
+    } else {
+      prevWasMap = false;
+    }
+  }
+}
 
 // Compose the whole-guide markdown given a set of map indices that must be
 // preceded by a blank filler page (to keep the map on a LEFT / even page).
@@ -437,9 +458,12 @@ print(json.dumps({'pages':d.page_count,'maps':maps}))`;
 }
 
 // ---------- booklet imposition solver ----------
-// Iteratively add blank filler pages until every map lands on a LEFT (even)
-// page. Fixing the earliest offending map never disturbs the maps before it,
-// so this converges in at most MAP_COUNT passes.
+// Iteratively add blank filler pages until every RUN-LEADER map lands on a
+// LEFT (even) page. Followers (2nd+ map of a back-to-back run) are never
+// padded and never parity-checked - they must stay immediately adjacent to
+// their leader so they fall on the facing page. Fixing the earliest offending
+// leader never disturbs the maps before it, so this converges in at most
+// MAP_COUNT passes.
 const blankBefore = new Set();
 let probe;
 for (let iter = 0; iter <= MAP_COUNT + 2; iter++) {
@@ -449,7 +473,8 @@ for (let iter = 0; iter <= MAP_COUNT + 2; iter++) {
     console.error(`Expected ${MAP_COUNT} map pages, found ${probe.maps.length}:`, probe.maps);
     process.exit(1);
   }
-  const firstOdd = probe.maps.findIndex((pg) => pg % 2 === 1);
+  // Only run-leaders must sit on a LEFT (even) page; ignore followers.
+  const firstOdd = probe.maps.findIndex((pg, idx) => RUN_LEADER[idx] && pg % 2 === 1);
   if (firstOdd === -1) {
     console.log(`Imposition converged after ${iter} pass(es).`);
     break;
@@ -474,7 +499,8 @@ console.log(`\nPages: ${probe.pages}   Blank fillers inserted: ${blankBefore.siz
 console.log("Area map parity (page 1 = first RIGHT page; LEFT = even):");
 probe.maps.forEach((pg, k) => {
   const side = pg % 2 === 0 ? "LEFT " : "RIGHT";
-  console.log(`  map p${String(pg).padStart(3)} ${side}  data starts p${pg + 1}  ${MAP_ORDER[k].caption}`);
+  const role = RUN_LEADER[k] ? "leader  " : "follower";
+  console.log(`  map p${String(pg).padStart(3)} ${side} ${role}  data starts p${pg + 1}  ${MAP_ORDER[k].caption}`);
 });
 
 // Best-effort cleanup of the throwaway Edge profiles.

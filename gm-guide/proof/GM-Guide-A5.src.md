@@ -292,7 +292,6 @@ Do not have him speak every round. If the table has heard his voice twice in the
 <img class="area-map area-map-intro" src="gm-guide/a5-build/dungeon-left.jpg" alt="Left Dungeon overview">
 </section>
 
-<div class="blankpage"></div>
 <section class="map-page">
 <p class="map-caption">Artificers Block (D1-D5)</p>
 <img class="area-map" src="gm-guide/a5-build/artificers-lair.jpg" alt="Artificers block closeup">
@@ -902,7 +901,6 @@ A wrong order leaves the Lightning Trap armed and firing on its cycle. Treat a w
   * In the far room (**Room 10**) is another identical Treasure chest.. If someone is in there and opens it. They find the same treasure (5e Book + Bag of Gold) assuming the players put it all back.
   * The trick is to trigger the trap, crawl into the large chest, shut the lid and have someone else open it from the safe room. Keep in mind that a larger/medium sized creature would not fit.. So this needs to be average size or smaller. And once the lid is closed - it can only be opened from the outside.. No exceptions! Once the lid is shut - the chest only has about 1hr of air in it.
 <div class="page-break"></div>
-<div class="blankpage"></div>
 <section class="map-page">
 <p class="map-caption">Dungeon Ruins (R1-R11)</p>
 <img class="area-map" src="gm-guide/a5-build/dungeon-right.jpg" alt="Dungeon Ruins (R1-R11)">

@@ -336,12 +336,16 @@ img {
 
 /* ------------------------------------------------------------
    BOOKLET IMPOSITION
-   Each area map fills its own page and MUST sit on a LEFT (even)
-   page so it faces its room data on the next (RIGHT/odd) page.
-   Page 1 is the first RIGHT page, so LEFT pages are EVEN numbers.
+   Each area map fills its own page. A STANDALONE map must sit on a
+   LEFT (even) page so it faces its room data on the next (RIGHT/odd)
+   page. Page 1 is the first RIGHT page, so LEFT pages are EVEN numbers.
+   For BACK-TO-BACK maps (a "run" of consecutive map pages with no data
+   between, e.g. the Left Dungeon overview + Artificers closeup), only
+   the FIRST map is parity-locked to a LEFT page; the 2nd+ maps follow
+   immediately on the alternating facing pages with NO blank between.
    Edge/Chromium headless does NOT honor `break-before: left`, so
-   build-a5.mjs computes page parity and injects a .blankpage
-   before any map that would otherwise land on a RIGHT page.
+   build-a5.mjs computes page parity and injects a .blankpage before
+   any run-LEADER map that would otherwise land on a RIGHT page.
    ------------------------------------------------------------ */
 .map-page {
   page-break-after: always;

@@ -5,4 +5,6 @@
 2. Render the journal PDF:
    `node props\journal-deck\tools\journal-render.mjs`
 
+Booklet rebuild: `.\.venv\Scripts\python.exe props\journal-deck\tools\journal-booklet.py` writes `props\Berhan-Voss-Journal-Booklet.pdf`.
+
 The renderer reads `props\alchemist-journal-draft.md` and emits one US Letter page per approved Journal Page block. Production notes are converted to generated sketch placement and are not printed as instruction text. Margin and correction annotations remain visible as side notes. Print the combined PDF duplex, long-edge flip, Actual Size / 100%, US Letter, with binding on the left.
