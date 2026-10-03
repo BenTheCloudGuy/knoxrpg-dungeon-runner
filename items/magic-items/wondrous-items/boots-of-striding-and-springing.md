@@ -4,13 +4,16 @@ category: Magic Item
 rarity: Uncommon
 type: WondrousItem
 requires_attunement: Yes
+cost: 125 GP
 source: free-rules, dmg, pg. 240
-image: https://cloudgeekcusgaming01.blob.core.windows.net/images/magic-items/9228365.jpeg
+image: ../images/boots-of-striding-and-springing.png
 ---
+
 
 # Boots of Striding and Springing
 
-![Boots of Striding and Springing](https://cloudgeekcusgaming01.blob.core.windows.net/images/magic-items/9228365.jpeg)
+![Boots of Striding and Springing](../images/boots-of-striding-and-springing.png)
+
 
 Wondrous Item, uncommon (requires attunement)
  

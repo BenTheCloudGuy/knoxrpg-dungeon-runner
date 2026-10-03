@@ -1,0 +1,11 @@
+[+] loaded `C:/Users/benthebuilder/.working/knoxrpg-dungeon-runner/.proxmark3/preferences.json`
+[+] execute command from commandline: lf em 410x clone --id 0000000C05 --em
+
+[+] Using UART port COM6
+[+] Communicating with PM3 over USB-CDC
+[usb|script] pm3 --> lf em 410x clone --id 0000000C05 --em
+[+] Preparing to clone EM4102 to EM4305/4469 tag with EM Tag ID 0000000C05 (RF/64)
+[=] Encoded to FF 80 00 00 00 0C 01 52 
+[#] Tag EM4x05 written with 0xff800000000c0152
+[+] Done!
+[?] Hint: Try `lf em 410x reader` to verify

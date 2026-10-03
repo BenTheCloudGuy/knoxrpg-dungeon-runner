@@ -1,0 +1,25 @@
+[+] execute command from commandline: hw version
+
+[+] Using UART port COM6
+[+] Communicating with PM3 over USB-CDC
+[=] Creating initial preferences file
+[+] Saved to json file C:/Users/benthebuilder/.working/knoxrpg-dungeon-runner/.proxmark3/preferences.json
+[=] No previous history could be loaded
+[usb|script] pm3 --> hw version
+
+ [ Proxmark3 ]
+
+ [ Client ]
+  Iceman/master/v4.21611-suspect 2026-04-14 10:19:30 389522379
+  Compiler.................. MinGW-w64 16.2.0
+  Platform.................. Windows (64b) / x86_64
+  Readline support.......... present
+  QT GUI support............ absent
+  Native BT support......... absent
+  Python script support..... present ( 3.14.7 )
+  Python SWIG support....... present
+  Lua script support........ present ( 5.4.7 )
+  Lua SWIG support.......... present
+
+ [ Model ]
+

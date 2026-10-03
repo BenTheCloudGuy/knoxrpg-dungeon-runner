@@ -1,0 +1,38 @@
+# Kyber Crystal Values  (EM4305 chips running EM4100 emulation)
+# HOW TO CHANGE A CRYSTAL'S VALUE
+#  Proxmark3 on COM6.  Each crystal has its OWN login password (a 4-char ASCII word).
+#   The prop's color is decided by the 32-bit EM4100 tag ID (0x00000Cxx).
+#   On the EM4305 that ID is stored across words 5 and 6:
+#       word 5 = 000001FF        (constant for every 0x00000Cxx ID)
+#       word 6 = per-ID value     (EM4100 stream, bit-reversed - see table)
+#   Procedure (recover this crystal's password first, then retry word 6 until verified):
+#       lf em 4x05 chk                                    # -> THIS crystal's password <PW>
+#       lf em 4x05 write -a 5 -d 000001FF -p <PW>
+#       lf em 4x05 write -a 6 -d <WORD6>  -p <PW>         # repeat until "written and verified"
+#       lf em 410x reader                                 # confirm: EM 410x ID 0000000Cxx
+#   Coupling on the PM3 Easy is marginal: seat the crystal flat/centered; a coin or
+#   spoon on the antenna re-tunes it (watch "lf tune" voltage). Writes need retries.
+#   If a crystal stops broadcasting, restore config:
+#       lf em 4x05 write -a 4 -d 0001805F -p <PW>
+#
+# WORD-6 LOOKUP (0x00000C00 - 0x00000C0F), verified against live reads:
+#   C00 18003000   C04 0C803000   C08 14403000   C0C 00C03000
+#   C01 5E003000   C05 4A803000   C09 52403000   C0D 46C03000
+#   C02 3D003000   C06 29803000   C0A 31403000   C0E 25C03000
+#   C03 7B003000   C07 6F803000   C0B 77403000   C0F 63C03000
+#
+| RFID       | COLOR (NOTE)           | PASSWORD | IDEAS |
+| ---------- | ---------------------- | -------- | --- |
+| 0x00000C09 | RED (EVOCATION)        |          |  |
+| 0x00000C05 | PINK (UNKNOWN)         | 444E4752 |  |
+| 0x00000C04 | GREEN (CLEAR)          |          |  | 
+| 0x11000C03 | NECROTIC (UNKNOWN)     |          |  |
+| 0x11000C33 | BLACK (NECROMANCY)     |          |  |
+| 0x11000C00 | SILVER (UNKNOWN)       | 44B44CAE |  |
+| 0x00000C00 | WHITE (THICK)          | 50524F58 |  |
+| 0x00000C0E | BLUE (CLEAN)           |          |  |
+| 0x11000C06 | WROUGHT IRON (UNKNOWN) |          |  |
+| 0x00000C07 | PURPLE (OG)            |          |  |
+| 0x00000C0F | COPPER (UNKNOWN)       | 65857569 |  |
+| 0x11000C0B | GOLD (THIN)            | 7B3D5C48 |  |
+| 0x11000C0A | YELLOW (UNKNOWN)       | CCCCCCCC |  |

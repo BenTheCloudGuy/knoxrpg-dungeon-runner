@@ -1,0 +1,19 @@
+[+] loaded `C:/Users/benthebuilder/.working/knoxrpg-dungeon-runner/.proxmark3/preferences.json`
+[+] execute command from commandline: lf em 410x clone -h
+
+[+] Using UART port COM6
+[+] Communicating with PM3 over USB-CDC
+[usb|script] pm3 --> lf em 410x clone -h
+
+clone a EM410x ID to a T55x7, Q5/T5555, EM4305/4469, Hitag S/8211/8268/8310 or Hitag æ/8265 tag.
+
+usage:
+    lf em 410x cloneoptions:
+
+examples/notes:
+    lf em 410x clone --id 0F0368568B             -> encode for T55x7 tag
+    lf em 410x clone --id 0F0368568B --q5        -> encode for Q5/T5555 tag
+    lf em 410x clone --id 0F0368568B --em        -> encode for EM4305/4469
+    lf em 410x clone --id 0F0368568B --hts       -> encode for Hitag S/8211/8268/8310
+    lf em 410x clone --id 0F0368568B --htu       -> encode for Hitag æ/8265 tag
+

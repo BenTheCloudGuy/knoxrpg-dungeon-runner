@@ -1,0 +1,427 @@
+/* ============================================================
+   The Vault of the Starving Mind - A5 Booklet PROOF stylesheet
+   Page: 5.5in wide x 8.5in tall, portrait (the GM's "A5").
+   Printed front-and-back as a booklet; each area is a spread:
+     LEFT page  = full-page area map
+     RIGHT page = that area's room-by-room data
+   Derived from the module print.css look (parchment, red headers,
+   cream read-aloud boxes, GM-note callouts) but re-tuned smaller
+   for the half-size page. Proof only; does NOT touch print.css.
+   ============================================================ */
+
+/* ---- Page ---- */
+@page {
+  size: 5.5in 8.5in;   /* portrait A5-ish, per GM's confirmed inches */
+  margin: 0.3in;
+}
+
+/* ---- Palette (identical to the module) ---- */
+:root {
+  --ink:        #1b1510;
+  --ink-soft:   #46382a;
+  --red:        #58180d;
+  --red-2:      #7a2411;
+  --gold:       #c9ad6f;
+  --rule:       #c2b08f;
+
+  --parchment:  #fbf4e3;
+  --read-bg:    #f6ead0;
+  --read-bar:   #9c7a3c;
+  --read-edge:  #d8c08a;
+  --read-ink:   #2b2015;
+
+  --gm-bg:      #eceadd;
+  --gm-edge:    #c4bda4;
+
+  --table-head: #e7dcbf;
+  --table-alt:  #f4ecd9;
+  --code-bg:    #efe8d6;
+}
+
+/* ---- Font stacks (Windows-installed only) ---- */
+:root {
+  --serif: "Book Antiqua", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
+  --sans:  "Segoe UI", "Segoe UI Semibold", Tahoma, "Helvetica Neue", Arial, sans-serif;
+  --mono:  "Consolas", "Lucida Console", "Courier New", monospace;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+body {
+  font-family: var(--serif);
+  color: var(--ink);
+  background: var(--parchment);
+  font-size: 9pt;          /* smaller than the Letter guide (10.5pt) for the half page */
+  line-height: 1.34;
+  margin: 0;
+  padding: 0.22in;         /* parchment band inside the page margin */
+  text-rendering: optimizeLegibility;
+}
+
+p { margin: 0.4em 0; text-align: left; }
+
+/* ============================================================
+   HEADINGS - module hierarchy, scaled for A5
+   ============================================================ */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--serif);
+  color: var(--red);
+  line-height: 1.12;
+  margin: 0.6em 0 0.28em;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 17pt;
+  font-variant: small-caps;
+  letter-spacing: 0.02em;
+  text-align: left;
+  padding-bottom: 0.1em;
+  margin-top: 0;
+  border-bottom: 2.5px solid var(--red);
+  box-shadow: 0 2px 0 0 var(--gold);
+  page-break-after: avoid;
+}
+
+h2 {
+  font-size: 13pt;
+  font-variant: small-caps;
+  letter-spacing: 0.01em;
+  color: var(--red);
+  padding-bottom: 0.06em;
+  border-bottom: 1.25px solid var(--gold);
+  page-break-after: avoid;
+}
+
+h3 {
+  font-size: 11.5pt;
+  color: var(--red-2);
+  page-break-after: avoid;
+}
+
+h4 {
+  font-size: 10pt;
+  color: var(--red-2);
+  page-break-after: avoid;
+}
+h5 {
+  font-size: 9pt;
+  font-variant: small-caps;
+  letter-spacing: 0.03em;
+  color: var(--ink-soft);
+  page-break-after: avoid;
+}
+h6 {
+  font-size: 8.5pt;
+  font-style: italic;
+  color: var(--ink-soft);
+  page-break-after: avoid;
+}
+
+/* ============================================================
+   READ-ALOUD BOXED TEXT - never splits across a page
+   ============================================================ */
+blockquote:not(.gmnote) {
+  margin: 0.6em 0.1em;
+  padding: 0.5em 0.85em 0.5em 0.9em;
+  background: var(--read-bg);
+  border: 1px solid var(--read-edge);
+  border-left: 4px solid var(--read-bar);
+  color: var(--read-ink);
+  font-style: italic;
+  font-size: 9pt;
+  line-height: 1.34;
+  page-break-inside: avoid;
+  break-inside: avoid;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+blockquote:not(.gmnote) p { margin: 0.28em 0; text-align: left; }
+blockquote:not(.gmnote) p:first-child { margin-top: 0; }
+blockquote:not(.gmnote) p:last-child { margin-bottom: 0; }
+blockquote:not(.gmnote) strong { font-style: normal; color: var(--red-2); }
+
+/* ============================================================
+   GM-ONLY NOTE - never splits across a page
+   ============================================================ */
+.gmnote {
+  margin: 0.6em 0.1em;
+  padding: 0 0 0.1em 0;
+  background: var(--gm-bg);
+  border: 1px solid var(--gm-edge);
+  border-left: 4px solid var(--red);
+  page-break-inside: avoid;
+  break-inside: avoid;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+p.gmnote-title {
+  margin: 0;
+  padding: 2px 9px 3px;
+  background: var(--red);
+  color: #f4e9cf;
+  font-family: var(--sans);
+  font-weight: 700;
+  font-size: 7.5pt;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  font-style: normal;
+}
+.gmnote p { margin: 0.35em 0; padding: 0 9px; font-size: 8.5pt; }
+.gmnote p.gmnote-title { padding: 2px 9px 3px; }
+.gmnote ul, .gmnote ol { margin: 0.28em 0 0.28em 1.3em; padding-left: 0.5em; }
+.gmnote > *:last-child { margin-bottom: 0.4em; }
+
+/* ============================================================
+   STAT-BLOCK styling - never splits across a page
+   ============================================================ */
+strong { font-weight: 700; color: var(--ink); }
+strong em, em strong { color: var(--red-2); font-style: italic; font-weight: 700; }
+
+.statblock {
+  background: #f7efda;
+  border: 1px solid var(--read-edge);
+  border-top: 3px solid var(--red);
+  padding: 0.4em 0.65em;
+  margin: 0.55em 0;
+  font-size: 8pt;
+  line-height: 1.24;
+  page-break-inside: avoid;
+  break-inside: avoid;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+.statblock p { margin: 0.1em 0; }
+.statblock ul, .statblock ol { margin: 0.12em 0 0.12em 1.1em; }
+.statblock li { margin: 0.05em 0; }
+.statblock table { font-size: 7.3pt; margin: 0.3em 0; }
+
+/* ============================================================
+   TABLES - never split across a page
+   ============================================================ */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0.5em 0;
+  font-size: 8pt;
+  page-break-inside: avoid;
+  break-inside: avoid;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+caption {
+  caption-side: top;
+  font-variant: small-caps;
+  letter-spacing: 0.03em;
+  color: var(--red);
+  font-weight: 700;
+  padding-bottom: 0.18em;
+}
+th, td {
+  border: 1px solid var(--rule);
+  padding: 3px 5px;
+  text-align: left;
+  vertical-align: top;
+}
+th {
+  background: var(--table-head);
+  font-family: var(--sans);
+  font-size: 7.5pt;
+  font-weight: 700;
+  color: var(--red);
+  letter-spacing: 0.02em;
+}
+tbody tr:nth-child(even) td { background: var(--table-alt); }
+
+/* ============================================================
+   IMAGES - never split; full-page map utility for the LEFT page
+   ============================================================ */
+img {
+  max-width: 100%;
+  max-height: 6.4in;
+  height: auto;
+  width: auto;
+  display: block;
+  margin: 0.5em auto;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+/* A full-bleed-ish area map that fills its own page (the left page of a
+   spread). It sits alone on the page thanks to .page-break after it. */
+.area-map {
+  display: block;
+  /* Bleed ~0.22in into each page margin so the map grows wider than the text
+     column, which (aspect preserved) also makes it proportionally taller and
+     kills the dead space below width-bound portrait maps. ~0.08in true margin
+     remains on each side. No crop: the whole original photo still shows. */
+  width: calc(100% + 0.44in);
+  max-width: calc(100% + 0.44in);
+  height: auto;
+  max-height: 7.5in;      /* fill almost the whole page height; caption fits above */
+  margin: 0 -0.22in;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+/* First dungeon map page carries the Part 4 intro on top, so its map is a
+   touch shorter to keep intro + map on one page (no wasted divider page). */
+.area-map-intro {
+  max-height: 6in;
+}
+
+/* One-line Part 4 intro sentence that sits atop the first dungeon map page. */
+.dungeon-intro {
+  font-style: italic;
+  font-size: 9pt;
+  line-height: 1.3;
+  margin: 0.2em 0 0.4em;
+  color: var(--ink-soft);
+}
+
+/* The small area name printed above each full-page map. */
+.map-caption {
+  text-align: center;
+  font-family: var(--serif);
+  font-variant: small-caps;
+  letter-spacing: 0.04em;
+  color: var(--red-2);
+  font-size: 12pt;
+  font-weight: 700;
+  margin: 0 0 0.25em;
+  padding-bottom: 0.15em;
+  border-bottom: 1.25px solid var(--gold);
+  page-break-after: avoid;
+}
+
+/* The "Part N" eyebrow above the three reference section titles. */
+.part-label {
+  font-family: var(--sans);
+  font-variant: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 8pt;
+  font-weight: 700;
+  color: var(--red-2);
+  margin: 0 0 0.1em;
+  page-break-after: avoid;
+}
+
+/* Keep a grouped label + its box from splitting (belt and suspenders). */
+.keep-together { page-break-inside: avoid; break-inside: avoid; }
+
+/* Title page: centered opening spread. */
+.titlepage { text-align: center; }
+.titlepage img { margin: 0.4em auto; max-height: 3.2in; }
+.title-sub {
+  font-variant: small-caps;
+  color: var(--red-2);
+  font-size: 11pt;
+  letter-spacing: 0.03em;
+  margin: 0.2em 0 0.6em;
+}
+
+/* ============================================================
+   PAGE-BREAK HELPERS
+   .page-break forces following content onto a fresh page so the
+   area map is its own page and the room data starts on the next.
+   ============================================================ */
+.page-break { page-break-after: always; break-after: page; }
+.page-break-before { page-break-before: always; break-before: page; }
+
+/* ------------------------------------------------------------
+   BOOKLET IMPOSITION
+   Each area map fills its own page and MUST sit on a LEFT (even)
+   page so it faces its room data on the next (RIGHT/odd) page.
+   Page 1 is the first RIGHT page, so LEFT pages are EVEN numbers.
+   Edge/Chromium headless does NOT honor `break-before: left`, so
+   build-a5.mjs computes page parity and injects a .blankpage
+   before any map that would otherwise land on a RIGHT page.
+   ------------------------------------------------------------ */
+.map-page {
+  page-break-after: always;
+  break-after: page;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+/* A genuinely blank filler page: parchment only. No caption, heading,
+   page number, or any other content is ever placed on it. */
+.blankpage {
+  page-break-after: always;
+  break-after: page;
+  break-inside: avoid;
+  min-height: 0.1in;
+}
+
+/* ============================================================
+   DECORATIVE RULE
+   ============================================================ */
+hr {
+  border: none;
+  height: 0;
+  margin: 0.9em auto;
+  width: 82%;
+  border-top: 1.5px solid var(--red);
+  box-shadow: 0 2px 0 -1px var(--gold);
+}
+
+/* ============================================================
+   CODE
+   ============================================================ */
+code {
+  font-family: var(--mono);
+  font-size: 8pt;
+  background: var(--code-bg);
+  padding: 0 3px;
+  border-radius: 2px;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+pre {
+  background: var(--code-bg);
+  padding: 0.5em 0.7em;
+  border: 1px solid var(--rule);
+  border-left: 4px solid var(--gold);
+  font-size: 8pt;
+  line-height: 1.32;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  page-break-inside: avoid;
+  break-inside: avoid;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+pre code { background: transparent; padding: 0; }
+
+/* ============================================================
+   LISTS
+   ============================================================ */
+ul, ol { margin: 0.3em 0 0.45em 1.2em; padding-left: 0.35em; }
+li { margin: 0.15em 0; }
+li p { margin: 0.18em 0; text-align: left; }
+
+ul { list-style-type: disc; }
+ul ul { list-style-type: circle; margin-left: 1.4em; }
+ul ul ul { list-style-type: square; margin-left: 1.5em; }
+
+ol { list-style-type: decimal; }
+ol ol { list-style-type: lower-alpha; margin-left: 1.4em; }
+ol ol ol { list-style-type: lower-roman; margin-left: 1.5em; }
+
+ul ol { margin-left: 1.4em; }
+ol ul { list-style-type: circle; margin-left: 1.4em; }
+
+a { color: var(--red-2); text-decoration: none; }
+
+/* ============================================================
+   PRINT SAFETY - keep blocks whole, headings with their content
+   ============================================================ */
+blockquote, .gmnote, table, figure, pre, .statblock { page-break-inside: avoid; break-inside: avoid; }
+h1, h2, h3, h4, h5, h6 { page-break-after: avoid; }
+img, tr, th, td { page-break-inside: avoid; break-inside: avoid; }

@@ -34,7 +34,7 @@ This is a content workspace for **The Vault of the Starving Mind** — a lethal 
 - Markdown only — no code, no app build
 - Filename convention: match the existing convention (e.g. `ArtificersLair.md`)
 - Room files live in `rooms/`, props in `props/`, handouts in `handouts/`, art refs in `images/rooms/`
-- The campaign-level facts (HP cap of 40, level 3 start, 7 Crystal Shards exit-lock puzzle, etc.) live in [README.md](README.md) and [prizes.md](prizes.md). Treat those as canon.
+- The campaign-level facts (HP cap of 40, level 3 start, 8 Crystal Shards exit-lock puzzle, etc.) live in [README.md](README.md) and [prizes.md](prizes.md). Treat those as canon.
 
 ## Writing Style (hard rules)
 
@@ -52,7 +52,7 @@ This is a content workspace for **The Vault of the Starving Mind** — a lethal 
 - Stat blocks follow D&D 5e 2024 Monster Manual format.
 - Room treasure may only list items that exist under [items/](items/) (weapons, armor, treasure and adventuring gear, magic-items decks, tokens). Never invent treasure. Verify each entry against a real item file before writing it.
 - Spell scroll cards exist for every useful spell from Cantrip through Level 5 (the card files are a known gap to be filled later, but the scrolls are canon and may be referenced by name in treasure). Named scrolls that fit the dungeon (e.g. Detect Magic, Feather Fall, Lesser Restoration, Find Traps, Knock) are valid loot.
-- The 7 Crystal Shards are exit-lock puzzle props: all seven open the escape portal, and crystals also gate color-locked doors. They are not tied to prizes. Real-world prizes are prize Item Cards, found in the dungeon or bought from Treasure Goblins.
+- The 8 Crystal Shards are exit-lock puzzle props: all eight open the escape portal, and crystals also gate color-locked doors. They are not tied to prizes. Real-world prizes are prize Item Cards, found in the dungeon or bought from Treasure Goblins.
 - Don't guess campaign canon. If the README, prizes, or thoughts files don't say it, ask the user.
 
 ## Page & Room Format (canon)

@@ -4,13 +4,16 @@ category: Magic Item
 rarity: Uncommon
 type: WondrousItem
 requires_attunement: Yes
+cost: 100 GP
 source: free-rules, pg. 156
-image: https://cloudgeekcusgaming01.blob.core.windows.net/images/magic-items/4591.jpeg
+image: ../images/boots-of-the-winterlands.png
 ---
+
 
 # Boots of the Winterlands
 
-![Boots of the Winterlands](https://cloudgeekcusgaming01.blob.core.windows.net/images/magic-items/4591.jpeg)
+![Boots of the Winterlands](../images/boots-of-the-winterlands.png)
+
 
 Wondrous Item, uncommon (requires attunement)
  

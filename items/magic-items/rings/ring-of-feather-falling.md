@@ -4,13 +4,16 @@ category: Magic Item
 rarity: Rare
 type: Ring
 requires_attunement: Yes
+cost: 150 GP
 source: free-rules, pg. 191
-image: https://cloudgeekcusgaming01.blob.core.windows.net/images/magic-items/4721.jpeg
+image: ../images/ring-of-feather-falling.png
 ---
+
 
 # Ring of Feather Falling
 
-![Ring of Feather Falling](https://cloudgeekcusgaming01.blob.core.windows.net/images/magic-items/4721.jpeg)
+![Ring of Feather Falling](../images/ring-of-feather-falling.png)
+
 
 Ring, rare (requires attunement)
  

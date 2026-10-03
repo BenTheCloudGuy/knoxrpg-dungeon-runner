@@ -4,10 +4,14 @@ category: Magic Item
 rarity: Uncommon
 type: WondrousItem
 requires_attunement: Yes
+cost: 125 GP
 source: free-rules, pg. 172
+image: ../images/gloves-of-swimming-and-climbing.png
 ---
 
 # Gloves of Swimming and Climbing
+
+![Gloves of Swimming and Climbing](../images/gloves-of-swimming-and-climbing.png)
 
 Wondrous Item, uncommon (requires attunement)
  

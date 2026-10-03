@@ -4,13 +4,14 @@ category: Magic Item
 rarity: Uncommon
 type: WondrousItem
 requires_attunement: Yes
+cost: 250 GP
 source: free-rules, pg. 159
-image: https://cloudgeekcusgaming01.blob.core.windows.net/images/magic-items/4607.jpeg
+image: ../images/cloak-of-protection.png
 ---
 
 # Cloak of Protection
 
-![Cloak of Protection](https://cloudgeekcusgaming01.blob.core.windows.net/images/magic-items/4607.jpeg)
+![Cloak of Protection](../images/cloak-of-protection.png)
 
 Wondrous Item, uncommon (requires attunement)
  

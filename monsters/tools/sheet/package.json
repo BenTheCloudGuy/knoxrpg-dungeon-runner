@@ -1,0 +1,12 @@
+{
+  "name": "monster-sheet-tools",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "art": "node art-gen.mjs",
+    "render-all": "node render-all.mjs",
+    "verify": "node verify-pdfs.mjs",
+    "build": "npm run art && npm run render-all"
+  }
+}

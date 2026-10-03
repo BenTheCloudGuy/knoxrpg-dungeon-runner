@@ -1,0 +1,20 @@
+[+] loaded `C:/Users/benthebuilder/.working/knoxrpg-dungeon-runner/.proxmark3/preferences.json`
+[+] execute command from commandline: lf em 4x05 read -a 4; lf em 4x05 read -a 5; lf em 4x05 read -a 6; lf em 4x05 read -a 7; lf em 4x05 read -a 8
+
+[+] Using UART port COM6
+[+] Communicating with PM3 over USB-CDC
+[usb|script] pm3 --> lf em 4x05 read -a 4
+[=] Reading address 04
+[!!] Tag denied Read operation
+[usb|script] pm3 --> lf em 4x05 read -a 5
+[=] Reading address 05
+[!!] Tag denied Read operation
+[usb|script] pm3 --> lf em 4x05 read -a 6
+[=] Reading address 06
+[!] No answer from tag
+[usb|script] pm3 --> lf em 4x05 read -a 7
+[=] Reading address 07
+[!!] Tag denied Read operation
+[usb|script] pm3 --> lf em 4x05 read -a 8
+[=] Reading address 08
+[!] No answer from tag

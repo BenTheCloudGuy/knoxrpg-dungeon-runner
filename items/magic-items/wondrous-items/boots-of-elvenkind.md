@@ -4,13 +4,14 @@ category: Magic Item
 rarity: Uncommon
 type: WondrousItem
 requires_attunement: No
+cost: 125 GP
 source: free-rules, pg. 155
-image: https://cloudgeekcusgaming01.blob.core.windows.net/images/magic-items/4587.jpeg
+image: ../images/boots-of-elvenkind.png
 ---
 
 # Boots of Elvenkind
 
-![Boots of Elvenkind](https://cloudgeekcusgaming01.blob.core.windows.net/images/magic-items/4587.jpeg)
+![Boots of Elvenkind](../images/boots-of-elvenkind.png)
 
 Wondrous Item, uncommon 
  

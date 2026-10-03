@@ -1,0 +1,281 @@
+[
+  {
+    "slug": "ashari-fire-elemental",
+    "name": "Ashari Fire Elemental",
+    "pdf": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\ashari-fire-elemental\\Ashari Fire Elemental.pdf",
+    "preview": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\ashari-fire-elemental\\preview.png",
+    "art": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\art\\ashari-fire-elemental.png",
+    "pages": 1,
+    "overflow": []
+  },
+  {
+    "slug": "baron-kepmak",
+    "name": "Baron Kepmak",
+    "pdf": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\baron-kepmak\\Baron Kepmak.pdf",
+    "preview": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\baron-kepmak\\preview.png",
+    "art": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\art\\baron-kepmak.png",
+    "pages": 1,
+    "overflow": []
+  },
+  {
+    "slug": "berhan-voss",
+    "name": "Berhan Voss, the Alchemist (Mutant)",
+    "pdf": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\berhan-voss\\Berhan Voss, the Alchemist (Mutant).pdf",
+    "preview": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\berhan-voss\\preview.png",
+    "art": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\art\\berhan-voss.png",
+    "pages": 1,
+    "overflow": []
+  },
+  {
+    "slug": "bombardier-goblin",
+    "name": "Bombardier Goblin (x1)",
+    "pdf": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\bombardier-goblin\\Bombardier Goblin (x1).pdf",
+    "preview": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\bombardier-goblin\\preview.png",
+    "art": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\art\\bombardier-goblin.png",
+    "pages": 1,
+    "overflow": []
+  },
+  {
+    "slug": "caster-goblin",
+    "name": "Caster Goblin (x1)",
+    "pdf": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\caster-goblin\\Caster Goblin (x1).pdf",
+    "preview": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\caster-goblin\\preview.png",
+    "art": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\art\\caster-goblin.png",
+    "pages": 1,
+    "overflow": []
+  },
+  {
+    "slug": "cinderslag-elemental",
+    "name": "Cinderslag Elemental",
+    "pdf": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\cinderslag-elemental\\Cinderslag Elemental.pdf",
+    "preview": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\cinderslag-elemental\\preview.png",
+    "art": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\art\\cinderslag-elemental.png",
+    "pages": 1,
+    "overflow": []
+  },
+  {
+    "slug": "constrictor-snake",
+    "name": "Large Snake (Constrictor Snake Chassis)",
+    "pdf": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\constrictor-snake\\Large Snake (Constrictor Snake Chassis).pdf",
+    "preview": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\constrictor-snake\\preview.png",
+    "art": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\art\\constrictor-snake.png",
+    "pages": 1,
+    "overflow": []
+  },
+  {
+    "slug": "demonfeed-spider",
+    "name": "Demonfeed Spider",
+    "pdf": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\demonfeed-spider\\Demonfeed Spider.pdf",
+    "preview": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\demonfeed-spider\\preview.png",
+    "art": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\art\\demonfeed-spider.png",
+    "pages": 1,
+    "overflow": []
+  },
+  {
+    "slug": "drider-priestess",
+    "name": "Drider Priestess of Lloth (Boss)",
+    "pdf": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\drider-priestess\\Drider Priestess of Lloth (Boss).pdf",
+    "preview": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\drider-priestess\\preview.png",
+    "art": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\art\\drider-priestess.png",
+    "pages": 1,
+    "overflow": []
+  },
+  {
+    "slug": "dwarven-iron-golem",
+    "name": "Dwarven Iron Golem",
+    "pdf": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\dwarven-iron-golem\\Dwarven Iron Golem.pdf",
+    "preview": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\dwarven-iron-golem\\preview.png",
+    "art": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\art\\dwarven-iron-golem.png",
+    "pages": 1,
+    "overflow": []
+  },
+  {
+    "slug": "feywild-guard",
+    "name": "Feywild Guard (x3)",
+    "pdf": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\feywild-guard\\Feywild Guard (x3).pdf",
+    "preview": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\feywild-guard\\preview.png",
+    "art": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\art\\feywild-guard.png",
+    "pages": 1,
+    "overflow": []
+  },
+  {
+    "slug": "flying-goblin",
+    "name": "Flying Goblin",
+    "pdf": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\flying-goblin\\Flying Goblin.pdf",
+    "preview": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\flying-goblin\\preview.png",
+    "art": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\art\\flying-goblin.png",
+    "pages": 1,
+    "overflow": []
+  },
+  {
+    "slug": "giant-slime",
+    "name": "Giant Slime (Mini-Boss)",
+    "pdf": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\giant-slime\\Giant Slime (Mini-Boss).pdf",
+    "preview": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\giant-slime\\preview.png",
+    "art": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\art\\giant-slime.png",
+    "pages": 1,
+    "overflow": []
+  },
+  {
+    "slug": "giant-spider",
+    "name": "Giant Spider",
+    "pdf": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\giant-spider\\Giant Spider.pdf",
+    "preview": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\giant-spider\\preview.png",
+    "art": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\art\\giant-spider.png",
+    "pages": 1,
+    "overflow": []
+  },
+  {
+    "slug": "goblin-artificer",
+    "name": "Goblin Artificer (x1, Goblin Camp)",
+    "pdf": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\goblin-artificer\\Goblin Artificer (x1, Goblin Camp).pdf",
+    "preview": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\goblin-artificer\\preview.png",
+    "art": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\art\\goblin-artificer.png",
+    "pages": 1,
+    "overflow": []
+  },
+  {
+    "slug": "goblin-dog",
+    "name": "Goblin Dog (x2, patrol and Goblin Camp)",
+    "pdf": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\goblin-dog\\Goblin Dog (x2, patrol and Goblin Camp).pdf",
+    "preview": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\goblin-dog\\preview.png",
+    "art": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\art\\goblin-dog.png",
+    "pages": 1,
+    "overflow": []
+  },
+  {
+    "slug": "goblin-shaman",
+    "name": "Shaman Goblin / Medicine Man (Healer) (x1, Goblin Camp)",
+    "pdf": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\goblin-shaman\\Shaman Goblin Medicine Man (Healer) (x1, Goblin Camp).pdf",
+    "preview": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\goblin-shaman\\preview.png",
+    "art": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\art\\goblin-shaman.png",
+    "pages": 1,
+    "overflow": []
+  },
+  {
+    "slug": "goblin-warrior",
+    "name": "Goblin Warrior (x15)",
+    "pdf": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\goblin-warrior\\Goblin Warrior (x15).pdf",
+    "preview": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\goblin-warrior\\preview.png",
+    "art": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\art\\goblin-warrior.png",
+    "pages": 1,
+    "overflow": []
+  },
+  {
+    "slug": "green-slaad",
+    "name": "Green Slaad",
+    "pdf": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\green-slaad\\Green Slaad.pdf",
+    "preview": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\green-slaad\\preview.png",
+    "art": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\art\\green-slaad.png",
+    "pages": 1,
+    "overflow": []
+  },
+  {
+    "slug": "hob-gob",
+    "name": "Hob Gob, the Goblin King (Boss)",
+    "pdf": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\hob-gob\\Hob Gob, the Goblin King (Boss).pdf",
+    "preview": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\hob-gob\\preview.png",
+    "art": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\art\\hob-gob.png",
+    "pages": 1,
+    "overflow": []
+  },
+  {
+    "slug": "lizard-mage",
+    "name": "Lizard Mage",
+    "pdf": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\lizard-mage\\Lizard Mage.pdf",
+    "preview": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\lizard-mage\\preview.png",
+    "art": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\art\\lizard-mage.png",
+    "pages": 1,
+    "overflow": []
+  },
+  {
+    "slug": "lizard-shaman",
+    "name": "Lizard Shaman",
+    "pdf": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\lizard-shaman\\Lizard Shaman.pdf",
+    "preview": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\lizard-shaman\\preview.png",
+    "art": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\art\\lizard-shaman.png",
+    "pages": 1,
+    "overflow": []
+  },
+  {
+    "slug": "lizardfolk-fighter",
+    "name": "Lizardfolk Fighter",
+    "pdf": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\lizardfolk-fighter\\Lizardfolk Fighter.pdf",
+    "preview": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\lizardfolk-fighter\\preview.png",
+    "art": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\art\\lizardfolk-fighter.png",
+    "pages": 1,
+    "overflow": []
+  },
+  {
+    "slug": "magma-elemental",
+    "name": "Magma Elemental (Fire Elemental Chassis)",
+    "pdf": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\magma-elemental\\Magma Elemental (Fire Elemental Chassis).pdf",
+    "preview": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\magma-elemental\\preview.png",
+    "art": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\art\\magma-elemental.png",
+    "pages": 1,
+    "overflow": []
+  },
+  {
+    "slug": "magma-landshark",
+    "name": "Magma Landshark",
+    "pdf": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\magma-landshark\\Magma Landshark.pdf",
+    "preview": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\magma-landshark\\preview.png",
+    "art": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\art\\magma-landshark.png",
+    "pages": 1,
+    "overflow": []
+  },
+  {
+    "slug": "sahuagin-baron",
+    "name": "Sahuagin Baron",
+    "pdf": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\sahuagin-baron\\Sahuagin Baron.pdf",
+    "preview": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\sahuagin-baron\\preview.png",
+    "art": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\art\\sahuagin-baron.png",
+    "pages": 1,
+    "overflow": []
+  },
+  {
+    "slug": "skeleton",
+    "name": "Skeleton",
+    "pdf": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\skeleton\\Skeleton.pdf",
+    "preview": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\skeleton\\preview.png",
+    "art": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\art\\skeleton.png",
+    "pages": 1,
+    "overflow": []
+  },
+  {
+    "slug": "statue",
+    "name": "The Statue (Boss)",
+    "pdf": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\statue\\The Statue (Boss).pdf",
+    "preview": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\statue\\preview.png",
+    "art": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\art\\statue.png",
+    "pages": 1,
+    "overflow": []
+  },
+  {
+    "slug": "vos-sykriss",
+    "name": "Vos'sykriss, the Serpentfolk",
+    "pdf": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\vos-sykriss\\Vos'sykriss, the Serpentfolk.pdf",
+    "preview": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\vos-sykriss\\preview.png",
+    "art": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\art\\vos-sykriss.png",
+    "pages": 1,
+    "overflow": []
+  },
+  {
+    "slug": "wraith",
+    "name": "Wraith",
+    "pdf": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\wraith\\Wraith.pdf",
+    "preview": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\wraith\\preview.png",
+    "art": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\art\\wraith.png",
+    "pages": 1,
+    "overflow": []
+  },
+  {
+    "slug": "zombie",
+    "name": "Zombie",
+    "pdf": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\zombie\\Zombie.pdf",
+    "preview": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\sheets\\zombie\\preview.png",
+    "art": "C:\\Users\\benthebuilder\\.working\\knoxrpg-dungeon-runner\\monsters\\art\\zombie.png",
+    "pages": 1,
+    "overflow": []
+  }
+]

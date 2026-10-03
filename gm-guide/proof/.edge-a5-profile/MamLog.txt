@@ -1,0 +1,165 @@
+[2026-10-03T04:55:49.900Z] [INFO] ========================================================================================================================
+[2026-10-03T04:55:49.900Z] [INFO] Initializing MAM Client.
+App: com.microsoft.edge 154.0.4258.37
+SDK: 2.1.367.0
+OS: windows 10.0.26200.9457
+DeviceType: Desktop
+Manufacturer: Microsoft Corporation
+Model: Virtual Machine
+Telemetry: yes
+Managed device support: enabled
+[2026-10-03T04:55:49.900Z] [INFO] Telemetry session 0aaef48b-a6f7-48c2-a05a-911d319aa007.
+[2026-10-03T04:55:49.900Z] [INFO] Initializing cache (v1).
+[2026-10-03T04:55:53.886Z] [INFO] Shutting down.
+[2026-10-03T04:55:53.886Z] [INFO] Stopping the task scheduler and canceling any outstanding work items...
+[2026-10-03T04:55:53.886Z] [INFO] Task scheduler has stopped, and all work has been canceled.
+[2026-10-03T05:01:02.284Z] [INFO] ========================================================================================================================
+[2026-10-03T05:01:02.285Z] [INFO] Initializing MAM Client.
+App: com.microsoft.edge 154.0.4258.37
+SDK: 2.1.367.0
+OS: windows 10.0.26200.9457
+DeviceType: Desktop
+Manufacturer: Microsoft Corporation
+Model: Virtual Machine
+Telemetry: yes
+Managed device support: enabled
+[2026-10-03T05:01:02.285Z] [INFO] Telemetry session 84176670-e4ae-477d-ba8e-7683e0f11d67.
+[2026-10-03T05:01:02.285Z] [INFO] Reinitialized cache (v1).
+[2026-10-03T05:01:06.338Z] [INFO] Shutting down.
+[2026-10-03T05:01:06.338Z] [INFO] Stopping the task scheduler and canceling any outstanding work items...
+[2026-10-03T05:01:06.338Z] [INFO] Task scheduler has stopped, and all work has been canceled.
+[2026-10-03T05:05:29.730Z] [INFO] ========================================================================================================================
+[2026-10-03T05:05:29.730Z] [INFO] Initializing MAM Client.
+App: com.microsoft.edge 154.0.4258.37
+SDK: 2.1.367.0
+OS: windows 10.0.26200.9457
+DeviceType: Desktop
+Manufacturer: Microsoft Corporation
+Model: Virtual Machine
+Telemetry: yes
+Managed device support: enabled
+[2026-10-03T05:05:29.730Z] [INFO] Telemetry session 7048fcf1-855a-4c45-ae35-3c8d888478b3.
+[2026-10-03T05:05:29.731Z] [INFO] Reinitialized cache (v1).
+[2026-10-03T05:05:33.554Z] [INFO] Shutting down.
+[2026-10-03T05:05:33.554Z] [INFO] Stopping the task scheduler and canceling any outstanding work items...
+[2026-10-03T05:05:33.554Z] [INFO] Task scheduler has stopped, and all work has been canceled.
+[2026-10-03T12:02:31.110Z] [INFO] ========================================================================================================================
+[2026-10-03T12:02:31.110Z] [INFO] Initializing MAM Client.
+App: com.microsoft.edge 154.0.4258.37
+SDK: 2.1.367.0
+OS: windows 10.0.26200.9457
+DeviceType: Desktop
+Manufacturer: Microsoft Corporation
+Model: Virtual Machine
+Telemetry: yes
+Managed device support: enabled
+[2026-10-03T12:02:31.110Z] [INFO] Telemetry session 72aac14b-7a0b-4461-ad1f-18bd47ba7184.
+[2026-10-03T12:02:31.110Z] [INFO] Reinitialized cache (v1).
+[2026-10-03T12:02:34.987Z] [INFO] Shutting down.
+[2026-10-03T12:02:34.987Z] [INFO] Stopping the task scheduler and canceling any outstanding work items...
+[2026-10-03T12:02:34.987Z] [INFO] Task scheduler has stopped, and all work has been canceled.
+[2026-10-03T12:16:09.630Z] [INFO] ========================================================================================================================
+[2026-10-03T12:16:09.630Z] [INFO] Initializing MAM Client.
+App: com.microsoft.edge 154.0.4258.37
+SDK: 2.1.367.0
+OS: windows 10.0.26200.9457
+DeviceType: Desktop
+Manufacturer: Microsoft Corporation
+Model: Virtual Machine
+Telemetry: yes
+Managed device support: enabled
+[2026-10-03T12:16:09.630Z] [INFO] Telemetry session fe112cce-443c-4441-a05f-31e99e027f60.
+[2026-10-03T12:16:09.631Z] [INFO] Reinitialized cache (v1).
+[2026-10-03T12:16:13.339Z] [INFO] Shutting down.
+[2026-10-03T12:16:13.339Z] [INFO] Stopping the task scheduler and canceling any outstanding work items...
+[2026-10-03T12:16:13.339Z] [INFO] Task scheduler has stopped, and all work has been canceled.
+[2026-10-03T12:18:36.443Z] [INFO] ========================================================================================================================
+[2026-10-03T12:18:36.443Z] [INFO] Initializing MAM Client.
+App: com.microsoft.edge 154.0.4258.37
+SDK: 2.1.367.0
+OS: windows 10.0.26200.9457
+DeviceType: Desktop
+Manufacturer: Microsoft Corporation
+Model: Virtual Machine
+Telemetry: yes
+Managed device support: enabled
+[2026-10-03T12:18:36.443Z] [INFO] Telemetry session a724221d-b489-4b15-bada-1f976e064aae.
+[2026-10-03T12:18:36.444Z] [INFO] Reinitialized cache (v1).
+[2026-10-03T12:18:40.241Z] [INFO] Shutting down.
+[2026-10-03T12:18:40.241Z] [INFO] Stopping the task scheduler and canceling any outstanding work items...
+[2026-10-03T12:18:40.241Z] [INFO] Task scheduler has stopped, and all work has been canceled.
+[2026-10-03T12:20:55.527Z] [INFO] ========================================================================================================================
+[2026-10-03T12:20:55.527Z] [INFO] Initializing MAM Client.
+App: com.microsoft.edge 154.0.4258.37
+SDK: 2.1.367.0
+OS: windows 10.0.26200.9457
+DeviceType: Desktop
+Manufacturer: Microsoft Corporation
+Model: Virtual Machine
+Telemetry: yes
+Managed device support: enabled
+[2026-10-03T12:20:55.528Z] [INFO] Telemetry session 6f32bc10-f402-4c1e-a30c-d7f657533e60.
+[2026-10-03T12:20:55.528Z] [INFO] Reinitialized cache (v1).
+[2026-10-03T12:21:00.016Z] [INFO] Shutting down.
+[2026-10-03T12:21:00.016Z] [INFO] Stopping the task scheduler and canceling any outstanding work items...
+[2026-10-03T12:21:00.016Z] [INFO] Task scheduler has stopped, and all work has been canceled.
+[2026-10-03T12:52:46.394Z] [INFO] ========================================================================================================================
+[2026-10-03T12:52:46.394Z] [INFO] Initializing MAM Client.
+App: com.microsoft.edge 154.0.4258.37
+SDK: 2.1.367.0
+OS: windows 10.0.26200.9457
+DeviceType: Desktop
+Manufacturer: Microsoft Corporation
+Model: Virtual Machine
+Telemetry: yes
+Managed device support: enabled
+[2026-10-03T12:52:46.395Z] [INFO] Telemetry session d6ef72ec-8f7d-444d-8c77-599b97c7fd4d.
+[2026-10-03T12:52:46.395Z] [INFO] Reinitialized cache (v1).
+[2026-10-03T12:52:47.232Z] [INFO] Shutting down.
+[2026-10-03T12:52:47.232Z] [INFO] Stopping the task scheduler and canceling any outstanding work items...
+[2026-10-03T12:52:47.232Z] [INFO] Task scheduler has stopped, and all work has been canceled.
+[2026-10-03T12:56:10.250Z] [INFO] ========================================================================================================================
+[2026-10-03T12:56:10.250Z] [INFO] Initializing MAM Client.
+App: com.microsoft.edge 154.0.4258.37
+SDK: 2.1.367.0
+OS: windows 10.0.26200.9457
+DeviceType: Desktop
+Manufacturer: Microsoft Corporation
+Model: Virtual Machine
+Telemetry: yes
+Managed device support: enabled
+[2026-10-03T12:56:10.251Z] [INFO] Telemetry session da9a1623-50d3-4779-8f65-06f43da1d6fe.
+[2026-10-03T12:56:10.251Z] [INFO] Reinitialized cache (v1).
+[2026-10-03T12:56:11.029Z] [INFO] Shutting down.
+[2026-10-03T12:56:11.029Z] [INFO] Stopping the task scheduler and canceling any outstanding work items...
+[2026-10-03T12:56:11.029Z] [INFO] Task scheduler has stopped, and all work has been canceled.
+[2026-10-03T12:59:25.161Z] [INFO] ========================================================================================================================
+[2026-10-03T12:59:25.161Z] [INFO] Initializing MAM Client.
+App: com.microsoft.edge 154.0.4258.37
+SDK: 2.1.367.0
+OS: windows 10.0.26200.9457
+DeviceType: Desktop
+Manufacturer: Microsoft Corporation
+Model: Virtual Machine
+Telemetry: yes
+Managed device support: enabled
+[2026-10-03T12:59:25.161Z] [INFO] Telemetry session 29a79105-d566-42bb-9d73-b5754b343b8d.
+[2026-10-03T12:59:25.161Z] [INFO] Reinitialized cache (v1).
+[2026-10-03T12:59:29.188Z] [INFO] Shutting down.
+[2026-10-03T12:59:29.188Z] [INFO] Stopping the task scheduler and canceling any outstanding work items...
+[2026-10-03T12:59:29.188Z] [INFO] Task scheduler has stopped, and all work has been canceled.
+[2026-10-03T12:59:31.619Z] [INFO] ========================================================================================================================
+[2026-10-03T12:59:31.619Z] [INFO] Initializing MAM Client.
+App: com.microsoft.edge 154.0.4258.37
+SDK: 2.1.367.0
+OS: windows 10.0.26200.9457
+DeviceType: Desktop
+Manufacturer: Microsoft Corporation
+Model: Virtual Machine
+Telemetry: yes
+Managed device support: enabled
+[2026-10-03T12:59:31.619Z] [INFO] Telemetry session 4658d8d9-c525-4f5f-abbf-ca8ab9a5358a.
+[2026-10-03T12:59:31.619Z] [INFO] Reinitialized cache (v1).
+[2026-10-03T12:59:35.145Z] [INFO] Shutting down.
+[2026-10-03T12:59:35.145Z] [INFO] Stopping the task scheduler and canceling any outstanding work items...
+[2026-10-03T12:59:35.145Z] [INFO] Task scheduler has stopped, and all work has been canceled.

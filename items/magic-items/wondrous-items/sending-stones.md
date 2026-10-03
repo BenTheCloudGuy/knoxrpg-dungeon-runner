@@ -4,13 +4,14 @@ category: Magic Item
 rarity: Uncommon
 type: WondrousItem
 requires_attunement: No
+cost: 100 GP
 source: wdotmm, soee, pg. 199
-image: https://cloudgeekcusgaming01.blob.core.windows.net/images/magic-items/5402.jpeg
+image: ../images/sending-stones.png
 ---
 
 # Sending Stones
 
-![Sending Stones](https://cloudgeekcusgaming01.blob.core.windows.net/images/magic-items/5402.jpeg)
+![Sending Stones](../images/sending-stones.png)
 
 Wondrous Item, uncommon 
  

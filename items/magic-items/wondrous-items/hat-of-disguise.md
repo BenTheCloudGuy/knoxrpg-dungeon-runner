@@ -4,10 +4,15 @@ category: Magic Item
 rarity: Uncommon
 type: WondrousItem
 requires_attunement: Yes
+cost: 125 GP
 source: free-rules, pg. 173
+image: ../images/hat-of-disguise.png
 ---
 
+
 # Hat of Disguise
+
+![Hat of Disguise](../images/hat-of-disguise.png)
 
 Wondrous Item, uncommon (requires attunement)
  

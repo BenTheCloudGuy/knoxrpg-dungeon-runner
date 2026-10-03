@@ -1,0 +1,7 @@
+[+] execute command from commandline: lf em 4x05 dump
+
+[+] Using UART port COM6
+[!!] Capabilities structure version sent by Proxmark3 is not the one expected by this client! (v7 != v11)
+[!!] Please flash the Proxmark3 with a version matching the client.
+[!!] ERROR: cannot communicate with the Proxmark3
+

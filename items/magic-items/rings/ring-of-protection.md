@@ -4,13 +4,14 @@ category: Magic Item
 rarity: Rare
 type: Ring
 requires_attunement: Yes
+cost: 300 GP
 source: free-rules, pg. 191
-image: https://cloudgeekcusgaming01.blob.core.windows.net/images/magic-items/4726.jpeg
+image: ../images/ring-of-protection.png
 ---
 
 # Ring of Protection
 
-![Ring of Protection](https://cloudgeekcusgaming01.blob.core.windows.net/images/magic-items/4726.jpeg)
+![Ring of Protection](../images/ring-of-protection.png)
 
 Ring, rare (requires attunement)
  

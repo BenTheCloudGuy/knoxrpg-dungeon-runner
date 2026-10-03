@@ -1,0 +1,7 @@
+[+] execute command from commandline: hw version
+
+[+] Using UART port COM6
+
+[!] ERROR: invalid serial port COM6
+
+[?] Hint: Try the shell script ``./pm3 --list` to get a list of possible serial ports

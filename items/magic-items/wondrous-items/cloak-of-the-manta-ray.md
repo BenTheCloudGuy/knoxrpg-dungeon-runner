@@ -4,13 +4,16 @@ category: Magic Item
 rarity: Uncommon
 type: WondrousItem
 requires_attunement: Yes
+cost: 100 GP
 source: free-rules, dmg, pg. 245
-image: https://cloudgeekcusgaming01.blob.core.windows.net/images/magic-items/9228409.jpeg
+image: ../images/cloak-of-the-manta-ray.png
 ---
+
 
 # Cloak of the Manta Ray
 
-![Cloak of the Manta Ray](https://cloudgeekcusgaming01.blob.core.windows.net/images/magic-items/9228409.jpeg)
+![Cloak of the Manta Ray](../images/cloak-of-the-manta-ray.png)
+
 
 Wondrous Item, uncommon (requires attunement)
  

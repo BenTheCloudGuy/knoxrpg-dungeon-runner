@@ -1,0 +1,2400 @@
+# The Vault of the Starving Mind
+
+![The Vault of the Starving Mind](images/dungeonRunnerDemo.png)
+
+### A Lethal One-Shot Dungeon for D&D 5e (2024)
+
+*You wake with nothing. No armor, no weapon, no coin. You are a prisoner of Xhal'theris, the Velvet Maw, and the only way out is through his dungeon.*
+
+**Party:** 8 to 12 players at level 3. Pregenerated characters, dice, and miniatures provided.
+**Hit Point cap:** 40. **Death:** permanent.
+**Table:** 42 square feet of Dwarven Forge terrain across two tables.
+**Run time:** one event block, 12:00 PM to 8:00 PM EST, 10/10/2026, at the Open Workshops.
+
+---
+
+## The Pitch
+
+The players wake in cells with nothing. They arm themselves from the dungeon, find each other across two tables, and race to collect eight Crystal Shards. All eight go into the Portal Room to force the exit open, in any order, and that is the only way out. Death is final. Real prizes are on the line as Item Cards, found in the dungeon or bought from Treasure Goblins. Xhal'theris watches the whole thing and enjoys it.
+
+Parts 1 through 3 are quick GM reference: the key house rules, a conditions and difficulty-class cheat sheet, and how to run Xhal'theris. Part 4 is the adventure itself, room by room, where each room holds its own monsters and stat blocks, traps, treasure, and puzzle. Anywhere the source material left something unfinished, you will see a short "GM Note".
+
+---
+
+---
+
+# Part 1: Key House Rules
+
+GM reference for "The Vault of the Starving Mind." This is a quick-reference sheet for the table rules that apply across the whole dungeon. The room-by-room walkthrough carries the full detail for each specific location. When a rule below points to a room, that room file holds the complete mechanic.
+
+This section is a reference only. It does not list prizes or Treasure Goblin prices, and it does not track readiness or open gaps.
+
+---
+
+## Hit Point Cap: 40
+
+No character can exceed 40 Hit Points at any time. Class features, spells, and any effect that would push the running HP total above 40 are capped at 40. Temporary Hit Points that stack on top as a separate pool follow their own spell or item text, and they are not counted against the 40 cap, but the base HP total never rises above 40.
+
+Apply the cap everywhere, including after a short rest and after any healing.
+
+---
+
+## Permadeath
+
+Death is final in this dungeon. There is no resurrection inside the Vault.
+
+When a character drops to 0 Hit Points, the normal 2024 death save rules apply. The character rolls death saves on its turn, three successes stabilize, and three failures mean death. Damage while at 0 HP causes failures as usual, and a critical hit while at 0 HP causes two failures.
+
+When a character dies, that player is out of the event for the rest of the day. The player does not re-enter with a new character.
+
+### Death-out and body-loot flow
+
+1. The character dies and the player leaves the active game. The DM marks where the body fell.
+2. The body stays where it drops. Everything the character carried stays on the body. This includes gear, coins, prize cards, and any crystals.
+3. Surviving characters can loot the body if they can physically reach it. If the body is behind a hazard, a locked door, or a color-locked door, the survivors have to solve that access problem first.
+4. A Key crystal left on a dead body still counts toward the exit, but the party cannot force the Portal open until all eight Key crystals are recovered and placed. A body holding a crystal is a problem the survivors must solve before they can escape.
+
+---
+
+## You Wake With Nothing
+
+Characters begin the dungeon with nothing useful. No armor, no weapons, and no coin. Every character is a prisoner of Xhal'theris, the Velvet Maw.
+
+Players arm themselves from the dungeon. They search rooms, defeat monsters, open chests, and solve puzzles to gather gear, coin, and crystals. Nothing is handed to them at the start.
+
+---
+
+## Rests
+
+There are no long rests anywhere in this dungeon. Players cannot trigger a long rest at any point. Xhal'theris does not allow it.
+
+Short rests are limited. The whole table gets three 15 minute short rests total for the entire run. Each short rest is 15 real-time minutes, not in-fiction time. During a short rest each character may spend one Hit Die, roll it, add the Constitution modifier, and regain that many Hit Points, capped at 40 total. When all three short rests are used, the party has no rests left for the remainder of the event.
+
+Track the three short rests at the table so the count stays honest across both tables.
+
+---
+
+## Forge Crafting (+1 Weapons)
+
+The Dwarven Forge lets players upgrade a weapon into a permanent +1 weapon as a house rule. The full mechanic lives in the room walkthrough at `rooms/TheCaverns.md`, area C5, The Dwarven Forge. Use that room for the complete procedure. The summary here is for quick reference.
+
+- The Forge must be cleared before anyone can craft.
+- Crafting requires Smithing Tools, which are a consumable resource and are used up on the attempt.
+- A character proficient with Smithing Tools rolls with advantage.
+- The craft is a flat d20 Smithing check against DC 18, with no ability modifier added.
+
+| Smithing Result | Outcome |
+| --- | --- |
+| Natural 20 | Weapon becomes +1 and the Smithing Tools are not expended. |
+| 18 or higher | Weapon becomes a permanent +1 weapon. |
+| 13 to 17 | Forging fails, but the weapon is unharmed. |
+| 12 or lower | Forging fails and the weapon must be repaired before another attempt. |
+| Natural 1 | The Forge rejects the attempt. The character cannot try again until completing a suitable act or offering to Moradin. |
+
+See `rooms/TheCaverns.md` C5 for the full room context, including the Moradin relight rule and the surrounding encounter.
+
+---
+
+## The Portal Rule
+
+The Portal in the Portal Room is the only way out of the dungeon. The full detail lives in the room walkthrough at `rooms/Dungeon-Left.md`, area D4, the Portal Room. The summary here is for quick reference.
+
+Anyone who steps through the Portal without using a control crystal is teleported to a random spot inside the dungeon. The Portal changes with every person who steps through, so rushing it scatters the party across the map.
+
+To place a teleported character, roll for a random point and a random distance:
+
+- Roll 1d8 to pick one of eight points in the dungeon. This sets the direction and target point.
+- Roll 1d12 and add 4 for the distance in five-foot increments from that target point.
+
+See `rooms/Dungeon-Left.md` D4 for the full room context and the escape mechanic.
+
+---
+
+## Crystals in Brief
+
+There are eight Key crystals, one for each school of magic: White for Abjuration, Blue for Conjuration, Purple for Divination, Magenta for Enchantment, Red for Evocation, Yellow for Illusion, Black for Necromancy, and Green for Transmutation.
+
+To escape, the party must collect all eight Key crystals and place them to force the exit Portal open. There is no required order. The party simply needs to have all eight Key crystals in hand and set them into the Portal to force it open. There is no star-lock sequence to solve and no answer key to find. Any order works once all eight are present.
+
+Crystals do two other jobs along the way:
+
+- They gate color-locked doors. A color-locked door opens to the crystal whose color matches it. A color-locked door names a crystal color only and never implies that the crystal is a prize.
+- Some crystals grant a once-per-hour boon when placed on the Scrying board. A crystal's power only works after it is placed on the board, and each power can be used one time per game hour. Powers stack if one character carries more than one crystal.
+
+Keep this brief at the reference level. The full crystal detail, including each crystal's power and the Portal escape mechanic, lives in the Portal Room and the room-by-room walkthrough. Crystals are exit and door props only. No crystal is ever tied to a real-world prize.
+
+---
+
+# Part 2: Conditions, Difficulty Classes, and Skills
+
+Quick rules lookup for running the Vault at the table. Everything here is D&D 5e (2024). The dungeon-specific DCs in the last section are pulled from the room files as written. Do not invent new numbers at the table. If a DC is not listed here, read it off the room page.
+
+## Conditions (5e 2024)
+
+| Condition | Effect |
+| --- | --- |
+| **Blinded** | Cannot see and automatically fails any ability check that requires sight. Attack rolls against the creature have Advantage, and its own attack rolls have Disadvantage. |
+| **Charmed** | Cannot attack the charmer or target the charmer with harmful abilities or effects. The charmer has Advantage on ability checks to interact socially with the creature. |
+| **Deafened** | Cannot hear and automatically fails any ability check that requires hearing. |
+| **Exhaustion** | Measured in six levels. Each level gives a cumulative -2 penalty to all D20 Tests (ability checks, attack rolls, and saving throws) and reduces Speed by 5 feet. At level 6 the creature dies. A Long Rest removes one level. |
+| **Frightened** | Has Disadvantage on ability checks and attack rolls while the source of fear is within line of sight. Cannot willingly move closer to the source. |
+| **Grappled** | Speed is 0 and cannot benefit from any bonus to Speed. Has Disadvantage on attack rolls against any target other than the grappler. The condition ends if the grappler is Incapacitated or if the creature is moved outside the grappler's reach. To escape, the grappled creature takes an action to make a Strength (Athletics) or Dexterity (Acrobatics) check against the grappler's escape DC. A monster's escape DC is listed in its stat block. For a creature using the Unarmed Strike (Grapple) option, the escape DC equals 8 plus its Strength modifier plus its Proficiency Bonus. |
+| **Incapacitated** | Cannot take any action, Bonus Action, or Reaction. Cannot concentrate. Can neither speak nor take any action that has the Verbal component. If already in combat when it becomes Incapacitated at the start of a fight, it has Disadvantage on the Initiative roll. |
+| **Invisible** | Cannot be seen without the aid of magic or a special sense, and counts as heavily obscured for the purpose of being seen. Attack rolls against the creature have Disadvantage, and its own attack rolls have Advantage. |
+| **Paralyzed** | Incapacitated (see above) and cannot move or speak. Automatically fails Strength and Dexterity saving throws. Attack rolls against the creature have Advantage, and any attack that hits from within 5 feet is a Critical Hit. |
+| **Petrified** | Transformed, along with any nonmagical items it is wearing or carrying, into a solid inanimate substance. Incapacitated, cannot move or speak, and is unaware of its surroundings. Attack rolls against it have Advantage. It automatically fails Strength and Dexterity saving throws. It has Resistance to all damage and is immune to the Poisoned condition. |
+| **Poisoned** | Has Disadvantage on attack rolls and ability checks. |
+| **Prone** | Its only movement option is to crawl, or to stand up and end the condition. Has Disadvantage on attack rolls. An attack roll against the creature has Advantage if the attacker is within 5 feet, otherwise it has Disadvantage. |
+| **Restrained** | Speed is 0 and cannot benefit from any bonus to Speed. Attack rolls against the creature have Advantage, and its own attack rolls have Disadvantage. Has Disadvantage on Dexterity saving throws. |
+| **Stunned** | Incapacitated, cannot move, and can speak only falteringly. Automatically fails Strength and Dexterity saving throws. Attack rolls against the creature have Advantage. |
+| **Unconscious** | Incapacitated, cannot move or speak, and is unaware of its surroundings. Drops whatever it is holding and falls Prone. Automatically fails Strength and Dexterity saving throws. Attack rolls against the creature have Advantage, and any attack that hits from within 5 feet is a Critical Hit. |
+
+## Difficulty Classes
+
+Set the DC to the difficulty of the task, then call for the roll. If the task has no real chance of failure or no cost for failing, do not call for a roll at all.
+
+| Difficulty | DC | When to use |
+| --- | --- | --- |
+| Very Easy | 5 | Almost anyone succeeds. Use only when failure still matters for pacing. |
+| Easy | 10 | A simple task that an untrained person can usually manage. |
+| Medium | 15 | A real test. A trained character succeeds more often than not, an untrained one is a coin flip. |
+| Hard | 20 | Only skilled characters have a solid chance. Expect most of the table to fail. |
+| Very Hard | 25 | Exceptional. Success needs high ability, proficiency, and often a good roll. |
+| Nearly Impossible | 30 | The edge of what is possible. Reserve for legendary feats. |
+
+## Skills by Ability
+
+Each skill is governed by one ability. When a player describes an action, pick the skill, then use its governing ability for the modifier.
+
+| Ability | Skills |
+| --- | --- |
+| Strength | Athletics |
+| Dexterity | Acrobatics, Sleight of Hand, Stealth |
+| Intelligence | Arcana, History, Investigation, Nature, Religion |
+| Wisdom | Animal Handling, Insight, Medicine, Perception, Survival |
+| Charisma | Deception, Intimidation, Performance, Persuasion |
+
+## This Dungeon's Common Checks
+
+These are the recurring checks the Vault leans on, with the exact DCs already written into the room files. Cited room is where the number lives.
+
+| Situation | Check and DC | Room |
+| --- | --- | --- |
+| Spot a trap at a distance | Perception DC 15 | GoblinTunnels, TheCaverns |
+| Find a trap up close | Investigation DC 15 | GoblinTunnels, TheCaverns |
+| Disable an alarm trap | Sleight of Hand DC 15, or DC 17 to disable without tripping the alarm | GoblinTunnels, TheCaverns |
+| Disable a flame trap | Sleight of Hand DC 15 | Dungeon-Left |
+| Spot the Lightning Trap wire | Perception DC 16 | Dungeon-Left |
+| Read the pedestal plaque (Lightning Trap room) | Investigation DC 13 | Dungeon-Left |
+| Solve the Five Seals (name the gods) | Religion ladder: DC 10 to 12 for a vague memory, DC 15 for the event, DC 18 to 20 for the god's name | Dungeon-Left |
+| Break down the heavy door | Strength DC 18, or deal 50 HP of damage to the door | TheCaverns |
+| Push the stone riser | Strength DC 17 | Dungeon-Left |
+| Climb out of a pit | Athletics or Strength DC 15, no check if using a held rope | Dungeon-Left |
+| Cross the narrow bridge | Dexterity save or Acrobatics DC 13, rising to DC 15 if more than one crosses at once | TheCaverns |
+| Avoid falling into the lava | Dexterity save DC 17 or fall in for 3d12+5 fire damage per round in the lava | Dungeon-Right |
+| Endure Grovlikk's gas cloud | Constitution save DC 13 at the start of each turn inside the cloud | Dungeon-Left |
+| Pass through the acid slime door | Constitution save DC 16 for half of 2d6 acid damage | TheCaverns |
+| Keep footing on goblin juice | Dexterity save DC 15 or fall Prone | GoblinTunnels |
+| Avoid the pitfall | Dexterity save DC 16 or fall for 4d6 falling damage | TheCaverns |
+| Resist the man-eater's venom | Constitution save DC 15 or become Poisoned until cured | GoblinTunnels |
+| Avoid the webs near the Drider | Acrobatics or Dexterity save DC 17 to not touch a strand | TheCaverns |
+| Read the Dwarven forge inscription | Intelligence DC 15, or DC 12 if the reader speaks Dwarven | TheCaverns |
+| Hear the approaching goblins | Perception DC 15 when they are within about 30 feet | TheCaverns |
+| Spot the hidden murder hole | Perception DC 18 | GoblinTunnels |
+
+---
+
+# Part 3: Running Xhal'theris
+
+A GM-facing section of the Master GM Guide for "The Vault of the Starving Mind." This covers the host's voice and his ready-to-read lines. The puzzle and clue explanations now live in the room files, right alongside the puzzles they explain.
+
+---
+
+## Running Xhal'theris
+
+### Who he is at the table
+
+Xhal'theris, the Velvet Maw, is a Mind Flayer who owns this place and runs it as a private death game. He is cruel, amused, theatrical, and clinical. He treats the players as contestants and specimens, not as enemies to be fought.
+
+He is older than the building. He does not use modern slang, internet voice, or stand-up comedian rhythm. He does not rush. He has seen hundreds of runners die in these halls and he expects to see hundreds more.
+
+### How he speaks
+
+- He calls the dungeon "my Vault."
+- He calls the players "specimen," "contestant," "guest," and "morsel."
+- He is brief. One or two short lines almost always beats a paragraph. He does not monologue.
+- He is never physically present when he speaks. His voice comes out of carved stone mouths, statues, crystal eyes, dungeon mechanisms, and directly into the mind through psychic projection.
+- He announces deaths, opens routes, taunts, and bargains. He does not coach. He will never tell a player how to solve a puzzle, though he enjoys hinting that a solution exists.
+- He does not narrate combat while it happens. He comments on it afterward.
+
+### When to let him intrude
+
+Use him as punctuation, not background noise. Good moments to speak:
+
+- When the party first wakes in the cells. Welcome them.
+- When a character dies. Announce it.
+- When the party clears a major room, opens a locked route, or claims a Crystal Shard.
+- When the party is badly stuck and you want to remind them that an answer exists, without giving it away.
+- When a player does something clever or cruel. He respects both.
+
+Do not have him speak every round. If the table has heard his voice twice in the last ten minutes, give them silence.
+
+### Ready-to-read lines
+
+#### Opening prisoner welcome (read when the party wakes in the cells)
+
+> You are awake. Good. I was beginning to think I had broken you in the carrying.
+>
+> Welcome to my Vault, specimens. You came here with nothing, so you will have to earn everything. Weapons, armor, light, and a way out. All of it is already here. All of it is already guarded.
+>
+> There is a door at the end of all this. It opens for eight crystals and no fewer. Bring them to me and I will let you leave. Some of you.
+>
+> Begin whenever you like. I am patient, and I am always watching.
+
+#### Taunts (pick one, read one, move on)
+
+> Ah. You found the Red. I did wonder which of you would burn first.
+
+> One of you is bleeding on my floor. You may continue. I like the color.
+
+> That was clever. I will have to make the next one harder. For the ones who come after you.
+
+> You are doing well, contestant. That is not a compliment. It only means you are not yet interesting.
+
+> I have watched eight hundred of you stand exactly where you are standing. I remember almost none of them.
+
+> You are arguing again. Argue faster. The thing in the dark can hear you, and it is not patient like I am.
+
+#### Bargains (he offers, he never pleads)
+
+> I will open the door in front of you right now. The price is simple. One of you stays behind, in my Vault, with me. Choose, or keep walking and solve it yourselves.
+
+> You are tired. I can feel it. Leave one Crystal Shard on the floor and walk away, and I will show you the shortest road to the exit. A shorter road, for a smaller prize. That is a fair trade. Fairer than most I offer.
+
+> You want to know what this switch does. I will tell you, specimen. For a drop of blood on the stone, freely given. Information is never free here. Not even mine.
+
+#### Death announcement (read when a character dies)
+
+> One less. The Vault keeps what falls in it, so leave the body where it lies, or carry it and slow yourselves down. Either way amuses me.
+
+> [!NOTE] GM NOTE
+> Xhal'theris names the kill and then stops. Read one line, not a speech, and move on.
+
+---
+
+# Part 4: The Dungeon, Room by Room
+
+---
+
+# Dungeon - Left
+
+![alt text](images/rooms/dungeon-left.jpg)
+
+---
+
+## Artificers Workshop
+
+![alt text](images/rooms/ArtificersLair.jpg)
+
+### D1 "The Cells"
+
+**Description**
+
+> Two cells about 15' x 15' where players wake up on slick stone floors, with no memory of how they got there.. Each cell has a single cell door.. Through the door hanging just under 30' away are keys hanging on a hook. Just outside the cells, below the keys is a pile of supplies and equipment.
+
+- If Players search the cell DC12 Perception to notice deep scrapes in all the stone walls. The scrapes appear to go from ceiling to floor.
+- DC16 Percepetion to have players notice what appears to be old dried blood traped in the spaces between the tiles on the floor.
+
+**Trap**: If the keys are lifted from the hook. Players hear an audible *click*, followed by grinding stone as the ceiling in both cells begins to lower.
+
+- Portal room doors are locked (lock pick or find keys on jailer)
+- The main exit door is Trapped (axe trap)
+
+**Treasure**:
+
+- See Cards
+
+> [!NOTE] ✏️ GM NOTE
+> Hand these out as equipment-deck Item Cards. Character sheets start empty, so this pile is how the party arms itself.
+
+#### TRAP
+
+**Read Aloud (when triggered)**
+
+> The keys come free, and somewhere above the cells, a faint *click,* then a long low grinding noise as old gears begin to turn. Dust drifts down from the seams in the ceiling. The stones are moving.
+
+- **Type**: Mechanical, timed area trap (the two cells; the central corridor and the rest of the room are safe)
+- **Trigger**: Lifting the key ring off the hook without first detecting and bypassing the wire
+- **Detection**:
+  - Perception DC 16: spot the fine wire running from the back of the hook into the wall
+  - Investigation DC 14 if a character specifically examines the hook
+- **Deactivate**:
+  - **Combined Brace (cinematic option)** - One character plants themselves directly under the descending ceiling and pushes up with everything they have. **DC 25 Strength save.** Any number of adjacent allies can use their action to brace alongside, and **each one adds their own Strength modifier** to the lead character's total. Roll once per round.
+  - **Escalation** - Each subsequent round the bracers hold, the DC rises by **+2** (DC 25 → 27 → 29 → 31…). A new save is required at the start of each round to maintain the hold. Muscles tire, the mechanism keeps pushing, and the cost of holding goes up every time.
+  - **Success** - The ceiling halts for that round. The brace must be maintained. Every braced character is locked into the action and can do nothing else. If even one helper drops out, re-roll next round with the reduced total against the higher DC.
+  - **Failure** - The brace collapses and the ceiling resumes its descent from wherever it was being held. **The failed save itself deals no damage.** Damage is taken only when (and if) the ceiling reaches a height that hurts the characters still under it, per the round-by-round table below. If the brace was holding the ceiling at floor-level when it fails, the result is exactly what you'd expect.
+  - **Natural 20 on the lead's roll** - The mechanism jams. The ceiling stops entirely until the bracers release it, at which point the timer resumes from where it stopped (giving the rest of the party time to find the reset lever, clip the wire from below, or get everyone out).
+
+**Movement under the descending ceiling**
+The ceiling begins at **7 ft** above the cell floor and descends **1 ft per round**.
+
+| Round | Ceiling Height | Effect                                                                                                                                                                                          |
+| ----- | -------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1     | 6 ft           | Tall PCs (6 ft+) must stoop. Everyone else moves normally. No damage.                                                                                                                           |
+| 2     | 5 ft           | All Medium creatures must duck. Movement at half. No damage.                                                                                                                                    |
+| 3     | 4 ft           | Hunched walk or crouch. Movement at half. No damage.                                                                                                                                            |
+| 4     | 3 ft           | Must crawl. Movement at**1/4 speed.** No damage.                                                                                                                                          |
+| 5     | 2 ft           | Prone crawl only. Movement at**1/4 speed.** No damage.                                                                                                                                    |
+| 6     | 1 ft           | **4d6 bludgeoning** to anyone still in the cells. Dex save DC 14 for half. A creature reduced to 0 HP is pinned and dying, but can still be saved or pulled out by a teammate next round. |
+| 7+    | Floor-level    | **Everyone still in the cells is dead.** No saves, no rolls, no recovery. Just crushed. Bodies cannot be recovered until the mechanism is reset or disabled.                              |
+
+---
+
+### D2 "Grovlikk's Last Laugh"
+
+**Description**
+
+> Standing in the center of the room is a statue of a tall man in flowing robes, his right hand extended with a single finger pointing at the door to the Cells. The statue is carved of pure stone, with every detail carefully captured. A brass plaque is set into the pedestal.
+
+- DC 13 Investigation to read the brass plaque on the pedestal:
+  > Some earn roses. Some earn scorn.
+  > Both may take their bow.
+  > But he who earns only silence
+  > Must never leave the stage.
+  >
+
+> [!NOTE] GM NOTE
+> Hand the players the plaque handout so they can read the verse. The verse means any audience reaction, even scorn or a bad review, can end the performance. The party does not need to laugh or applaud.
+
+**Treasure**:
+
+- 1 Potion of Poison Resistance (single-use), awarded when the party finishes the joke
+- 2 Antitoxin
+- About 30 gp mixed coin
+
+> [!NOTE] ✏️ GM NOTE
+> The potion is a reward for playing along with Grovlikk. Do not hand it out if the party only breaks things and flees.
+
+#### TRAP
+
+- **Type**: Mechanical, timed area trap (the two cells; the central corridor and the rest of the room are safe)
+- **Trigger**: The trap triggers when a creature pulls, twists, breaks, or otherwise strongly manipulates the statue’s extended finger. The room begins filling with **Grovlikk’s Offensive Cloud**.
+
+**Read Aloud (when triggered)**
+> There is a sharp click, and every door into the room slams shut and locks. For a second nothing happens. Then the statue’s stone eyes begin to water, its grin seems to widen, and a deep wet gurgle builds inside the pedestal. Yellow-green vapor vents from the statue’s backside and spreads across the floor toward you.
+
+- **Detection**:
+
+  - Perception DC 18: Notice the pluggled/hidden small holes barely noticable that covers the bottom of the Statue.
+- **Deactivate**: The trap cannot be stopped by mechanical means.
+
+  > [!NOTE] ✏️ GM NOTE
+  > The players may try to break the statue, jam the doors, block the vents, pick the locks, force the doors, or dispel the gas. These attempts may provide clues or minor temporary benefits, but they do not end the trap and do not open the doors.
+  >
+
+  - Blocking vents gives advantage on the next Constitution save for creatures near that blocked vent.
+  - Forcing a door creates a small air gap but does not open the door.
+  - Breaking part of the statue causes another foul burst; creatures within 10 feet immediately make the cloud saving throw.
+  - The only way to stop the trap is for someone to finish the joke. The players must laugh at the joke, applaud Grovlikk, heckle him, praise him, or otherwise play along with the performance.
+
+##### Grovlikk’s Offensive Cloud
+
+This cloud is a stronger, nastier version of *Stinking Cloud*. It burns the throat, eyes, and lungs while forcing victims to gag and retch.
+
+**Save DC**: 13 Constitution
+
+Cloud Expansion
+
+| Initiative Count | Round | Notes                                                                                                                                                 |
+| ---------------- | ----- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 20               | 1     | The cloud fills a 10-foot radius around the statue. Only creatures in that area are affected.                                                         |
+| 18               | 2     | The cloud expands to fill half the room.                                                                                                              |
+| 15               | 3     | The cloud fills the entire room. Every creature in the room is affected at the start of its turn. The cloud remains until the players solve the room. |
+
+##### Visibility
+
+Once the cloud fills at least half the room:
+
+- The room is heavily obscured.
+- Perception checks relying on sight or smell are made at disadvantage.
+- Ranged attacks beyond 5 feet are made at disadvantage.
+- Open flames sputter and shed only dim light.
+
+> Any creature that starts its turn inside the cloud must make a DC 13 Constitution saving throw.
+
+On a Failure:
+
+- The creature spends its action retching and reeling.
+- The creature takes `1d4+1` poison damage every round they're in the cloud.
+- The creature’s movement is halved until the end of its turn and can only make one action (move, action, bonus action)
+- The effects last 1d4 rds after escaping the cloud.
+
+On a Success:
+
+- The creature still retches, coughs, and gags, but does not lose its action.
+- The creature takes half of `1d4+1` poison damage, minimum 1 poison damage.
+- The creature may move and act normally.
+
+> Creatures that do not need to breathe have advantage on the saving throw.
+
+> Creatures immune to poison automatically succeed against the retching effect but still take 1 poison damage if they remain in the cloud.
+
+#### HISTORY
+
+> [!NOTE] ✏️ GM NOTE
+> Grovlikk the once powerful Artificer of Xhal’theris, the Velvet Maw - always enjoyed comedy. Even fancied himself a bit of a comedian. When Grovlikk dared challenge his master, Xhal'theris turned the foolish Artificer to a statue. Seeing him standing there his finger extended, Xhal'theris took great pleasure in turning this fool into yet another trap in his dungeon.. Considerin'g Grovlikk's love of comedy - he thought this trap would would be appropriate. This room, once Grovlikk's personal experiment chamber, where so many of his subjects met their fate; is now his own prison.
+> Roll initiative immediately when triggered! The trap acts on initiative count 20 each round 1, then moves to Initiative 18, then 15.. It reduces by 2 places each subsequent turn.
+
+### D3 "Artificers Library"
+
+**Description**
+
+> Shelves cover the walls of this room, with all manner of book and scroll lining the shelves.
+
+**Treasure**:
+
+See Prop..
+
+> [!NOTE] ✏️ GM NOTE
+> The library's permanent and themed spellbooks are Treasure Goblin vendor stock, not free room loot. The portal-instruction scroll is a handout gated on the crystal clue chain.
+
+- Entire Section on Comedy of different Cultures and Species.
+- DC 16 to find the portal-instruction scroll handout once the crystal clue chain is ready.
+- DC 15 Perception to spot hidden door in the cieling that leads to the portal room.
+  - Will need rope or something to reach 15' high opening
+  - If the players don't find it themselves, use the handout to give them a clue, and if that does not work then
+
+### D4 "Portal Room [DUNGEON EXIT]"
+
+**Description**
+
+> A large mirror stands against the far wall in front of it sits a large cyrstal sphere on a pedestal. The images on the mirror are blurry and change rapidly. The pedestal has 8 distinct round slots that ring the sphere.
+
+**Treasure**:
+
+- None. The room holds the Crystal Sphere control prop and the eight empty sockets that ring it.
+
+> [!NOTE] ✏️ GM NOTE
+> This room is deliberately bare. Do not place coin, magic items, or a crystal here.
+
+- Crystal Sphere controls the Portal Mirror using the various Crystal Shards (Kyber Crystals) found through out this dungeon.. Once all the Crystals are gathered, they can be used to open a portal to safety - outside the Dungeon.. This is the only way to escape the dungeon!
+
+> [!NOTE] ✏️ GM NOTE
+> Anyone that Steps through the portal without using a Control Crystal is teleported to random places within the Dungeon.. The portal changes as every person steps through.
+
+- Players Roll > 1d8 (points in random direction) and number on die tells of 1 of 8 points in the dungeon + 1d12+4 5' distance from target..
+
+#### PUZZLE: The Eight-Crystal Exit
+
+This is the win condition for the whole one-shot.
+
+**What the players see**
+
+> The mirror's images never settle. In front of it the crystal sphere sits on its pedestal, and eight round sockets ring the sphere. The sockets are empty and waiting.
+
+**Intended solution**
+
+Gather all eight Key crystals, Green, White, Yellow, Blue, Purple, Red, Magenta, and Black, and set them into the eight sockets. There is no order to solve. The moment all eight Key crystals are seated, they force the exit Portal open. Any order works, so the whole challenge is finding and recovering all eight shards, not arranging them.
+
+**Clues and where they live**
+
+- The Scrying Stone, the first one here in the Portal Room and a second on the table in D6-A, reveals clues for the color-locked doors and points the party toward the shards they still need. It does not hold an exit order, because there is no order to learn.
+- The Prisoner's Letter confirms the rule: eight crystals, eight sockets, and the gate does not open until all eight are seated.
+
+**Fail state**
+
+Stepping through without setting the sphere teleports the character to a random spot in the dungeon, per the random-teleport roll above (1d8 for the point, 1d12+4 for distance in five-foot increments). The portal reshuffles with every person who steps through, so rushing it scatters the party.
+
+**Hint ladder**
+
+1. "All eight sockets must be filled. You are missing crystals. Find the rest before this does anything."
+2. "There is no order to work out. Bring all eight shards here, seat them, and the portal opens."
+3. "Stepping through without setting the sphere just throws you back into the dungeon at random."
+
+> [!NOTE] ✏️ GM NOTE
+> The exit needs all eight Key crystals and nothing more. Placing all eight forces the Portal open in any order. There is no star-lock sequence, no correct placement order, and no Scrying Stone answer key for an order. The eight shards, the eight sockets, and the random-teleport penalty are fixed in `crystals.md`, this file, and `props/scryingstone.md`.
+
+### D5 "Artificers Workshop"
+
+**Description**
+
+> This large room contains the remains of several of Grovlikk's followers, long sense dead.
+
+**Treasure**:
+
+See bag
+
+> [!NOTE] ✏️ GM NOTE
+> The skeletons guard this stash. Any permanent magic items for this area, such as a +1 weapon, Bag of Holding, or Rope of Climbing, are Treasure Goblin vendor stock, not chest loot.
+
+- Monsters: Skeletons attack players as they enter the room.
+
+**Read Aloud (when the skeletons rise)**
+> Among the long-dead bodies, bones begin to stir. Several skeletons drag themselves upright, armed with rusted blades, and come straight at you the moment you cross the threshold.
+
+#### Skeleton
+
+*Medium Undead, Lawful Evil* | **AC** 13 (armor scraps) | **HP** 13 (2d8 + 4) | **Speed** 30 ft.
+
+| STR | DEX | CON | INT | WIS | CHA |
+| --- | --- | --- | --- | --- | --- |
+| 10 (+0) | 16 (+3) | 15 (+2) | 6 (-2) | 8 (-1) | 5 (-3) |
+
+**Damage Vulnerabilities** Bludgeoning | **Damage Immunities** Poison | **Condition Immunities** Exhaustion, Poisoned | **Senses** darkvision 60 ft., passive Perception 9 | **Languages** understands what it knew in life, cannot speak | **Challenge** 1/4 (50 XP) **PB** +2
+
+***Shortsword.*** *Melee Attack Roll:* +5, reach 5 ft. *Hit:* 6 (1d6 + 3) Piercing.
+
+***Shortbow.*** *Ranged Attack Roll:* +5, range 80/320 ft. *Hit:* 6 (1d6 + 3) Piercing.
+
+---
+
+### D6: Hallway - Left
+
+#### D6-A: Entering the the halls of the Dungeon.
+
+**Read Aloud (entering)**
+> You step out into a dungeon hallway. Two dead bodies lie against the walls. Under a hanging light there is a table, and on it sits a smooth, dark stone.
+
+The main door is trapped.. The door to the left is Locked.. There is a scrying stone sitting on the table in this room just below the light.
+
+Dead Bodies x2
+
+##### Trap
+
+**Read Aloud (when the frame drops)**
+> A click, and a heavy metal frame bristling with spikes drops out of the ceiling and slams down across the doorway at the first person stepping through.
+
+- When the doors open and the first person steps out, ***click*** | a large metal frame drops for the ceiling covered in spikes that will slam into the player..
+
+> DEX save DC13 for half damage DC18 No Damage..
+> 4d6+4 Piercing Damage
+
+#### D6-B/C: West Hall
+
+There is a door existing Artificers [D5] and the hall swings around the corner to a large set of stairs the goes up to to a large double door (locked).. This door leads to Alchemists Lab [Area D7]. There is another smaller door on the East wall that is unlocked that leads to the Gauntlet [C].
+
+Dead Bodies x3
+
+#### D6-D: Wizards Floor Puzzle
+
+**Description**
+
+> The floor is paved end to end with lettered tiles, and every tile glows and crackles with arcane energy. High above you a stone arch bridge runs across the chamber, from Area D9 over to D10. There is no obvious safe lane across the floor.
+
+**Intended solution**
+
+Cross by stepping on the tiles that spell **KNOWLEDGEISTHYONLYTRUTH** ("knowledge is thy only truth"), letter to letter, in order. The PuzzleFloor and PuzzleFloorSolution art show the grid and the correct winding path through it.
+
+**Clues and where they live**
+
+- A Scrying Stone clue spells out the puzzle, but it only unlocks with the Green Crystal on the board.
+- The room is the Artificer's and Wizard's wing. The scholarly, arcane dressing points at a knowledge theme.
+
+**Fail state**
+
+Harsh. Stepping on a wrong tile deals **2d4+4 with no save**. There is no cap on attempts, so a party that brute-forces it bleeds out fast.
+
+**Hint ladder**
+
+1. "The tiles are letters. The safe path is not random, it spells something."
+2. "Put the Green Crystal on the Scrying Stone. There is a clue waiting for it."
+3. "The phrase is about knowledge and truth. Start with the K."
+4. If the table is desperate, show them the solution art or trace the first several letters so they can finish it.
+
+> [!NOTE] ✏️ GM NOTE
+> KNOWLEDGEISTHYONLYTRUTH is the fixed solution. The 2d4+4 no-save tile damage and the Green Crystal gate on the Scrying Stone clue are unchanged.
+
+## D7: Alchemists Lab
+
+**Read Aloud (entering)**
+> A cramped alchemy lab, the air sharp with chemical stink. In the center a large vat of foul-smelling liquid bubbles away, and through a window in its side you can just make out a small green crystal resting at the bottom. A workbench along the wall is crowded with unlabeled jars and ingredients.
+
+This room has two doors - one in the South is locked from the inside.. The smaller door on the East wall is unlocked and leads to D11.
+
+There is a large vat of some chemical that smells aweful. Through the window the players can see a small green crystal sitting at the bottom of the vat.
+
+There are **20 unlabeled ingredients** on the bench. Ten potion recipes can be produced from them. Several ingredients deliberately appear in multiple recipes, so players cannot solve the puzzle by simple elimination. The players must read the recipe book and use the descriptions and clues to create the potion of Invulnerability so they can survive going into the large chemical vat in the center of the room and retrieve the treasure there.
+
+The room contains a mortar and pestle, brass measuring spoon, glass stirring rod, iron stirring rod, burner, cooling bowl, ten empty potion bottles, and a small silver cauldron. Not all ingredients need to be available in sufficient quantity to create every recipe. The DM should place only the quantities intended for this run.
+
+### D8: Entrance to Serpents Lair
+
+**Read Aloud (once the hidden door opens)**
+> A concealed door grinds open onto a stairway. One flight climbs toward dry heat and the sound of something coiling above. Another runs down to a gated hall, where you can make out a dozen or more bodies strewn across the floor.
+
+This area only opens up after triggering the treasure trap in Area D11-I.. When the trap is triggered, the hidden door opens up. There is a set of stairs that leads up to the serpent lair Area D9, and another that leads through a gated door that is currently locked. Inside that large hall you can see about a dozen dead bodies all over the ground..
+
+Dead Bodies x2
+
+### D9: Serpents Lair
+
+**Read Aloud (entering)**
+> The air up here is hot and dry. The chamber opens out ahead of you, with a chest set against the back wall.
+
+This area is much hotter than below. There is a chest sitting against the back wall of D9-G. The Trap in this area will trigger whenever a player comes into line of sight..
+
+#### Treasure
+
+See handout
+
+#### Monster
+
+- Vos'sykriss, the Serpentfolk (stat block below)
+
+**Read Aloud (when Vos'sykriss reveals himself)**
+> A serpentfolk uncoils into the open, a long snake's body beneath a scaled, humanlike torso, a scimitar held low in one hand. His eyes lock onto yours and hold them, and you feel your skin start to tighten and harden where his gaze falls.
+
+#### BOSS: Vos'sykriss, the Serpentfolk
+
+*Medium Monstrosity (Serpentfolk), typically Chaotic Evil*
+
+**Armor Class** 15
+**Hit Points** 85 (10d8 + 40)
+**Speed** 30 ft., climb 20 ft.
+
+| STR | DEX | CON | INT | WIS | CHA |
+| --- | --- | --- | --- | --- | --- |
+| 16 (+3) | 16 (+3) | 18 (+4) | 11 (+0) | 14 (+2) | 15 (+2) |
+
+**Saving Throws** Dex +6, Con +7, Wis +5
+**Skills** Perception +5, Stealth +6
+**Damage Resistances** poison
+**Condition Immunities** poisoned
+**Senses** darkvision 60 ft., passive Perception 15
+**Languages** Common, Draconic
+**Challenge** 5 (1,800 XP) **Proficiency Bonus** +3
+
+**Traits**
+
+***Coiled Vigilance.*** Advantage on Wisdom (Perception) checks and on saves against Blinded, Charmed, Deafened, Frightened, Stunned, and Unconscious.
+
+***Serpentine Awareness.*** Cannot be surprised while conscious.
+
+***Weaving Coils.*** Opportunity attacks against Vos'sykriss have Disadvantage.
+
+***Invisible Doubles.*** Vos'sykriss is accompanied by two identical duplicates using this same stat block, each Invisible until it attacks or is revealed. Duplicates cannot use Petrifying Gaze, only the true Vos'sykriss can petrify. Destroying a duplicate does not reveal the others. Identifying the real one, as the only serpentfolk whose gaze petrifies or via See Invisibility, is the encounter puzzle.
+
+***Petrifying Gaze.*** When a creature that can see his eyes starts its turn within 30 ft, Vos'sykriss can force a DC 14 CON save if he is not Incapacitated and can see it. On a fail, the creature is Restrained as it begins to petrify. At the end of its next turn it repeats the save, ending the effect on a success or becoming Petrified on a failure. A creature can avert its eyes at the start of its turn to avoid the save, but then it cannot see Vos'sykriss until its next turn.
+
+**Actions**
+
+***Multiattack.*** Two attacks from Scimitar and Bite.
+
+***Scimitar.*** *Melee Attack Roll:* +6, reach 5 ft. *Hit:* 8 (1d10 + 3) Slashing plus 3 (1d6) Poison.
+
+***Bite.*** *Melee Attack Roll:* +6, reach 5 ft. *Hit:* 7 (1d8 + 3) Piercing plus 7 (2d6) Poison.
+
+***Constrict.*** *Melee Attack Roll:* +6, reach 10 ft., one Medium or smaller creature. *Hit:* 10 (2d6 + 3) Bludgeoning, and the target is Grappled (escape DC 14) and Restrained until the grapple ends. He can constrict only one target at a time.
+
+**Tactics.** The fight is a shell game. All three serpentfolk read identically, and only the true Vos'sykriss petrifies. He hangs back and uses Petrifying Gaze on anyone who starts a turn looking at him within 30 ft, while the two invisible duplicates flank and open with melee. The party either spreads See Invisibility and area reveals, or they deduce which snake is petrifying people and focus it. Averting eyes shuts down the gaze but blinds the averter to him for a turn, which the duplicates punish. He constricts and drags isolated characters away from support. Three bodies at CR 5 each already answers a big party's action economy, so this scales as written for 10 to 12. Petrified is effectively a kill in a permadeath one-shot unless the party has Greater Restoration, so treat the gaze as a telegraphed save-or-die and make sure the Serpents Lair clue chain warns them.
+
+> [!NOTE] GM NOTE
+> The Snake-Head Beam Weapon below is a separate trap object, not Vos'sykriss himself. Run the beam as destructible room furniture (100 HP, mirror countermeasure) and Vos'sykriss as the living boss.
+
+#### TRAP:
+
+Snake Head Beam Weapon.. The snake will shoot a 30' been whenever a player is LoS.
+
+**Read Aloud (when the beam fires)**
+> A carved snake head set into the wall swivels toward whoever stepped into the open and spits a thirty-foot lance of fire across the room.
+
+> The beam does 4d6 Fire Damage. DEX Save DC13 to dodge (no damage).
+
+- The trick is to use a mirror to reflect the beam back at the device causing it to be destroyed.
+- Or you can slam it with Spells or Gob Stoppers.. It has 100hp
+
+### D10: The Old Cells
+
+**Read Aloud (entering)**
+> A short block of old cells. A dead guard is slumped here with a heavy ring of keys still on his belt, and two cell doors stand locked in front of you.
+
+This room has a dead guard who still has a large key chain and two locked Cells.
+
+#### D10-E: Left Cell
+
+Inside this room are 2 corpses laying dead on the bed. The smell is pretty bad.. Percerption check DC 12 to spot large scrapes in the floor near the riser in the middle.
+
+STR DC 17 to push the riser.. Beneath this riser is a small bag of coin
+
+#### D10-F: Right Cell
+
+Inside this room are 3 corpses laying dead on the bed. The smell is pretty bad.. Percerption check DC 12 to spot large scrapes in the floor near the riser in the middle.
+
+##### TRAP
+
+**Read Aloud (when the riser is pushed back)**
+> As the riser grinds back into place, a pulse of cold energy blasts out of it and rolls through the whole dungeon. Everywhere it washes over, the dead begin to twitch and drag themselves back to their feet.
+
+STR DC 17 to push the riser.. As the players push this one back.. there is a pulse of energy that blasts out.. Everyone in the entire dungeon needs to make the save.. If a caster is damaged they must make their Consatration Save..
+
+> CON Save for 1/2 dmg. 2d4+2 Necrotic Damage.
+
+As soon as the necrotic pulse passes over an area, all the dead begin to rise as mindless zombies. This includes players that have fallen.
+
+#### Zombie
+
+*Medium Undead, Neutral Evil* | **AC** 8 | **HP** 15 (2d8 + 6) | **Speed** 20 ft.
+
+| STR | DEX | CON | INT | WIS | CHA |
+| --- | --- | --- | --- | --- | --- |
+| 13 (+1) | 6 (-2) | 16 (+3) | 3 (-4) | 6 (-2) | 5 (-3) |
+
+**Saving Throws** Wis +0 | **Damage Immunities** Poison | **Condition Immunities** Poisoned | **Senses** darkvision 60 ft., passive Perception 8 | **Languages** understands what it knew in life, cannot speak | **Challenge** 1/4 (50 XP) **PB** +2
+
+***Undead Fortitude.*** If damage reduces it to 0 HP, it makes a CON save, DC 5 plus the damage taken, unless the damage is Radiant or a Critical Hit. On a success it drops to 1 HP instead.
+
+***Slam.*** *Melee Attack Roll:* +3, reach 5 ft. *Hit:* 4 (1d6 + 1) Bludgeoning.
+
+## The Gauntlet (D11)
+
+### PUZZLE: Running the Gauntlet
+
+The Gauntlet is less one puzzle than a chain of hazards with two real thinking problems buried in it: the Five Seals switch wall and the Treasure Chest at the end. Everything between those two is a hazard to survive, not a riddle to solve. Each hazard below is described as the party reaches it. Push them forward and let the traps do the talking.
+
+**What the players see**
+
+> A long corridor that bends and branches. It does not look safe. The air smells burnt in places and sharp in others. Somewhere ahead you can hear something crackling on a cycle, like it is waiting.
+
+**The two thinking problems**
+
+- **The Five Seals.** The switch wall that shuts down the Lightning Trap. Full solution below under "Running the Five Seals."
+- **The Treasure Chest.** The real puzzle at the end. Stepping up to the giant chest drops a cage over whoever opened it and opens both secret doors and the gate. Putting the treasure back and shutting the lid resets everything. The trick is to trigger the trap, have a small or average-size character climb inside the chest and shut the lid, then have an ally open it from the safe room (Room 10, which holds an identical chest). A large creature will not fit. Once the lid shuts it only opens from the outside, and the chest holds about an hour of air. Full mechanics are in section 9 below.
+
+**Clues and where they live**
+
+- Each hazard is described in the room text as the party reaches it.
+- The Five Seals handout and inscription carry that puzzle's clues.
+- The identical chest in the safe Room 10 is the clue for the chest puzzle. Two matched chests is the tell that they are linked.
+
+**Fail state**
+
+Every hazard deals damage on a failed check, listed in each section below. The chest puzzle's real danger is a character sealing themselves in and running out of air if no ally frees them, or a creature too large to fit trying the trick and getting caught by the cage.
+
+**Hint ladder (for the chest)**
+
+1. "The cage, the doors, and the gate all move together when the chest is touched. They reset when you put the treasure back."
+2. "There is a second, identical chest in the safe room. Why would he build two?"
+3. "The lid only opens from the outside. Someone small needs to be inside, and someone else needs to open it from safety."
+4. If they are stuck, have Xhal'theris offer a mocking bargain hinting that the box opens best from the wrong side.
+
+### **1. Trick Trap | Because I'm an asshole**
+
+**Read Aloud (when the trap springs)**
+> The floor drops out under a ten-foot stretch of the passage. At the same moment the ceiling behind it swings down and shoves anyone standing there forward into the open pit.
+
+* Hidden spike trap in floor 10' x 10'.. The players have a DC13 Perception, passive unless they're specifically saying their looking for traps or stuff, then do a group perception check (two or three people roll take the average). The trick is that if the players get across, there is a second trigger that causes a the ceiling to swing down over the squares behind the trap, pushing anyone in the 10' behind the trap into the pit trap.. 25' drop (2d6+10 | covers fall and poky sticks dmg)
+
+> To climb out  requires a check without rope (Athletics or STR DC 15).. If using rope with someone holding the end -  no check required.
+
+### **2. Acid Spray Tap**
+
+**Read Aloud (when it sprays)**
+> As you round the corner, the whole wall opens up and sheets acid across the passage like a shower. It spatters over everyone in the stretch and starts eating at skin and gear.
+
+* As the first player rounds the corner the wall sprays acid over the entire 10x20 sqft area like a wall shower.. It does 2d8+2 (Reflex Save for half dmg). The players have DC13 to detect the small holes in the wall to indicate the spray trap..
+* It can be disabled using slight of hand check (DC 15) | Failed roll triggers it - the only place to disable is the top square next to the spray wall.
+
+### **3. Javalin Trap**
+
+**Read Aloud (when a javelin fires)**
+> A javelin punches up out of a slot in the floor and slices across the passage at leg height.
+
+* Every 10' have players roll dex save (if roll is Odd number they don't trigger anything).. On a roll of **even** number triggers javelin that slices out the ground for 1d6+1 dmg (apply save player rolled)
+* No option to disable these traps
+
+### **4. Flame Trap 1 and 2**
+
+**Read Aloud (when the flames fire)**
+> A gout of fire roars out of hidden vents and washes across the passage right in front of you.
+
+* Flame Trap 1d6+1 / Dex Save.
+* It can be disabled using slight of hand check (DC 15)
+
+### **5. Lightening Trap**
+
+**Read Aloud (reaching it)**
+> Lightning cracks down the corridor ahead of you on a steady cycle, arcing from wall to wall. It is live, and it sits square between you and the way forward.
+
+* The lightening trap triggers before the players reach it, so they are aware of it... Along the wall south of were they enter the area is a set of switches..
+
+#### The Five Seals
+
+The wall has **five heavy stone switches** arranged horizontally. Above each switch is a symbol:
+
+Below them is an inscription:
+
+```
+The gods have no need of names. Know them by their signs.
+
+“First, he who slept ten years within a blade, then rose to take the throne of his enemy.”
+“Second, he whose greatest dawn brought calamity even unto the gods.”
+“Third, he who became the blade by which Murder itself was slain.”
+“Fourth, he who alone remained divine when heaven cast the gods to earth.”
+“Last, she who bore another name before inheriting the mantle of magic.”
+
+
+Order	God	What the clue actually references
+1	Kelemvor	Mortal Kelemvor Lyonsbane was killed by Cyric and his soul became trapped inside Godsbane, which was actually Mask. His soul remained imprisoned for roughly ten years before he emerged during the revolt against Cyric and became Lord of the Dead.
+2	Lathander	The Dawn Cataclysm, Lathander's disastrous attempt to reshape the Faerûnian pantheon. Several deities were killed as a consequence.
+3	Mask	During the Time of Troubles, Mask assumed the form of the sentient sword Godsbane. Cyric wielded it to kill Bhaal, Lord of Murder.
+4	Helm	When Ao cast the gods down during the Time of Troubles, Helm alone retained his divine powers so he could guard the Celestial Stairway. He later destroyed the former Mystra when she tried to force her way past him.
+5	Mystra	The current incarnation of Mystra was formerly the mortal wizard Midnight, who was elevated by Ao after the previous Mystra was destroyed.
+```
+
+Religion Check Clues:
+
+| Inscription                                                             | DC 10–12                                                                                     | DC 15                                                                                          | DC 18–20                                                                                |
+| ----------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| **“He who slept ten years within a blade…”**                   | You recall a tale of a mortal soul being imprisoned inside a divine weapon.                   | The weapon was**Godsbane** , a sentient blade associated with Cyric.                     | The imprisoned soul was**Kelemvor Lyonsbane** , who later became Lord of the Dead. |
+| **“He whose greatest dawn brought calamity…”**                 | “Dawn” here probably refers to an event, not sunrise itself.                                | You remember the**Dawn Cataclysm** , an attempt by a deity to reshape the pantheon.      | The deity responsible was**Lathander** , the Morninglord.                          |
+| **“He who became the blade by which Murder itself was slain.”** | “Murder” is likely a title or divine portfolio rather than ordinary murder.                 | During the Time of Troubles,**Bhaal** , Lord of Murder, was slain with a divine weapon.  | The weapon**Godsbane was actually Mask** , transformed into the blade.             |
+| **“He who alone remained divine…”**                            | This refers to the**Time of Troubles** , when the gods were forced into mortal avatars. | One deity was permitted to retain his divine power because he had been given a specific duty.  | That deity was**Helm** , ordered to guard the Celestial Stairway.                  |
+| **“She who bore another name…”**                               | Some gods of Faerûn were once mortals who later inherited divine mantles.                    | The goddess of magic died during the Time of Troubles and her mantle passed to a mortal woman. | That mortal was**Midnight** , who ascended and took the name **Mystra** .    |
+
+##### Running the Five Seals
+
+**What the players see**
+
+> Five heavy stone switches set in the wall, side by side. A carved symbol sits above each one. Below the row is an inscription that names five gods by what they did instead of by name, in order. You already know these switches matter, because the lightning down the corridor has fired at least once and it is still live.
+
+**Intended solution**
+
+Throw the switches in the order the inscription gives, left to right. Each line points to one deity: Kelemvor, then Lathander, then Mask, then Helm, then Mystra. The order table and the Religion check ladder above spell out which clue points to which god and how much a given check reveals.
+
+**Clues and where they live**
+
+- The wall inscription, read aloud, gives all five riddles in solution order.
+- The Five Seals player handout puts the puzzle in the players' hands.
+- Religion checks confirm the answers in steps, roughly a vague memory at DC 10 to 12, the event at DC 15, and the god's name at DC 18 to 20, per the ladder above.
+
+**Fail state**
+
+A wrong order leaves the Lightning Trap armed and firing on its cycle. Treat a wrong pull as a failed disarm and let the lightning punish anyone still standing in the line.
+
+**Hint ladder**
+
+1. "The inscription lists five gods in a specific order, and there are five switches. Match them left to right."
+2. Offer a Religion check. On a modest success, name the event behind one clue.
+3. On a stronger success, name the god that clue points to.
+4. If the table is still lost, confirm the first and last gods, Kelemvor and Mystra, and let them reason out the middle three from the handout.
+
+### **6. Flame Trap 4**
+
+* Flame Trap 1d6+1 / Dex Save.
+* It can be disabled using slight of hand check (DC 15)
+
+### **7. Flame Trap 5**
+
+* Flame Trap 1d6+1 / Dex Save.
+* It can be disabled using slight of hand check (DC 15)
+
+### **9. Treasure Trap**
+
+**Read Aloud (when the cage drops)**
+> The moment someone steps up to the great chest, a heavy cage crashes down over them from above. Somewhere close by, two hidden doors grind open and the gate unlocks.
+
+* D&D Books Treasure Card & Silver Crystal are in this batch!
+* Whoever steps up to a very large chest is trapped by a large cage falling down. When that happens Both secret doors open and the Gate unlock..
+
+  * If the player puts the treasure back in the chest and shuts the lid - the doors shut and the trap lifts.
+  * In the far room (**Room 10**) is another identical Treasure chest.. If someone is in there and opens it. They find the same treasure (5e Book + Bag of Gold) assuming the players put it all back.
+  * The trick is to trigger the trap, crawl into the large chest, shut the lid and have someone else open it from the safe room. Keep in mind that a larger/medium sized creature would not fit.. So this needs to be average size or smaller. And once the lid is closed - it can only be opened from the outside.. No exceptions! Once the lid is shut - the chest only has about 1hr of air in it.
+
+---
+
+# Dungeon Ruins
+
+![alt text](images/rooms/dungeon-right.jpg)
+
+
+## R1: The Great Hall
+
+**Read Aloud (entering)**
+> A long, wide hall runs ahead of you and ends at a pair of heavy double doors, shut. Bodies lie scattered down the length of the floor. A gate is set into the northwest wall. Those far doors do not look like they will open in a hurry.
+
+This long wide hall ends at a large pair of double doors (locked). There is also a secret door to the treasure goblin (below area R10), and a gate along the north west wall. This room is covered is corpses (Zombies if trap has been triggered).
+
+> Unlocking the Door and opening requires a full turn. So players will need to deal with Zombies until the door is open and safe. 
+
+### Monsters
+- Zombies x8-12
+- Spread them out to give the players a path. 
+
+**Read Aloud (when the dead rise)**
+> The bodies on the floor start to move. They drag themselves up clumsy and slow, jaws working, and turn toward the nearest warm thing, which is you.
+
+#### Zombie
+
+*Medium Undead, Neutral Evil* | **AC** 8 | **HP** 15 (2d8 + 6) | **Speed** 20 ft.
+
+| STR | DEX | CON | INT | WIS | CHA |
+| --- | --- | --- | --- | --- | --- |
+| 13 (+1) | 6 (-2) | 16 (+3) | 3 (-4) | 6 (-2) | 5 (-3) |
+
+**Saving Throws** Wis +0 | **Damage Immunities** Poison | **Condition Immunities** Poisoned | **Senses** darkvision 60 ft., passive Perception 8 | **Languages** understands what it knew in life, cannot speak | **Challenge** 1/4 (50 XP) **PB** +2
+
+***Undead Fortitude.*** If damage reduces it to 0 HP, it makes a CON save, DC 5 plus the damage taken, unless the damage is Radiant or a Critical Hit. On a success it drops to 1 HP instead.
+
+***Slam.*** *Melee Attack Roll:* +3, reach 5 ft. *Hit:* 4 (1d6 + 1) Bludgeoning.
+
+### TRAP
+***Crazy Spray*** - when a player walks under the bridge (marker A) - The play is blasted with a sweet smelling gas (CON DC 15).. PASS: The player suddenly feels rage bubbling to the surface.. Pure hatred.. That player will attack the nearest living creature to them for 1rd. If they FAIL  the save - then they attack until rendered unconscious or dead.
+
+**Read Aloud (when the gas hits)**
+> A fine, sweet-smelling mist sprays down over you from under the bridge. It coats the back of your throat, and a hot, ugly anger comes up fast, fixed on whoever is standing closest.
+
+## R2: The Eastern Hall
+
+**Read Aloud (entering)**
+> This hall runs east toward a wall of heat coming off the lava. More corpses shuffle and stagger around in here. One door is jammed tight in its frame, and two others stand open on the far side.
+
+This hall also has several bodies/undead wondering around. The heat from the lava to the east is oppressive. There are several key locations in this area.
+
+- The door to Area R4 is jammed shut and can't be opened from the outside. the only option to enter this area is to circle around and come through the hole in the wall. 
+
+- The doors to Areas R3 are both unlocked.. However standing along the line from [B] will result in trap triggering. 
+
+### Monsters
+- Zombies x8 (stat block in R1)
+
+### Trap
+
+***Lightening Trap*** - When a player stand infront of [B] a 120' line of Lightening blasts out and down.. 
+Damage 2d8+2 Lightening damage. DEX Save for 1/2 dmg. It can fire every 6-8 seconds. 
+
+**Read Aloud (when the lightning fires)**
+> A bolt of lightning cracks out of the wall in a straight line down the length of the hall and slams into the floor. The air goes sharp with the smell of burnt stone.
+
+## R3: Treasure Rooms
+
+**Read Aloud (entering)**
+> Two small rooms, each with a pile of treasure heaped on top of a stone pedestal in the center. It is exactly the kind of thing you came down here hoping to find.
+
+Both rooms have a pile of treasure sitting on top of pedestal. 
+
+### Right Room: 
+- Gold + Copper Crystal + Wonderous Item
+
+### Left Foom:
+- Gold + Wonderous Item
+
+#### Trap
+***Mouther surprise*** - When the treaure is removed from this stone, the pedestal vanishes realving the floor is a mimick. 
+
+**Read Aloud (when the treasure is lifted)**
+> The moment the treasure leaves the stone, the pedestal under it shudders and splits open into a wet, toothed mouth. A tongue of muscle whips out, wraps around the nearest of you, and hauls hard.
+- It will lash out with a tentacle to pull a player into its mouths. STR17 to Resist Grapple. Once grappled pulled into mouths (DMG 2d8+6 /rd trapped.) Attacking the creature with a player trapped provides +2 AC to the creature.. 
+
+> HP: 75
+> AC: 14
+> 2 attacks / tentacles. STR17 to Resist Grapple. Once grappled pulled into mouths (DMG 2d8+6 /rd trapped.) Attacking the creature with a player trapped provides +2 AC to the creature.. 
+
+## R4: Crypts
+**Read Aloud (entering)**
+> This room is set up as a shrine. Carvings of snake-bodied people wind across the walls, and six lizardfolk are gathered here in worship, hissing low in Draconic. One near the front wears a shaman's rig and holds a focus.
+
+This room is a shrine to serpent people. There are 6 Serpent people in this area worshipping.. One of them is a Shaman/Caster. 
+
+### Monsters
+- Shaman Lizardfolk
+- 5 Lizardfolk Fighters
+
+**Read Aloud (when they turn on you)**
+> The chanting breaks off. Six lizardfolk come around to face you, hefting battleaxes and javelins, and the shaman starts a new chant with his free hand already moving.
+
+#### Lizard Shaman
+
+*Medium Humanoid (Lizardfolk), Neutral* | **AC** 15 (natural armor, shield) | **HP** 22 (4d8 + 4) | **Speed** 30 ft., swim 30 ft.
+
+| STR | DEX | CON | INT | WIS | CHA |
+| --- | --- | --- | --- | --- | --- |
+| 15 (+2) | 10 (+0) | 13 (+1) | 7 (-2) | 16 (+3) | 7 (-2) |
+
+**Skills** Perception +5, Stealth +4, Survival +7 | **Senses** passive Perception 15 | **Languages** Draconic | **Challenge** 1/2 (100 XP) **PB** +2
+
+***Hold Breath.*** Can hold its breath for 15 minutes.
+
+**Spellcasting.** Level 4 Druid, Wisdom based, spell save DC 13, +5 to hit with spell attacks.
+
+- At will: *Druidcraft*; *Produce Flame* (30 ft spell attack +5, 2d8 fire, sheds light); *Thorn Whip* (30 ft spell attack +5, 2d6 piercing, pull a Large or smaller target 10 ft).
+- 1st, 4 slots: *Cure Wounds* (touch, 2d8+3); *Entangle* (90 ft, 20 ft square, STR save DC 13 or Restrained, concentration); *Faerie Fire* (60 ft, 20 ft cube, DEX save DC 13 or outlined, concentration); *Thunderwave* (self 15 ft cube, CON save DC 13, 2d8 thunder and push 10 ft, half and no push on save).
+- 2nd, 3 slots: *Lesser Restoration* (touch); *Spike Growth* (150 ft, 20 ft radius, no save, difficult terrain, 2d4 piercing per 5 ft moved, concentration).
+
+***Bite.*** +4, reach 5 ft. *Hit:* 5 (1d6 + 2) Piercing.
+***Battleaxe.*** +4, reach 5 ft. *Hit:* 6 (1d8 + 2) Slashing.
+
+#### Lizardfolk Fighter
+
+*Medium Humanoid (Lizardfolk), Neutral* | **AC** 16 (scale mail, shield) | **HP** 22 (4d8 + 4) | **Speed** 30 ft., swim 30 ft.
+
+| STR | DEX | CON | INT | WIS | CHA |
+| --- | --- | --- | --- | --- | --- |
+| 15 (+2) | 10 (+0) | 13 (+1) | 7 (-2) | 12 (+1) | 7 (-2) |
+
+**Skills** Perception +3, Stealth +4, Survival +5 | **Senses** passive Perception 13 | **Languages** Draconic | **Challenge** 1/2 (100 XP) **PB** +2
+
+***Hold Breath.*** Can hold its breath for 15 minutes.
+
+***Multiattack.*** Two melee attacks, each with a different weapon.
+
+***Bite.*** +4, reach 5 ft. *Hit:* 5 (1d6 + 2) Piercing.
+***Battleaxe.*** +4, reach 5 ft. *Hit:* 6 (1d8 + 2) Slashing.
+***Javelin.*** +4, reach 5 ft or range 30/120 ft. *Hit:* 5 (1d6 + 2) Piercing.
+***Spiked Shield.*** +4, reach 5 ft. *Hit:* 5 (1d6 + 2) Piercing.
+
+#### Treasure
+- On the shelves are several tomes.. One catches the players eye..  Vintage Craft.. 
+
+> This contains the Cyrptex that contains the Black Crystal. 
+
+## R5: Ruins
+
+**Read Aloud (entering)**
+> A stretch of collapsed ruins. A couple of lizardfolk are picking through the rubble, searching for something, and swatting away shambling corpses while they work.
+
+This area has a couple Lizardfolk seaching the area for something.. They're fighting to keep the Zombies at bay.
+
+### Monsters
+- A couple Lizardfolk Fighters (stat block in R4)
+- Zombies (stat block in R1)
+
+> If players help Lizardfolk - they'll tell the players to be mindful of the Magma Elementals and the best way to deal with them is with Holy Water and Cold magic. 
+
+#### Treasure
+- There is a secret door in the old bed room that leads to a Chest.. The chest has Coin & Purple Crystal
+
+> Hanging Guy's note tells players how to find the door to get his treasure. 
+
+## R6: Hopscotch
+
+**Read Aloud (entering)**
+> The way forward is a field of stepping stones laid across a flow of lava. Some sit solid in the rock. Others float loose and ride low in the glow.
+
+The stones allow the players to cross.the lava. Several of the Stones are floating and when jumped on - they tip over.. 
+
+### TRAP
+
+**Read Aloud (crossing the stones)**
+> The stones cross the lava, close enough to jump from one to the next. Some sit solid. Others float loose on the surface and ride a little low in the glow.
+
+***Slippery Stones***.. When the player lands on one of the marked stones they must roll a DEX save DC17 or be dumped into the lava causing 3d12+5 Fire damage per round they remain on the lava. 
+
+### PUZZLE: The Hopscotch
+
+**What the players see**
+
+> A field of stepping stones laid across a lava flow. Some of them sit solid. Several others float, and they tip over the moment a character lands on them.
+
+**Intended solution**
+
+Cross by picking the stable stones and avoiding the marked, floating ones that tip. This is reflex and route-reading, not a coded answer. A character who lands on a marked stone makes the DEX save listed in the trap above.
+
+**Clues and where they live**
+
+- The room description tells the party plainly that several stones float and tip when jumped on. That is the warning to test footing before committing weight.
+
+**Fail state**
+
+A failed DEX save DC 17 drops the character into the lava for 3d12+5 fire damage per round they remain in it. This is lethal, so treat it with respect.
+
+**Hint ladder**
+
+1. "Some of these stones float. Watch which ones shift when weight hits them."
+2. "A light touch or a thrown rope can test a stone before you trust it."
+3. "The solid stones hold. The ones that rock are the ones that dump you."
+
+> [!NOTE] GM NOTE
+> The Hopscotch has no secret word. It is a crossing to survive, not a cipher to break. If a table asks about "the Puzzle Floor," they almost always mean the lettered Wizard's Floor over in D6-D, not this crossing.
+
+## R7: Lava Tunnels
+
+**Read Aloud (entering)**
+> Tunnels of black rock cut through heat thick enough to press on your skin. Floating stones drift overhead, and the ceiling of the cavern climbs away into darkness hundreds of feet up. Somewhere down one of the passages, something made of fire and running rock is moving.
+
+The Lava tunnels are patrolled by several different Fire Creatures. The players can see the floating drift stones above with the ceiling of the massive cavern vanishing in the darkness above them hundreds of feet away. 
+- Lava/Magma Elementals
+
+**Read Aloud (when it closes in)**
+> One of the shapes in the heat pulls itself upright into a rough body of fire and molten stone. It throws hard orange light thirty feet in every direction, and the rock blackens under it as it comes at you.
+
+#### Magma Elemental
+
+*Large Elemental, Neutral* | **AC** 13 | **HP** 102 (12d10 + 36) | **Speed** 50 ft.
+
+| STR | DEX | CON | INT | WIS | CHA |
+| --- | --- | --- | --- | --- | --- |
+| 10 (+0) | 17 (+3) | 16 (+3) | 6 (-2) | 10 (+0) | 7 (-2) |
+
+**Damage Resistances** Bludgeoning, Piercing, Slashing from nonmagical attacks | **Damage Immunities** Fire, Poison | **Condition Immunities** Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained, Unconscious | **Senses** darkvision 60 ft., passive Perception 10 | **Languages** Ignan | **Challenge** 5 (1,800 XP) **PB** +3
+
+***Fire Form.*** Moves through gaps as narrow as 1 inch. A creature that touches it or hits it in melee within 5 ft takes 5 (1d10) Fire. It can enter a creature's space; the first time it does so on a turn the creature takes 5 (1d10) Fire and catches fire, taking 5 (1d10) Fire at the start of each of its turns until doused.
+
+***Illumination.*** Bright light in 30 ft, dim for another 30 ft.
+
+***Water Susceptibility.*** Takes 1 Cold for every 5 ft it moves in water or per gallon splashed on it.
+
+***Multiattack.*** Two Touch attacks.
+***Touch.*** +6, reach 5 ft. *Hit:* 10 (2d6 + 3) Fire, and the target ignites, taking 5 (1d10) Fire per turn until doused.
+
+> [!NOTE] GM NOTE
+> R5 Lizardfolk tell the party the counters are Holy Water and Cold magic, and Water Susceptibility backs that up. One of these at CR 5 is a hard fight for a level 3 party, so set R7 counts carefully.
+
+> The Goblins will sometimes venture in this area for goods. But will remain hidden if possible.
+
+## R8: Lava Temple
+
+**Read Aloud (entering)**
+> A wide pool of lava fills most of this chamber. On the north side a large statue of a demon looms over it, and one of its eyes is a deep red crystal. The fire creatures you have met elsewhere keep well clear of this place.
+
+This area has a Large Lava Pool and a large Demon like statue to the north.. The Fire Elementals seem to keep a distance from this place. 
+
+### Treasure
+- The lava pit has an iron chest with a stash of powerful relics left by a mad runner before being killed by the lava elementals. 
+
+- Eye of the statue => Red Cryrstal
+
+### Monsters 
+- Statue
+
+**Read Aloud (when the statue moves)**
+> The demon statue was never just a statue. Stone grinds on stone as it steps off its base, draws one huge arm back, and brings it down at you before most of you have grasped that it is alive.
+
+#### BOSS: The Statue
+
+*Large Construct, as the Eidolon's alignment*
+
+**Armor Class** 19 (natural armor)
+**Hit Points** 95 (10d10 + 40)
+**Speed** 25 ft.
+
+| STR | DEX | CON | INT | WIS | CHA |
+| --- | --- | --- | --- | --- | --- |
+| 19 (+4) | 8 (-1) | 19 (+4) | 14 (+2) | 19 (+4) | 16 (+3) |
+
+**Saving Throws** Wis +8
+**Damage Resistances** acid, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks
+**Damage Immunities** cold, necrotic, poison
+**Condition Immunities** charmed, exhaustion, frightened, paralyzed, petrified, poisoned
+**Senses** darkvision 60 ft., passive Perception 14
+**Languages** the languages the Eidolon knew in life
+**Challenge** 12 (8,400 XP) **Proficiency Bonus** +4
+
+**Traits**
+
+***False Appearance.*** If motionless at the start of combat, it has Advantage on initiative. A creature that has not seen it move must succeed on a DC 18 Intelligence (Investigation) check to tell it is not an object.
+
+***Ghostly Inhabitant.*** The Eidolon remains inside the statue until the statue drops to 0 HP, until it leaves as a Bonus Action, or until it is forced out by an effect such as *dispel evil and good*. When it leaves, it appears within 5 ft.
+
+***Inert.*** When not inhabited, the statue is an object.
+
+***Unusual Nature.*** Needs no air, food, drink, or sleep.
+
+**Actions**
+
+***Multiattack.*** Two Slam attacks.
+
+***Slam.*** *Melee Attack Roll:* +8, reach 10 ft. *Hit:* 43 (6d12 + 4) Bludgeoning.
+
+**Tactics.** The Statue ambushes. It stands dead still in the Lava Temple beside the Red Crystal in the demon statue's eye, wins initiative off False Appearance, and lands the first two Slams before the party knows it is a fight. Each Slam averages 43 bludgeoning, which one-shots any level 3 character to 0 and past it. It fights in melee only, with 10 ft reach, and it shrugs off nonmagical weapons, cold, fire, lightning, acid, necrotic, and poison. The party needs magic weapons or force, radiant, psychic, and thunder damage to hurt it. Position it so the lava and the narrow temple floor force the party to approach in the open. Run it solo. 95 HP falls in two or three rounds to a large party, so the danger is front-loaded into the ambush and the 43-damage Slams. An opening double Slam on two separate characters is a two-kill round. Telegraph it with the lava, the mad runner's bones, and the dead looter's iron chest.
+
+## R9: Upper Landing
+
+**Read Aloud (entering)**
+> A raised landing guards the door into the treasure room. Four lizardfolk stand posted across it, weapons already up. They are not going to step aside.
+
+This room has 4 Lizard Folks stand guard over the entrance to the treasure room. They'll fight to the death. They have the key to the Treasure Room on them. 
+
+### Monsters
+- 4x Lizardfolk (stat block in R4)
+
+## R10: Treasure Room
+Treasure Room -- Has access to the Treasure Goblin below. A secret door in this room drops to the Treasure Goblin's cave, the main vendor stall for the whole dungeon. The C3 hatch in `rooms/TheCaverns.md` is the other way down to him.
+
+### The Treasure Goblin (Feces)
+
+**Read Aloud (meeting Feces)**
+> The way down opens into a low cave lit by scavenged lanterns, packed with a plank counter and a stall of junk and treasure. Behind it sits a round, grinning goblin in a coat too fine for him. He spreads his hands like you are old friends and says, "Buyers. Come in, come in. Touch nothing you cannot pay for."
+
+The Treasure Goblin is named Feces. He is the one merchant in the Vault.
+
+- Feces carries a random assortment of goods to sell. Once the party leaves, his stock is shuffled back into the deck and redrawn randomly the next time they come down.
+- Killing Feces gets that player expelled from the game, that is, killed and out. Feces warns players of this consequence if they try or ask.
+- Feces will not tell players how to escape, but he will sell "tips" on how to survive or find things for the right price, at GM discretion.
+- A player carrying the Gold lesser crystal (Barter Specialist) gets a discount of 5 percent times Charisma modifier, minimum 5 percent, maximum 25 percent, on that player's own purchase (`rooms/TheCaverns.md`).
+
+### How prize Item Cards work
+
+Every real-world prize is a prize Item Card. A player claims a real-world prize one of two ways:
+
+1. Find the card in the dungeon as physical loot placed in a room, chest, or on a monster.
+2. Buy the card from Feces with in-dungeon gold at the listed price.
+
+No prize is ever tied to a crystal. Crystals are exit and door props only. Prize cards left on a dead body follow the death-out loot rule: they stay on the body for survivors to recover.
+
+The GP price on a card is the rounded USD price times 100. Example: $7.59 rounds to $8, times 100 equals 800 GP. The token files under `items/tokens/` carry the authoritative GP numbers.
+
+### Prize list
+
+| Qty | Prize Item Card | USD | GP (token value) |
+| ---: | --- | ---: | ---: |
+| 1 | 4pcs Fantasy Sword Bookmarks | $7.59 | 800 |
+| 1 | TeeTurtle D&D Reversible Plushie Mystery Box | $7.99 | 800 |
+| 1 | Stupid D&D Jokes | $9.99 | 1000 |
+| 2 | HiiFeuer Medieval Faux Leather Pouch | $11.90 | 1200 |
+| 1 | Haxtec Dragon Eye Dice Bag | $11.99 | 1200 |
+| 3 | LongLongJin DND Dragon Journal with Pen | $12.34 | 1250 |
+| 2 | The Book of Holding | $12.49 | 1250 |
+| 1 | Duck DND Resin Dice Set | $12.99 | 1300 |
+| 1 | The Game Master's Book of Astonishing Random Tables | $14.95 | 1500 |
+| 1 | Banloga D&D Metal Dice Set with Pocket Watch Case | $14.99 | 1500 |
+| 1 | The Young Adventurer's Collection Box Set 1 | $20.64 | 2100 |
+| 1 | Beholder Potato Head Figure | $34.95 | 3500 |
+| 1 | SWeien Hollow Metal DND Dice Set | $34.99 | 3500 |
+| 2 | Wooden DnD Dice Tray and Journal Box | $49.99 | 5000 |
+| 1 | Dungeons & Dragons 2024 Core Rulebook Set + GM Screen | $154.95 | 15500 |
+
+The top prize is the Dungeons & Dragons 2024 Core Rulebook Set and GM Screen, GP value 15500. The dungeon's total coin pool is about 2,845 gp, far below 15500 GP, so the party cannot buy the top prize from Feces with dungeon coin. That strongly implies the top prize is a found card rather than vendor stock.
+
+
+## R11: Drift Stones
+
+**Read Aloud (entering)**
+> Stones hang in the air over a long drop into the lava, and the whole span crackles with visible wild magic. Out past them, a cage hangs over the gap with a body slumped inside it.
+
+The Drift Stones were created by Powerful Wild Magic Fields and are by there very nature unpredictable. 
+
+**Read Aloud (when a stone takes your weight)**
+> The stone holds, and then the wild magic answers it. The air warps around you, and there is no telling where you will be standing until it lets go.
+
+Chaotic energy surges in this area.. When ever a person jumps on a stone.. Roll 1d8 + 1d4
+
+1. Nothing Happens
+2. Drift stone moves # on d4 (d8 direction)
+3. Swap Spaces w/ nearest player character (only on 1 on d4)
+4. Swap stones with previous one jumped from (only 2 on d4)
+5. Vanish and Fall (only if 3 on d4)
+6. Swap places w/ furthest player character (only on 4 on d4)
+7. Player character is moved to a random stone (assign stones numbers 1-4 based on closest to furthest and use value on d4)
+8. Nothing happens
+
+### PUZZLE: Crossing the Drift Stones
+
+**What the players see**
+
+> Stones float in the air over a long drop into the lava, and the whole span crackles with visible wild magic. Out past them, a cage hangs over the gap with a body inside it. His letter and his map are what waits for anyone who can reach him.
+
+**Intended solution**
+
+Cross the stones. Each time a character jumps onto a stone, the wild magic field fires a random effect from the table above. Roll 1d8 and 1d4 and read the result. There is no right answer to the field, only the dice and good positioning.
+
+**Clues and where they live**
+
+- The Prisoner's Letter (`props/prisoners-letter.md`), written by Corwin Vale, tells the party he is caged out over the gap, warns them not to split up and not to trust the voice, and hands them his map.
+- This room's description establishes that the field is wild magic and unpredictable by nature.
+
+**Fail state**
+
+The chaos itself. Characters can be swapped, flung to a random stone, or dropped when a stone vanishes out from under them into the lava below. Nothing locks the party out. The danger is the dice, and the toll is movement, position, and sometimes a life.
+
+**Hint ladder**
+
+1. "Every jump rolls the dice. Standing still on a solid stone does not."
+2. "Spreading your jumpers out means fewer characters are in reach of a swap."
+3. "If someone can shut this wild magic off, the crossing becomes a simple jump."
+
+> [!NOTE] GM NOTE
+> The random-effect table above and the prisoner reward are canon. The wild magic field stays active for the whole crossing. Treat it as always on, or rule on the spot if a player proposes something clever such as an Abjuration effect or the White Crystal's ward to suppress it.
+
+---
+
+# Crypts
+
+**Read Aloud (entering)**
+> Rows of stone tombs and bone niches line a long, cold room that smells of dust and old rot. Nothing in here has been touched in a long time.
+
+## Monsters
+
+- Skeletons
+- Wraiths
+- 
+
+**Read Aloud (when the skeletons rise)**
+> Bones clatter and drag themselves up off the floor and out of the wall niches. They come up armed with rusted swords and bows, empty sockets fixed on you, and they do not make a sound.
+
+#### Skeleton
+
+*Medium Undead, Lawful Evil* | **AC** 13 (armor scraps) | **HP** 13 (2d8 + 4) | **Speed** 30 ft.
+
+| STR | DEX | CON | INT | WIS | CHA |
+| --- | --- | --- | --- | --- | --- |
+| 10 (+0) | 16 (+3) | 15 (+2) | 6 (-2) | 8 (-1) | 5 (-3) |
+
+**Damage Vulnerabilities** Bludgeoning | **Damage Immunities** Poison | **Condition Immunities** Exhaustion, Poisoned | **Senses** darkvision 60 ft., passive Perception 9 | **Languages** understands what it knew in life, cannot speak | **Challenge** 1/4 (50 XP) **PB** +2
+
+***Shortsword.*** *Melee Attack Roll:* +5, reach 5 ft. *Hit:* 6 (1d6 + 3) Piercing.
+
+***Shortbow.*** *Ranged Attack Roll:* +5, range 80/320 ft. *Hit:* 6 (1d6 + 3) Piercing.
+
+**Read Aloud (when a wraith appears)**
+> The cold in the room deepens all at once. A dark shape lifts off the floor and drifts at you, passing straight through a tomb as if it were not there. Where it reaches out, the warmth goes out of you.
+
+#### Wraith
+
+*Medium Undead, Neutral Evil* | **AC** 13 | **HP** 67 (9d8 + 27) | **Speed** 0 ft., fly 60 ft. (hover)
+
+| STR | DEX | CON | INT | WIS | CHA |
+| --- | --- | --- | --- | --- | --- |
+| 6 (-2) | 16 (+3) | 16 (+3) | 12 (+1) | 14 (+2) | 15 (+2) |
+
+**Damage Resistances** Acid, Cold, Fire, Lightning, Thunder; Bludgeoning, Piercing, Slashing from nonmagical attacks that are not silvered | **Damage Immunities** Necrotic, Poison | **Condition Immunities** Charmed, Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained | **Senses** darkvision 60 ft., passive Perception 12 | **Languages** the languages it knew in life | **Challenge** 5 (1,800 XP) **PB** +3
+
+***Incorporeal Movement.*** Moves through creatures and objects as difficult terrain. Takes 5 (1d10) Force if it ends its turn inside an object.
+
+***Sunlight Sensitivity.*** In sunlight, Disadvantage on attacks and on sight-based Perception.
+
+***Life Drain.*** *Melee Attack Roll:* +6, reach 5 ft. *Hit:* 21 (4d8 + 3) Necrotic. CON save DC 14 or the target's Hit Point maximum drops by the damage taken until a Long Rest. The target dies if this reduces its maximum to 0.
+
+***Create Specter (1/Day).*** Targets a Humanoid dead no longer than 1 minute that died violently within 10 ft. Its spirit rises as a Specter under the wraith's control, up to seven at a time.
+
+> [!NOTE] GM NOTE
+> Life Drain plus the Hit Point maximum reduction is brutal against a 40 HP cap and no Long Rests. One Wraith can two-round a character and there is no in-run recovery of the lost maximum. Keep Wraith counts low.
+
+## Puzzle ( Black Necromany Crystal )
+
+The Black Crystal is sealed inside a Cryptex, a cylinder lock with five lettered rings that opens only to the correct five-letter word. The Cryptex is hidden inside a tome on the shelves, the book described in R4 as the one that catches a player's eye, in the long hall just outside the Ruins.
+
+**What the players see**
+
+> A stone figure stands grieving, and a mourner kneels carved into the floor beside it. A five-line lament is cut into the stone near the scene. Set apart beneath the poem, on its own, is a single line that reads like an instruction rather than another line of verse.
+
+**Intended solution**
+
+The code is **DEATH**. The lament is an acrostic. Read the first letter of each of the five lines, top to bottom, and they spell the word. The separated line beneath the poem is the nudge. It points at the beginning of each of the five lines.
+
+**Clues and where they live**
+
+- The lament inscription in this room carries the acrostic. The first letters of the five lines are D, E, A, T, and H.
+- The set-apart closing line tells the party to look at the start of each line. Keep it visually separated beneath the poem so it is not mistaken for a sixth line.
+- If the party has the right crystal on the board, a Scrying Stone clue chain can confirm the Necromancy theme.
+
+**Fail state**
+
+Low stakes. The Cryptex is a plain combination lock. A wrong word simply does not open it. There is no trap and no damage on a wrong guess. The only cost is time spent in the Crypts, where the skeletons and wraiths are still a problem.
+
+**Hint ladder**
+
+1. "The inscription has five lines, and the Cryptex has five rings. That is probably not a coincidence."
+2. "Read the line beneath the poem again. It is telling you where to look on each line."
+3. "Take the first letter of each line, top to bottom."
+4. If they are still stuck, let a character recall a famous mourning verse on a successful check, then point out that the first letters spell a word everyone standing in a tomb already expects.
+
+> [!NOTE] GM NOTE
+> The code (DEATH), the acrostic method, and the placement are fixed in `crystals.md` and this file. The lament is a five-line mourning verse whose lines begin D, E, A, T, and H in order, and the first letters spell the code. Award the crystal when the party reads the acrostic, whether they solve the printed verse or reason it out.
+
+---
+
+# The Caverns
+
+![alt text](images/rooms/cavern-marked-1.jpg)
+
+## Area 1
+
+## C1 | Players Cell
+
+**Read Aloud (waking)**
+> You wake up on a cold, slick stone floor with no memory of how you got here. You are behind a cell door built of thick wooden beams, and it is locked. The cell is about fifteen feet square.
+
+- Door[A] - Cell door to where players are held. Large Cell door made of thick wood beams.. The cell door is locked.. The players are guarded by two Fey-Wild Goblins..
+  - The Goblin sitting on the captured player equiopment nearly falling asleep.
+  - The keys are on one of the Goblins. They were told to watch the players for King Hob Gob.
+  - Low Intelligence (chance to trick/agro them to coming close)
+  - To break the door down - DC18 STR to break it open. Door has 50hp to break it apart or burn it.
+
+**Read Aloud (the guards)**
+> Two goblins are supposed to be watching you. One is sprawled across a pile of gear, your gear by the look of it, chin dropping toward his chest and close to asleep. The other has a key ring on his belt and keeps shooting glances at your cell.
+
+> [!NOTE] GM NOTE
+> Run the near-asleep guard as dozing. Loud noise wakes him and he tries to keep the party penned in the cell. The party can also bait him close, since the keys ride on his belt. Both guards have low Intelligence.
+
+- Door[B] to Area 4 is locked.. The Key on the Goblin will unlock it.
+
+### Equipment
+
+The player can loot both the Goblin Guard in their stash of stuff. The equipment in the pile is.
+
+- See Decks.
+
+### Monsters
+
+- 2x Feywild Goblin Guards (the jailers)
+
+#### Feywild Guard
+
+*Small Fey (Goblinoid), Chaotic Neutral* | **AC** 13 (padded armor) | **HP** 10 (3d6) | **Speed** 30 ft.
+
+| STR | DEX | CON | INT | WIS | CHA |
+| --- | --- | --- | --- | --- | --- |
+| 8 (-1) | 15 (+2) | 10 (+0) | 10 (+0) | 8 (-1) | 8 (-1) |
+
+**Skills** Stealth +6 | **Senses** darkvision 60 ft., passive Perception 9 | **Languages** Common, Goblin | **Challenge** 1/4 (50 XP) **PB** +2
+
+***Glaive.*** +1, reach 10 ft. *Hit:* 4 (1d10 - 1) Slashing, plus 2 (1d4) if the attack had Advantage.
+***Dagger.*** +4, reach 5 ft or range 20/60 ft. *Hit:* 4 (1d4 + 2) Piercing, plus 2 (1d4) if the attack had Advantage.
+***Nimble Escape (Bonus Action).*** Takes Disengage or Hide.
+
+## C2 | The Bridge
+
+**Read Aloud (entering)**
+> A plank bridge runs out across a black gap with no handrails on either side. Far below you can see the orange glow of a forge, and the smell of sulfur comes up off the dark water under it. Everything past the glow is pitch black. The bridge shifts the moment you put weight on it.
+
+The Bridge overlooks the Dwarven Forge  (Area 5 & 6 ).. Below the bridge is a brackish water that smells of sulfer. The players can see the glow of the Forge, the rest of Area 5 is pitch black (dark vision can make out some features such as the movement of large spiders with a DC14 Perception Check.)
+
+### TRAP
+
+**Read Aloud (crossing)**
+> The bridge rolls and twists under your weight. One bad step and your feet slide out toward the drop.
+
+- The Bridge requires a DEX Save or Acrobatics Check DC13 for each area to pass safely as it the bridge has no handles and rolls and twists under weight of the players.. If more than 1 player tries to cross at the same time - DC is 15
+
+## C3 | Surprise
+
+**Read Aloud (entering)**
+> A heavy wooden hatch is set into the floor, banded and locked, with three different runes burned into the lid. Up on a raised landing in the middle of the room there is cover, and you catch movement behind it.
+
+This area has a hatch in the floor that is locked. The door has 3 Runes carved into the wood. Hand the players the rune-hatch handout, which shows all three marks together.
+This area also has 2 Goblins. The Goblins will fire are the players once they hit the central landing (#2) and have partial coverage +2 AC
+
+**Read Aloud (when the goblins open fire)**
+> Two goblins bob up from behind the landing and start shooting, then duck back down between shots. The cover eats most of what you throw back.
+
+> [!NOTE] GM NOTE
+> This hatch is the Treasure Goblin access. It is opened by the Obelisk Stones puzzle below. Hand out the rune-hatch handout so the party sees all three runes together.
+
+- Goblin 1: Shortbow
+- Goblin 2: Shortsword
+
+#### Goblin Warrior
+
+*Small Fey (Goblinoid), Chaotic Neutral* | **AC** 15 (leather armor, shield) | **HP** 10 (3d6) | **Speed** 30 ft.
+
+| STR | DEX | CON | INT | WIS | CHA |
+| --- | --- | --- | --- | --- | --- |
+| 8 (-1) | 15 (+2) | 10 (+0) | 10 (+0) | 8 (-1) | 8 (-1) |
+
+**Skills** Stealth +6 | **Senses** darkvision 60 ft., passive Perception 9 | **Languages** Common, Goblin | **Challenge** 1/4 (50 XP) **PB** +2
+
+***Scimitar.*** +4, reach 5 ft. *Hit:* 5 (1d6 + 2) Slashing, plus 2 (1d4) if the attack had Advantage.
+***Shortbow.*** +4, range 80/320 ft. *Hit:* 5 (1d6 + 2) Piercing, plus 2 (1d4) if the attack had Advantage.
+***Nimble Escape (Bonus Action).*** Takes Disengage or Hide.
+
+### PUZZLE: The Obelisk Stones
+
+**What the players see**
+
+> A wooden hatch set into the floor, locked, with three different runes carved into it. The handout shows the hatch marked with all three symbols, so the party knows they are collecting a matched set.
+
+**Intended solution**
+
+The hatch is held by three rune stones that must be activated in order. Touch or activate the obelisks in this sequence, then the C3 hatch unlocks:
+
+1. First stone, in C9 (rune T).
+2. Second stone, in C4 (rune U).
+3. Third stone, in C13 (rune Z).
+
+Touching the C4 obelisk lights its rune and shows the party it matches one of the symbols on this hatch. That match is the thread that ties the three rooms together.
+
+**Clues and where they live**
+
+- This room's hatch and the C3 handout both show all three runes, so the party knows they are hunting a set.
+- The C4 antechamber describes the orange obelisk and tells the party its glowing rune matches the one on this hatch.
+
+**Fail state**
+
+The hatch stays locked until the correct order is used, so the cost of fumbling is time spent exposed. While the party works, the two goblins keep firing from partial cover (+2 AC). There is no self-damage from a wrong activation. The pressure is the fight, not a trap.
+
+**Hint ladder**
+
+1. "The hatch has three different runes. You have seen runes like these on standing stones elsewhere in the caves."
+2. "Touching an obelisk lights its rune. Compare that rune to the ones on the hatch."
+3. "There are three stones, and the order matters. You found them in C9, C4, and C13."
+4. If they are still stuck, confirm the first stone is the one in C9 and let them test the sequence from there.
+
+> [!NOTE] GM NOTE
+> The three-room layout, the runes, and the activation order are set in `thoughts.md` and this file. The letters T, U, and Z are rune identifiers from the notes, not a word the players need to spell. What matters is the activation order: C9, then C4, then C13. The hatch leads down to the Treasure Goblin. The Treasure Goblin's full vendor stall and the prize Item Card economy are written up at R10 in `rooms/Dungeon-Right.md`.
+
+---
+
+## Area 2
+
+![alt text](images/rooms/cavern-marked-2.jpg)
+
+## C4 | The Antechamber
+
+**Read Aloud (entering)**
+> Big double doors stand open behind you to the north. The room is wide and quiet, and thick gray cobwebs hang off the walls and drape down from the ceiling. On the far east wall the floor drops away into a dark hole, wide enough for a person to climb down. In the middle of the room there is a carved stone pillar about shoulder height, and the carvings running up every side of it have a dull orange color.
+
+**Features**
+
+- Large doors to the north [C]. Unlocked.
+- A hole in the far east wall leading down into darkness.
+- Heavy cobwebs over most surfaces.
+- A shoulder-height stone obelisk (orange) near the center. Touching it lights the rune carved on every side.
+
+**Read Aloud (touching the obelisk)**
+> The moment a hand touches the stone, the carved rune flares bright orange and holds, lighting up every face of the pillar.
+
+> [!NOTE] GM NOTE
+> The rune matches one of the three marks cut into the locked hatch in C3. A player who has seen that hatch recognizes it. This is the second stone (rune U) in the C9, then C4, then C13 activation order for the Treasure Goblin hatch.
+
+## C5 | The Dwarven Forge
+
+**Read Aloud (entering)**
+> You come out onto a stone ledge above a wide cavern, with stairs cut into the rock leading down to the floor. Off to the south a forge is still lit, a low orange glow, and it throws just enough light to show the near wall and the first few feet of ground. Everything past that is black. The air is warm and smells of hot stone and old smoke.
+
+**Features**
+
+- Large cavern. A glowing forge to the south, with stairs down to the main floor.
+- Far wall: a large forge under a cast-iron bull's head, dedicated to Moradin, Dwarven god of the forge and smithing. Dwarven PCs recognize it automatically. Others can make an INT check, DC15, or DC12 if they speak Dwarven.
+- Three doors:
+  - C to Area 4. Unlocked, opens freely.
+  - E to the Lava Area. Sealed over with heavy webbing. Burn or cut it clear, then it opens easily.
+  - F to the Cave Tunnels. Sealed over with heavy webbing. Burn or cut it clear, then it opens easily.
+
+**Read Aloud (at the web-choked doors E and F)**
+> This door is packed solid with white webbing, floor to frame, thick as rope. You cannot see the wood behind it. Clearing it is going to take fire or a blade.
+
+**Read Aloud (the forge inscription, if they read Dwarven or pass the check)**
+> There is dwarven script hammered across the front of the forge, under the bull's head. It reads: "Any who light my Forge and speak my name shall be under my protection."
+
+**Monsters**
+
+- Large Spiders (Giant Spider stat block below).
+- Drider Priestess of Lloth, boss (stat block below). She uses spells, her whip, and the Blue Crystal one time.
+
+#### Giant Spider
+
+*Large Beast, Unaligned* | **AC** 14 (natural armor) | **HP** 26 (4d10 + 4) | **Speed** 30 ft., climb 30 ft.
+
+| STR | DEX | CON | INT | WIS | CHA |
+| --- | --- | --- | --- | --- | --- |
+| 14 (+2) | 16 (+3) | 12 (+1) | 2 (-4) | 11 (+0) | 4 (-3) |
+
+**Skills** Stealth +7 | **Senses** blindsight 10 ft., darkvision 60 ft., passive Perception 10 | **Languages** None | **Challenge** 1 (200 XP) **PB** +2
+
+***Spider Climb.*** Climbs difficult surfaces and ceilings without a check.
+***Web Sense.*** Knows the location of anything touching the same web.
+***Web Walker.*** Ignores web movement restrictions.
+
+***Bite.*** +5, reach 5 ft. *Hit:* 7 (1d8 + 3) Piercing, and CON save DC 11, taking 9 (2d8) Poison on a fail or half on a success. If the poison reduces the target to 0 HP, it is stable but Poisoned for 1 hour and Paralyzed while so Poisoned.
+
+***Web (Recharge 5-6).*** *Ranged Attack Roll:* +5, range 30/60 ft., one Large or smaller creature. *Hit:* Restrained by webbing. Escape with a DC 12 Strength action. The webbing is AC 10, 5 HP, Vulnerable to Fire, Immune to Bludgeoning, Poison, Psychic.
+
+**Read Aloud (when the Drider Priestess reveals herself)**
+> Something comes down the rock out of the dark on too many legs. From the waist up she is a dark elf, pale-faced and smiling, with a whip in her hand that splits into three snake heads. From the waist down she is a spider the size of a horse. She settles above you and looks the party over, taking her time about it.
+
+#### BOSS: Drider Priestess of Lloth
+
+*Large Monstrosity, Chaotic Evil*
+
+**Armor Class** 19 (natural armor)
+**Hit Points** 123 (13d10 + 52)
+**Speed** 30 ft., climb 30 ft.
+
+| STR | DEX | CON | INT | WIS | CHA |
+| --- | --- | --- | --- | --- | --- |
+| 16 (+3) | 19 (+4) | 18 (+4) | 13 (+1) | 16 (+3) | 12 (+1) |
+
+**Skills** Perception +6, Stealth +10
+**Senses** darkvision 120 ft., passive Perception 16
+**Languages** Elvish, Undercommon
+**Challenge** 6 (2,300 XP) **Proficiency Bonus** +3
+
+**Traits**
+
+***Spider Climb.*** Climbs difficult surfaces, including ceilings, without a check.
+
+***Sunlight Sensitivity.*** In sunlight, Disadvantage on ability checks and attack rolls.
+
+***Web Walker.*** Ignores movement restrictions from webs and knows the location of any creature touching the same web.
+
+**Spellcasting.** Level 4 Cleric, Wisdom based, spell save DC 14, +6 to hit with spell attacks.
+
+- At will: *Guidance* (touch; +1d4 to one skill; concentration). *Sacred Flame* (60 ft; DEX save DC 14; 1d8 radiant, ignores cover). *Thaumaturgy* (30 ft; minor supernatural effect). *Toll the Dead* (60 ft; WIS save DC 14; 1d8 necrotic, or 1d12 if the target is missing HP).
+- 1st level, 4 slots: *Bane* (30 ft, up to three targets; CHA save DC 14 or subtract 1d4 from attacks and saves; concentration). *Command* (60 ft; WIS save DC 14; one-word order on a fail). *Guiding Bolt* (120 ft ranged spell attack +6; 4d6 radiant, next attack on the target has Advantage). *Inflict Wounds* (touch; CON save DC 14; 2d10 necrotic, half on save).
+- 2nd level, 3 slots: *Hold Person* (60 ft; WIS save DC 14; Paralyzed, repeat save each turn; concentration). *Silence* (120 ft, 20 ft radius; no verbal spells inside; concentration 10 min). *Spiritual Weapon* (60 ft; melee spell attack +6; 1d8+3 force, moves and strikes as a bonus action; concentration).
+
+**Actions**
+
+***Multiattack.*** Two attacks, Foreleg or Three-Headed Snake Whip in any combination.
+
+***Foreleg.*** *Melee Attack Roll:* +7, reach 10 ft. *Hit:* 13 (2d8 + 4) Piercing.
+
+***Three-Headed Snake Whip.*** *Melee Attack Roll:* +8, reach 10 ft. *Hit:* 7 (1d4 + 5) Slashing plus 3 (1d4 + 1) Poison. On a Critical Hit, the target makes a DC 14 CON save or is Poisoned, repeating the save at the end of each of its turns.
+
+**Bonus Actions**
+
+***Magic of the Spider Queen (Recharge 5-6).*** Casts one, Wisdom based, save DC 14: *Darkness* (60 ft, 15 ft radius magical darkness; concentration). *Faerie Fire* (60 ft, 20 ft cube; DEX save DC 14 or outlined, attackers gain Advantage; concentration). *Web* (60 ft, 20 ft cube; DEX save DC 14 or Restrained; difficult terrain and lightly obscured; concentration 1 hr).
+
+**Tactics.** She fights from her webs in C6 and the ceiling of C5, where Spider Climb and Web Walker let her reposition freely while the party is stuck in difficult web terrain. Open with Web to lock down the frontline, then use Faerie Fire to feed Advantage to the Giant Spiders. She leads with Guiding Bolt and Spiritual Weapon from range, and she saves Hold Person to paralyze a tank so her spiders can auto-crit it. If pressed, she drops Darkness on herself and keeps attacking with 120 ft darkvision while the party is blind. Reach 10 ft on both melee attacks means she can strike from inside her web without leaving it. Run her with the Giant Spiders, not solo. Her 123 HP folds fast to a 10-plus character alpha strike, so the webs and Darkness are what keep her alive. Add two to four Giant Spiders scaled to the table and split the party with web terrain. Hold Person plus a Giant Spider bite can chain-lock and kill a single character.
+
+#### Dwarven Iron Golem (ally, not an enemy)
+
+These are the Armored Guardians. They aid the party only if it relights Moradin's forge and speaks his name. If the forge is never relit they stay inert objects. Do not throw a CR 16 golem at a level 3 party as an enemy.
+
+*Large Construct, Unaligned* | **AC** 20 (natural armor) | **HP** 210 (20d10 + 100) | **Speed** 30 ft.
+
+| STR | DEX | CON | INT | WIS | CHA |
+| --- | --- | --- | --- | --- | --- |
+| 24 (+7) | 9 (-1) | 20 (+5) | 3 (-4) | 11 (+0) | 1 (-5) |
+
+**Damage Immunities** Fire, Poison, Psychic; Bludgeoning, Piercing, Slashing from nonmagical attacks that are not adamantine | **Condition Immunities** Charmed, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned | **Senses** darkvision 120 ft., passive Perception 10 | **Languages** understands Dwarvish and its creator's languages, cannot speak | **Challenge** 16 (15,000 XP) **PB** +5
+
+***Fire Absorption.*** Fire damage heals it instead of harming it.
+***Immutable Form.*** Immune to form-altering effects.
+***Magic Resistance.*** Advantage on saves against spells and magical effects.
+***Magic Weapons.*** Its weapon attacks are magical.
+
+***Multiattack.*** Two melee attacks.
+***Slam.*** +13, reach 5 ft. *Hit:* 20 (3d8 + 7) Bludgeoning.
+***Sword.*** +13, reach 10 ft. *Hit:* 23 (3d10 + 7) Slashing.
+***Poison Breath (Recharge 6).*** 15 ft cube, CON save DC 19, 45 (10d8) Poison on a fail, half on a success.
+
+> [!NOTE] GM NOTE
+> Its Poison Breath can kill allies too, so narrate it as targeting enemies only when under player control.
+
+### Treasure:
+
+- 3-headed Snake Whip used by Priestesses of Lloth
+- Crystal (Blue/Conjuration)
+
+**Read Aloud (when they relight the forge and speak Moradin's name)**
+> The forge roars up white-hot and the new light spills across the whole cavern. Along the walls, shapes you took for armored statues grind and straighten. Two great iron guardians step down off their stands and turn to stand with the party, waiting for the fight.
+
+> [!NOTE] GM NOTE
+> Relighting Moradin's forge and speaking his name puts the Armored Guardians (Dwarven Iron Golems, stat block above) under the party's control for the fight. If the forge is never relit, they stay inert. The inscription that hints at this is the Read Aloud near the forge in the Features section. In Dwarven, the front of the forge reads: "Any who light my Forge and speak my name shall be under my protection!"
+
+Once this area has been cleared.. Players can attempt to "Craft" magical weapons in the Forge - turning them into +1 weapons..
+
+- Requires Smithing Tools (Gear) | If player has proficency in Smithing Tools they roll with ADV.
+- Smithing Tools is a consumable resource.
+- Flat d20 Roll (DC18) Smithing Check| Smithing Result       | Outcome                                                                                         |
+  | --------------------- | ----------------------------------------------------------------------------------------------- |
+  | **Natural 20**  | Weapon becomes +1 and the Smithing tools\Resources are not expended.                            |
+  | **18+**         | Weapon becomes a permanent**+1 weapon**                                                   |
+  | **13–17**      | Forging fails, but the weapon is unharmed                                                       |
+  | **12 or lower** | Forging fails and the weapon must be repaired before another attempt                            |
+  | **Natural 1**   | Forge rejects the attempt; cannot try again until completing a suitable act/offering to Moradin |
+
+## C6 | The Brackish Waters
+
+**Read Aloud (entering)**
+> The floor drops into standing water about three feet deep, black and dead still. It stinks of rot and sulfur, strong enough to sting your eyes. Webs fill the whole space, strung wall to wall and hanging down to the waterline, so thick you cannot move through without pushing a hand or a shoulder into one.
+
+**Read Aloud (wading into the water, or getting it in the mouth)**
+> The water is warm and oily, and the sulfur stink coats the back of your throat. A mouthful of this would turn your stomach.
+
+**Read Aloud (when a web is touched)**
+> The web drags at your hand and the whole curtain of it shivers, all the way up into the dark overhead. Somewhere up there, something heavy shifts its weight.
+
+**Features / Hazards**
+
+- Water about 3 feet deep, smelling of decay and sulfur. Anyone who climbs into it or gets it in their mouth makes a CON save DC12 or is Sickened for 1d4 rounds (poisoned effect).
+- Webs fill the area. Moving through without touching one needs an Acrobatics check or DEX save DC17.
+
+> [!NOTE] GM NOTE
+> The Drider Priestess lairs across Areas 5 and 6 (stat block in C5) and hides in the webs here. She becomes aware of anyone in her domain if they are loud or touch one of her webs, including the webbed doors in C5. The Giant Spiders (stat block in C5) range here too.
+
+### Treasure
+
+    - Hidden in the area around the brackish water is a small chest that contains:
+        - Smithing Tools x1
+        - Healers Kit x1
+        - Greater Healing Potion x1
+        - Some Gold
+        - Magic Armor (Half Plate +1)
+
+---
+
+## Area 3
+
+![alt text](images/rooms/cavern-marked-3.jpg)
+
+## C-7 | Slime Time
+
+**Read Aloud (entering)**
+> Green slime coats everything in here, the walls, the floor, and a skin of it floating on standing water. There is a hole in the ceiling along the west wall, a tunnel running southeast through the slime-covered water, and a doorway to the north hung with dripping slime.
+
+- This room is covered in green slimey substances, including layered on top of the water.
+- There is an opening in the Cieling along the west wall -> C-4 | Requires Climbing or Rope.
+- There is a tunnel entrance along the south-east wall through the slime covered water (difficult terrain)
+- There is another entrance to the north that is covered in Dripping Slime.
+
+### TRAP
+
+**Read Aloud (passing through the slime door)**
+> The slime hanging across the doorway splatters as you push through it. Where it lands on skin it burns and starts to eat in.
+
+- Dripping Slime [Door G].. Passing through this door without first clearing it causes 2d6 ACID damage (DC16 CON for half)
+- You can disable this trap by nuetralizing the Slime with Holy Water..
+- Or you can use something to protect your as your run through it - like shield over your head as umbrella. The item would be damaged if not magical.
+
+### Monsters
+
+- Giant Ooze/Slime Monster
+
+**Read Aloud (when the slime attacks)**
+> The water by your legs is not just water. A clear, jelly-like mass the size of a cart heaves up out of the slime, and you can see something half-dissolved hanging suspended inside it. It throws a thick limb of itself at the nearest of you.
+
+#### MINI-BOSS: Giant Slime
+
+*Large Ooze, Unaligned*
+
+**Armor Class** 6
+**Hit Points** 63 (6d10 + 30)
+**Speed** 15 ft.
+
+| STR | DEX | CON | INT | WIS | CHA |
+| --- | --- | --- | --- | --- | --- |
+| 14 (+2) | 3 (-4) | 20 (+5) | 1 (-5) | 6 (-2) | 1 (-5) |
+
+**Damage Immunities** Acid
+**Condition Immunities** Blinded, Charmed, Deafened, Exhaustion, Frightened, Prone
+**Senses** blindsight 60 ft., passive Perception 8
+**Languages** None
+**Challenge** 2 (450 XP) **Proficiency Bonus** +2
+
+**Traits**
+
+***Ooze Cube.*** The slime fills its space and is transparent. A creature entering that space is subjected to Engulf and has Disadvantage on the save. Creatures inside have total cover. It can hold one Large or up to four Medium or Small creatures. A creature within 5 ft can pull an engulfed creature or object out with a DC 12 Strength (Athletics) check, taking 10 (3d6) Acid damage.
+
+***Transparent.*** Even in plain sight, a creature must succeed on a DC 15 Wisdom (Perception) check to notice the slime if it has not seen it move or act.
+
+**Actions**
+
+***Pseudopod.*** *Melee Attack Roll:* +4, reach 5 ft. *Hit:* 12 (3d6 + 2) Acid.
+
+***Engulf.*** Moves up to its Speed without provoking opportunity attacks and can move through Large or smaller creatures' spaces. Each creature whose space it enters makes a DC 12 DEX save. On a fail, 10 (3d6) Acid and the creature is engulfed: suffocating, cannot cast with verbal components, Restrained, and takes 10 (3d6) Acid at the start of each of the slime's turns. An engulfed creature escapes with a DC 12 Strength (Athletics) action to the nearest open space.
+
+**Tactics.** The slime is a trap with teeth. It sits transparent in the slime-covered water, and the first character to wade in triggers the engulf before anyone sees it. It is slow, AC 6, and cannot chase, so once spotted it is easy to hit, but Engulf and the per-turn acid make it lethal to anyone it swallows. It wants to engulf the squishiest character and crawl away while the party burns actions pulling the victim out, each pull doing 10 acid to the puller. The reward, the fallen Runner's +1 Dagger, +1 Studded Leather, and the White Crystal, are inside its body, so the party has to cut it open. An engulfed character is suffocating and taking 10 acid a turn against a 40 HP cap, so a swallowed character who rolls badly on the escape can die in two or three rounds. Telegraph the trap with the slime layered on the water and the Perception DC 15.
+
+### Treasure
+
+- Inside the ooze Boss are the remains of a fallen Runner, his Dagger and Armor undamaged
+  - +1 Dagger
+  - +1 Studded Leather
+  - protected by the armor - leather pouch with GOLD & White Crystal
+
+If players search (Investigation DC 12) - they can find 2x Gob Stoppers laying near the remains of a Goblin Scout in the corner near the Long Cave Entrance.
+
+## C-8 | The Cross Roads
+
+**Read Aloud (entering)**
+> This is a wide junction where several tunnels meet. You can pick out the slime-choked north door, a tunnel running toward the forge glow, two more that run off into the dark, and a locked iron cage door with a single chest behind it.
+
+This area is a major junction in the Caverns and is Patrolled by Goblins (Random Encounter Possiblity). There is the Slime Door, The Tunnel to the Dwarven Forge, Tunnel to Area 10,  Tunnel to Area 9, and Locked Cage Door with a single Chest behind it (Area 12 - Door H).
+
+> There is a chance the party could randomly Encounter Goblin Scouting Party in this area. Either Party A or B both patrol this area. Roll 1d8 | 1-3 Scout A,  4-8 - none.
+
+- The Goblin Patrol (A) will approach from Area 9.. If not encountered in this Room - the'll be waiting in C-9 having just checked the Trap in that room.
+
+### Monsters
+
+- Goblin Patrol A: Goblin Warriors (stat block in C3) and Goblin Dogs. Size the patrol to the table.
+
+**Read Aloud (when the patrol arrives)**
+> Goblins come up one of the tunnels at a jog, and loping out ahead of them are a couple of mangy dogs, hackles up and already snapping.
+
+#### Goblin Dog
+
+*Medium Beast, Unaligned* | **AC** 12 | **HP** 5 (1d8 + 1) | **Speed** 40 ft.
+
+| STR | DEX | CON | INT | WIS | CHA |
+| --- | --- | --- | --- | --- | --- |
+| 13 (+1) | 14 (+2) | 12 (+1) | 3 (-4) | 12 (+1) | 7 (-2) |
+
+**Skills** Perception +3 | **Senses** passive Perception 13 | **Languages** None | **Challenge** 1/8 (25 XP) **PB** +2
+
+***Keen Hearing and Smell.*** Advantage on Perception relying on hearing or smell.
+***Bite.*** +3, reach 5 ft. *Hit:* 4 (1d6 + 1) Piercing. On a hit against a creature, STR save DC 11 or Prone.
+
+### Trap
+
+**Read Aloud (when the pit opens)**
+> The floor gives way under one step and drops into a black shaft. Off in the tunnels, goblin voices pick up and start moving toward the noise.
+
+- Pitfal trap. If a player steps on the pitfall trap (DC16 - Dex Save or fall) - falls down a deep black hole (40' 4d6 falling dmg).. If triggered - Goblin Scout/Patrol A will show up in 1d4+1..
+
+> Players can make a perception check DC15 to hear the approaching Goblins when they get 1 rd/30' away.
+
+## C-9 | Goblins just want to have fun
+
+**Read Aloud (entering)**
+> The cave narrows toward a low tunnel mouth that runs off into the goblin warren. If the patrol slipped past you earlier, they are here now, waiting for you.
+
+This room leads to one of 3 entrances (2) to the Goblin Tunnels. If the Goblin Patrol is not encountered and defeated earlier, then they will be here waiting for the players here!
+
+### Trap
+
+**Read Aloud (when the blade drops)**
+> A heavy blade swings down out of the dark over the tunnel mouth at head height. Somewhere up ahead in the warren, an alarm starts clanging.
+
+- The entrance to the Goblin Tunnels is trapped. First person that steps through will need to make a DEX Save DC 15 As a large blade drops from above on their head (2d6+2) - save for half damage. This will also trigger an alarm through out the tunnels.
+  - Investigation DC15 to locate the trap.
+  - Sleight of Hands DC15 to disable the trap (DC17 to disable )without setting the alarm off.
+
+## C-10 | Goblin Camp Entrance
+
+**Read Aloud (entering)**
+> Another big intersection. West is a locked door into the goblin camp and a tunnel into the warren. North runs toward the heat coming off the lava and a bridge beyond it. Two goblins stand guard here, and they have already spotted you.
+
+Large intersection - to the west is the entrance to the Goblin Camp (Locked) and entrance to Goblin Tunnels (1).
+North lays the entrance to the Lava Area and Bridge to Goblin Camp. There are always 2 Feywild Goblins standing Guard here! Any sound of combat lasting more than 1 rd can potentially draw the attention of one of the scouting parties. Roll below check every round after the first to see if the Patrol comes to investigate.
+
+> There is a chance the party could randomly Encounter Goblin Scouting Party in this area. Either Party A or B both patrol this area. Roll 1d8 | 1-2 Scout A, 7-8 Scout B, 3-6 - none.  If the scouting party is already defeated then treat as None.
+
+### Monsters
+
+- 2x Feywild Goblin Guards (stat block in C1)
+- Goblin Patrol(s) [Possibility]
+
+### Treasure
+
+- GOLD on Goblin Guard
+- Scalemail x2
+- Halbert & Glaive
+
+## C-11 | The Long Tunnel
+
+**Read Aloud (entering)**
+> A long dark tunnel runs off ahead of you, better than a hundred feet of it. The floor and walls are slick with an oily liquid, and your boots slide on it with every step.
+
+This long dark tunnel opens at the Slime Pit (C-7) and vanishes into somewhere around 120'. The tunnels walls and floor are coated in a slippery liquid substance. Because of this substance the ground is treated as difficult terrain (1/2 movement).. If you attempt to move at normal speed you must make a DEX Save DC15 or slip (prone)..
+
+### Traps
+
+**Read Aloud (when the oil ignites)**
+> The oil on the walls catches all at once, and fire races the whole length of the tunnel in a breath. The air itself seems to burn around you.
+
+- The slime substance is Goblin Juice. If it comes into contact with an open flame it catches fire burning the entire length of the tunnel.. Anyone in the tunne takes 2d6 fire damage and is now on Fire requiring them to take a full action to put themselves out or take 1d6 fire damage per round. Give players chance to identify the substance | Medicine (Alchemy) Check DC15.. Advantage if you are proficient.
+
+**Read Aloud (when the boulder comes)**
+> Stone grinds on stone far up the tunnel. Then a boulder as wide as the passage rolls into view and comes straight down at you, picking up speed.
+
+- Boulder Trap: The players will hear the sound of stone grinding on stone from far up in the tunnel.. As a large boulder comes fliying down the tunnel at them.. It will trigger when players are at the entrance of the Goblin Tunnels (3)
+
+  - If the goblin juice still coats the walls the boulder is slowly getting coated with it and it acts as a lubricant - allowing the bolder to move at 40' per rd..
+  - If the goblin juice has burned away - then the movement is only 30' per round.
+  - It does 4d4+4 bludgeoning damage - DEX DC18 Save for half damage.
+
+## C-12 | Treasure Room
+
+**Read Aloud (entering)**
+> A small room sealed behind a heavy steel cage door. A single rune is cut into the metal above the keyhole. Past the bars sits one chest.
+
+This small room is locked behind a heavy steal cage door. The door is locked.. Above the key hole is a Rune (this will match one of the keys found on the Dead Guard in Dungeon Cell Area) - this door cannot be picked or breached other than with the key.
+
+Inside the chest is the following:
+
+- Gold ???
+- Gold Crystal | **Barter Specialist:** When you buy from a Treasure Goblin, use this crystal to get a discount equal to 5 percent times your Charisma modifier, minimum 5 percent, maximum 25 percent. This only applies to the bearer's purchase.
+- Scouts Tome (Spellbook)
+
+## C-13 | The Entrance to the Caverns
+
+**Read Aloud (entering)**
+> This is the mouth of the caverns. Caves run off to the south, and a long wooden bridge crosses a river of lava below toward a landing on the far side. A door to the north is shut tight and will not move from this side.
+
+This room is the Entrance to the Caverns with caves running to the south and a long wooden bridge crossing over the lava below toward another landing.. The door to the North leads to the Lava Area.. It is locked from the other side and can only opened from the Lava Area.
+
+> There is a chance the party could randomly Encounter Goblin Scouting Party B in this area.  Roll 1d8 | 1-3 Scout B,  4-8 - none.
+
+### Monsters
+
+- Goblin Patrol (possible)
+
+## C-14 | Bridge to Goblin Camp
+
+**Read Aloud (entering)**
+> A long bridge sways out over a river of burning lava. On the far landing, two goblins with long muskets are already lining up shots at you from behind a heap of makeshift cover.
+
+This long bridge sways over the burning lava river below.
+
+On the far landing is a pair of Goblins with Long Muskets taking shots at the players as they come into view. These are Goblin Snipers and will have proficiency with those long guns.. They have partial cover firing from makeshift cover. They have a Musket, 10 rounds of ammo, a Dagger, and a Gob Stopper..
+
+### TRAP
+
+**Read Aloud (when the flyers dive)**
+> Something screams "YOLO" from the dark overhead. Goblins strapped to rickety gliders come swooping down at the bridge, aiming to slam into you and ride you off the edge into the lava.
+
+- The Bridge requires a DEX Save or Acrobatics Check DC13 for each area to pass safely as it the bridge has no handles and rolls and twists under weight of the players.. If more than 1 player tries to cross at the same time - DC is 15..
+- Death from Above.. As the players are making their way across the bridge, they hear a scream of YOLO as Goblins strapped to strange glider like contraptions swoop down from the darkness above them.. They'll attempt to slam into the players knocking them off the bridge into the river of lava below. If the Goblin hits he will slam a dagger into the player and attempt to carry them off the edge (STR or DEX Save | DC15). When the Goblin hits the player, he stops flying and just falls into the lava.. Kamakazi style. Alternatively the Goblins may make one pass before their Kamakazi attack and attempt to drop a Gob stopper on the players..
+
+### Monsters
+
+- Goblin Kamakazi Flyers
+- Goblin Sniper
+
+#### Flying Goblin (Kamikaze Flyers)
+
+*Small Fey (Goblinoid), Chaotic Neutral* | **AC** 13 (leather armor) | **HP** 10 (3d6) | **Speed** 30 ft., fly 30 ft. (glider)
+
+| STR | DEX | CON | INT | WIS | CHA |
+| --- | --- | --- | --- | --- | --- |
+| 8 (-1) | 15 (+2) | 10 (+0) | 10 (+0) | 8 (-1) | 8 (-1) |
+
+**Skills** Stealth +6 | **Senses** darkvision 60 ft., passive Perception 9 | **Languages** Common, Goblin | **Challenge** 1/4 (50 XP) **PB** +2
+
+***Gob Stopper (1).*** Thrown up to 30 ft, explodes on impact. DEX save DC 13. Within 10 ft, 7 (2d6) Fire on a fail. Over 10 ft but within 15 ft, 3 (1d6) Fire on a fail. Half on a success.
+***Shortbow.*** +4, range 80/320 ft. *Hit:* 5 (1d6 + 2) Piercing, plus 2 (1d4) with Advantage.
+***Dagger.*** +4, reach 5 ft or range 20/60 ft. *Hit:* 4 (1d4 + 2) Piercing, plus 2 (1d4) with Advantage.
+***Net.*** +4, range 5/15 ft., one Large or smaller creature. *Hit:* Restrained. DC 10 Strength action to free, or 5 Slashing to the net (AC 10).
+***Nimble Escape (Bonus Action).*** Takes Disengage or Hide.
+
+> [!NOTE] GM NOTE
+> The Death from Above dive (STR or DEX save DC 15 or be carried off the bridge into the lava, then the goblin falls) is the room's scripted attack above, not a stat-block action.
+
+#### Goblin Sniper (use the Goblin Artificer profile)
+
+The musket-armed snipers use the Goblin Artificer's Scoped Musket profile (`monsters/goblin-artificer.md`).
+
+*Small Fey (Goblinoid), Chaotic Neutral* | **AC** 13 (leather armor) | **HP** 10 (3d6) | **Speed** 30 ft.
+
+| STR | DEX | CON | INT | WIS | CHA |
+| --- | --- | --- | --- | --- | --- |
+| 8 (-1) | 15 (+2) | 10 (+0) | 10 (+0) | 8 (-1) | 8 (-1) |
+
+**Skills** Stealth +6 | **Senses** darkvision 60 ft., passive Perception 9 | **Languages** Common, Goblin | **Challenge** 1/4 (50 XP) **PB** +2
+
+***Scoped Musket.*** +5, range 40/120 ft. *Hit:* 9 (1d12 + 3) Piercing. This magic musket adds +1 to attack and damage, and its scope ignores long-range Disadvantage.
+***Pistol.*** +4, range 30/90 ft. *Hit:* 7 (1d10 + 2) Piercing, plus 2 (1d4) with Advantage.
+***Dagger.*** +4, reach 5 ft or range 20/60 ft. *Hit:* 4 (1d4 + 2) Piercing, plus 2 (1d4) with Advantage.
+***Nimble Escape (Bonus Action).*** Takes Disengage or Hide.
+
+---
+
+# Goblin Tunnels
+
+![alt text](images/rooms/GoblinTunnelsPoints.jpg)
+
+> [!NOTE] GM NOTE
+> The goblin tunnels are tight, about 4 ft tall and 3 ft wide, dug straight out of the earth. Larger characters crawl or hunch to fit, movement is constrained, and big two-handed weapons like greatswords and greataxes are useless in here. Nobody can squeeze past anyone else in the tunnels.
+
+> [!NOTE] GM NOTE
+> The murder holes let the goblins hit and run. At your discretion a murder hole can also hide a pit trap, 1d8+1 Piercing damage, which then becomes difficult terrain to cross.
+
+## Area 1: Entrance 1
+
+**Read Aloud (entering)**
+> The tunnel mouth is a cramped hole barely four feet high, dug straight out of the dirt. You have to hunch or crawl to get through, and there is no room to swing anything large.
+
+This entrance his protected by a Trap..
+
+### Trap
+
+**Read Aloud (when the blade drops)**
+> A heavy blade drops out of a slot above the entrance and swings down at the first head through it. All through the tunnels, an alarm starts clanging.
+
+- The entrance to the Goblin Tunnels is trapped. First person that steps through will need to make a DEX Save DC 15 As a large blade drops from above on their head (2d6+2) - save for half damage. This will also trigger an alarm through out the tunnels.
+  - Investigation DC15 to locate the trap.
+  - Sleight of Hands DC15 to disable the trap (DC17 to disable )without setting the alarm off.
+
+## Area 2: Entrance 2
+
+**Read Aloud (entering)**
+> Another low, dirt-walled crawl, the ceiling close enough to scrape your back.
+
+- This area is watched closely from above.. As the players pass into this area. A Goblin will open a hidding section of cieling above them and drop 1 or 2 Gob Stoppers on the party before shutting the entrance above again. DC 18 Perception check to spot the Hidden murder hole.
+
+**Read Aloud (when the hatch opens)**
+> A section of the dirt ceiling swings open above you. A goblin leans through, drops a pair of hissing clay bombs into your midst, and slams the hatch shut again.
+
+### Monsters
+
+The tunnels are held by generic Goblins. The murder-hole droppers here and in Areas 5 and 6 use the Goblin Warrior below plus thrown Gob Stoppers.
+
+#### Goblin Warrior
+
+*Small Fey (Goblinoid), Chaotic Neutral* | **AC** 15 (leather armor, shield) | **HP** 10 (3d6) | **Speed** 30 ft.
+
+| STR | DEX | CON | INT | WIS | CHA |
+| --- | --- | --- | --- | --- | --- |
+| 8 (-1) | 15 (+2) | 10 (+0) | 10 (+0) | 8 (-1) | 8 (-1) |
+
+**Skills** Stealth +6 | **Senses** darkvision 60 ft., passive Perception 9 | **Languages** Common, Goblin | **Challenge** 1/4 (50 XP) **PB** +2
+
+***Scimitar.*** +4, reach 5 ft. *Hit:* 5 (1d6 + 2) Slashing, plus 2 (1d4) if the attack had Advantage.
+***Shortbow.*** +4, range 80/320 ft. *Hit:* 5 (1d6 + 2) Piercing, plus 2 (1d4) if the attack had Advantage.
+***Gob Stopper (thrown).*** Thrown up to 30 ft, explodes on impact. DEX save DC 13. Within 10 ft, 7 (2d6) Fire on a fail. Over 10 ft but within 15 ft, 3 (1d6) Fire on a fail. Half on a success.
+***Nimble Escape (Bonus Action).*** Takes Disengage or Hide.
+
+### Trap:
+
+**Read Aloud (when the floor drops)**
+> The floor gives out and drops you about twenty feet into a pit. You land in a foot of reeking goblin oil pooled at the bottom.
+
+- There is a special murder hole just inside Entrance 2.. This is a pit trap. Inside this pit trap (20' Fall) is filled with a bout 1' of Goblin Juice... Use your imagination..
+
+## Area 3: Entrance 3
+
+**Read Aloud (entering)**
+> This is the far end of the long slime tunnel that runs back toward the slime pit. The floor and walls are slick with an oily liquid, and your footing slides with every step.
+
+- This area is part of the Long tunnel that leads to the slime area (C-11)..
+
+This long dark tunnel opens at the Slime Pit (C-7) and vanishes into somewhere around 120'. The tunnels walls and floor are coated in a slippery liquid substance. Because of this substance the ground is treated as difficult terrain (1/2 movement).. If you attempt to move at normal speed you must make a DEX Save DC15 or slip (prone)..
+
+### Traps
+
+**Read Aloud (when the oil ignites)**
+> The oily film on the walls catches all at once, and fire tears the whole length of the tunnel. The air itself seems to burn around you.
+
+- The slime substance is Goblin Juice. If it comes into contact with an open flame it catches fire burning the entire length of the tunnel.. Anyone in the tunne takes 2d6 fire damage and is now on Fire requiring them to take a full action to put themselves out or take 1d6 fire damage per round. Give players chance to identify the substance | Medicine (Alchemy) Check DC15.. Advantage if you are proficient.
+
+**Read Aloud (when the boulder comes)**
+> Stone grinds on stone far up the tunnel, and then a boulder as wide as the passage rolls into view and bears down on you, gathering speed.
+
+- Boulder Trap: The players will hear the sound of stone grinding on stone from far up in the tunnel.. As a large boulder comes fliying down the tunnel at them.. It will trigger when players are at the entrance of the Goblin Tunnels (3)
+
+  - If the goblin juice still coats the walls the boulder is slowly getting coated with it and it acts as a lubricant - allowing the bolder to move at 40' per rd..
+  - If the goblin juice has burned away - then the movement is only 30' per round.
+  - It does 4d4+4 bludgeoning damage - DEX DC18 Save for half damage.
+
+## Area 4: Let the Good Times Roll
+
+**Read Aloud (entering)**
+> The tunnel climbs a steep slope here. The dirt of the incline is scored and gouged, and a murder hole is punched into the wall above it.
+
+There is a long incline leading up, double movement.. This is where the Goblins are rolling the large stones from.. They only have two of these.. Did they use both? There is also a murder hole here for additional fun and quick escapes by the Goblins tossing boulders.
+
+### Trap
+
+**Read Aloud (when the boulder comes)**
+> Stone grinds above you, and another boulder tips onto the incline and comes rolling straight down the slope at you.
+
+- Boulder Trap: The players will hear the sound of stone grinding on stone from far up in the tunnel.. As a large boulder comes fliying down the tunnel at them.. It will trigger when players are at the entrance of the Goblin Tunnels (3)
+  - It does 4d4+4 bludgeoning damage - DEX DC18 Save for half damage.
+
+## Area 5: Bob-Bomb..
+
+**Read Aloud (entering)**
+> The tunnel opens into a wider space with a large tree growing straight up through the dirt. A goblin is perched above the incline, lobbing clay bombs down at anyone trying to climb.
+
+This area has a single Goblin that drops Gob Stoppers down on players from above as they try to get up the incline at area 4. He has partial coverage (+2 AC) to ranged attacks and cant be reached without a reach weapon (10').. Players can climb up and enter the upper areas of the Goblin Tunnels through this path. There is also a large Tree growing through this larger area..
+
+> Perception DC12 - Small pouch hidden in a nook in the tree contains a small bag with some coin and Necrotic Crystal! 
+
+## Area 6: Murder Hole/Hidden Entrance
+
+**Read Aloud (entering)**
+> A low passage with a murder hole cut into the ceiling. A goblin crouches up there, dropping clay bombs on anyone who passes beneath him.
+
+This area has a single Goblin that drops Gob Stoppers down on players from above as they pass below.. He has partial coverage (+2 AC) to ranged attacks and cant be reached without a reach weapon (10').. Players can climb up and enter the upper areas of the Goblin Tunnels through this path.
+
+## Area 7: Feed me Seymor
+
+**Read Aloud (entering)**
+> This stretch is thick with ferns and moss growing up out of the dirt. It looks overgrown and harmless.
+
+This area has a nasty surprise for the players.. One of the many man eating plants that the Goblins cultivated of the years. This one is hiddent under a bunch of ferns and moss. (DC 16 Perception Check to Find).. Any player that walks with in 5' of this plant will be attacked. He has 4 tentacals in which to grapple a player (STR DC 13) or be grappled. The plant will start sqaushing the players like an anaconda dealing 1d6 dmg per round they're grappled.
+
+**Read Aloud (when the plant strikes)**
+> The ferns heave aside and four thick vines whip out of the growth, grabbing for anyone in reach and dragging them in to crush.
+
+- Restrained
+
+## Area: 8: Plant Food
+
+**Read Aloud (when they drop in)**
+> You drop out of the tunnel and land in the middle of a wide, wet maw ringed with teeth. It starts to close around you.
+
+This is yet another man eating plant.. If the players try to drop down from the tunnels using this path, they'll find themselves being eaten alive..
+
+## Area 9: Bite Me
+
+**Read Aloud (when it strikes)**
+> Something hidden in the growth lunges out and snaps at you, fast and low, a mouthful of teeth going for a leg.
+
+The 3rd and smallet man eater is laying in wait for any player that passes by.. DEX Save or be bitten. 2d6+2 (1d6+1 Piercing and 1d6+1 Poison).. CON Save DC15 or get the poisoned condition until cured.
+
+## Area 10: The Goblin Camp
+
+**Read Aloud (reaching the exit)**
+> The tunnel ends at a heavily guarded opening into the goblin camp. There are more goblins between you and open air than you can count in a glance.
+
+This is the exit to the Goblin Camp.. It is well guarded!
+
+## Area 11: Surprise!
+
+**Read Aloud (at the murder hole)**
+> This murder hole opens in the ceiling right over the camp's main gate. The goblins use it to drop on attackers, but it works just as well the other way, dropping you down on the inside of a locked gate.
+
+This murder hole is above the main entrance.. Goblins will use it.. But players can use it to drop down on the inside of the main Goblin Gate. This entrance is less guarded because the gate is locked..
+
+---
+
+# Goblin Camp
+
+![alt text](images/rooms/GoblinGrottoPoints.jpg)
+
+## Area 1: The Snipers Nest
+
+**Read Aloud (from the bridge)**
+> Up on a rocky perch overlooking the bridge, two goblins are dug in behind cover with long muskets, already picking their shots at you as you cross.
+
+This areay has 2 Goblin Snipers that take shots at players as the cross the Bridge.. 
+
+### Monsters
+
+The snipers carry magic Long Muskets. Use the Goblin Artificer's Scoped Musket profile.
+
+#### Goblin Sniper (Goblin Artificer profile)
+
+*Small Fey (Goblinoid), Chaotic Neutral* | **AC** 13 (leather armor) | **HP** 10 (3d6) | **Speed** 30 ft.
+
+| STR | DEX | CON | INT | WIS | CHA |
+| --- | --- | --- | --- | --- | --- |
+| 8 (-1) | 15 (+2) | 10 (+0) | 10 (+0) | 8 (-1) | 8 (-1) |
+
+**Skills** Stealth +6 | **Senses** darkvision 60 ft., passive Perception 9 | **Languages** Common, Goblin | **Challenge** 1/4 (50 XP) **PB** +2
+
+***Scoped Musket.*** +5, range 40/120 ft. *Hit:* 9 (1d12 + 3) Piercing. This magic musket adds +1 to attack and damage, and its scope ignores long-range Disadvantage.
+***Pistol.*** +4, range 30/90 ft. *Hit:* 7 (1d10 + 2) Piercing, plus 2 (1d4) with Advantage.
+***Dagger.*** +4, reach 5 ft or range 20/60 ft. *Hit:* 4 (1d4 + 2) Piercing, plus 2 (1d4) with Advantage.
+***Nimble Escape (Bonus Action).*** Takes Disengage or Hide.
+
+## Area 2: Bertha
+
+**Read Aloud (entering)**
+> A huge, bloated plant squats here, its body swelling and sinking like it is breathing. Each time it heaves, it vents a cloud of thick, sickly fumes into the air.
+
+Large Plant that spews deadly fumes.. 
+
+## Area 3: Death Trap 
+
+**Read Aloud (entering)**
+> A wide, fleshy plant sits open on the ground like a trap waiting to spring. The dirt around it is littered with old bones, broken weapons, and scattered coin.
+
+Man Eating Plant. Once something living (or recently living) drops down it will instantly clamp shut and start digesting the creature.. A savvy player can use a Goblin Corpse to bypass.. Should they kill this plant, inside are several weapons, armor, and coin from previous victims.. 
+
+**Read Aloud (when it clamps)**
+> The plant slams shut the instant something living drops into it, folding over and beginning to digest whatever it caught.
+
+## Area 4: Main Entrance
+
+**Read Aloud (entering)**
+> This is the main way into the goblin camp, a gate flanked by a pair of goblin guards with glaives. They lower their points the moment they catch sight of you.
+
+This is the main entrance to the Goblins Grotto and is guarded by a pair of Feywild Goblin Guards. 
+
+#### Feywild Guard
+
+*Small Fey (Goblinoid), Chaotic Neutral* | **AC** 13 (padded armor) | **HP** 10 (3d6) | **Speed** 30 ft.
+
+| STR | DEX | CON | INT | WIS | CHA |
+| --- | --- | --- | --- | --- | --- |
+| 8 (-1) | 15 (+2) | 10 (+0) | 10 (+0) | 8 (-1) | 8 (-1) |
+
+**Skills** Stealth +6 | **Senses** darkvision 60 ft., passive Perception 9 | **Languages** Common, Goblin | **Challenge** 1/4 (50 XP) **PB** +2
+
+***Glaive.*** +1, reach 10 ft. *Hit:* 4 (1d10 - 1) Slashing, plus 2 (1d4) if the attack had Advantage.
+***Dagger.*** +4, reach 5 ft or range 20/60 ft. *Hit:* 4 (1d4 + 2) Piercing, plus 2 (1d4) if the attack had Advantage.
+***Nimble Escape (Bonus Action).*** Takes Disengage or Hide.
+
+## Area 5: Entrance from Goblin Tunnels
+
+**Read Aloud (reaching it)**
+> The tunnel lets out into the camp here, and the opening is thick with goblins standing watch.
+
+This is the exit to the Goblin Camp.. It is well guarded!
+
+## Area 6: plant Monster.. 
+
+**Read Aloud (when the plant strikes)**
+> Four thick vines lash out of the growth, grabbing for anyone in reach and dragging them in to crush like a snake.
+
+Any player that walks with in 5' of this plant will be attacked. He has 4 tentacals in which to grapple a player (STR DC 13) or be grappled. The plant will start sqaushing the players like an anaconda dealing 1d6 dmg per round they're grappled.
+
+## Area 7: Druid Circle
+
+**Read Aloud (entering)**
+> A ring of standing stones and heavy overgrowth marks a druid circle, with an altar at its heart and a treasure chest set beside it. The whole circle hums with a green, growing power.
+
+This is where Hob Gob would be standing providing him a little extra in his spell casting against the players.. There is a treasure chest near the alter that contains the Yellow Crystal.. 
+
+**Read Aloud (Hob Gob)**
+> At the center of the druid circle stands Hob Gob, the Goblin King. He is built like the goblins you have already fought, but bigger and heavier through the chest, with a hooked cleaver in one hand and a druid's focus in the other. The overgrowth around the circle leans in toward him. He watches you come and shows you his teeth.
+
+#### BOSS: Hob Gob, the Goblin King
+
+*Medium Humanoid (Goblinoid), Lawful Evil*
+
+**Armor Class** 18 (natural armor)
+**Hit Points** 178 (21d8 + 84)
+**Speed** 30 ft.
+
+| STR | DEX | CON | INT | WIS | CHA |
+| --- | --- | --- | --- | --- | --- |
+| 18 (+4) | 14 (+2) | 18 (+4) | 13 (+1) | 12 (+1) | 16 (+3) |
+
+**Saving Throws** Str +7, Con +7, Wis +4, Cha +6
+**Skills** Athletics +7, Intimidation +6, Perception +4, Stealth +5
+**Condition Immunities** frightened
+**Senses** darkvision 60 ft., passive Perception 14
+**Languages** Common, Goblin
+**Challenge** 8 (3,900 XP) **Proficiency Bonus** +3
+
+**Traits**
+
+***Magic Resistance.*** Advantage on saving throws against spells and other magical effects.
+
+***Regeneration.*** Regains 10 Hit Points at the start of each of his turns if he has at least 1 Hit Point. If he takes Acid or Fire damage, this does not function at the start of his next turn. He dies only if he starts his turn with 0 Hit Points and does not regenerate.
+
+**Spellcasting.** Level 5 Druid, Wisdom based, spell save DC 12, +4 to hit with spell attacks.
+
+- At will: *Druidcraft* (30 ft; tiny harmless sensory effect; no save). *Produce Flame* (30 ft ranged spell attack +4; 2d8 fire; also sheds light; no concentration). *Thorn Whip* (30 ft melee spell attack +4; 2d6 piercing, pull a Large or smaller target 10 ft).
+- 1st level, 4 slots: *Cure Wounds* (touch; regain 2d8+1). *Entangle* (90 ft, 20 ft square; STR save DC 12 or Restrained; difficult terrain; concentration 1 min). *Faerie Fire* (60 ft, 20 ft cube; DEX save DC 12 or outlined, attackers gain Advantage; concentration 1 min). *Thunderwave* (self 15 ft cube; CON save DC 12; 2d8 thunder and pushed 10 ft, half and no push on save).
+- 2nd level, 3 slots: *Lesser Restoration* (touch; ends Blinded, Deafened, Paralyzed, or Poisoned). *Moonbeam* (120 ft, 5 ft radius; CON save DC 12; 2d10 radiant on entering or starting there, half on save; concentration 1 min). *Spike Growth* (150 ft, 20 ft radius; no save; difficult terrain, 2d4 piercing per 5 ft moved; concentration 10 min).
+- 3rd level, 2 slots: *Call Lightning* (120 ft; DEX save DC 12; 3d10 lightning in a 5 ft radius, half on save, repeatable each turn; concentration 10 min). *Plant Growth* (150 ft, 100 ft radius; no save; movement costs 4 ft per 1 ft).
+
+**Actions**
+
+***Multiattack.*** Hob Gob makes three attacks: one Jagged Bite and two Hooked Cleaver.
+
+***Jagged Bite.*** *Melee Attack Roll:* +7, reach 5 ft. *Hit:* 11 (2d6 + 4) Piercing.
+
+***Hooked Cleaver.*** *Melee Attack Roll:* +7, reach 5 ft. *Hit:* 7 (1d6 + 4) Slashing.
+
+**Tactics.** Hob Gob opens from the Druid Circle, where the terrain gives him cover and his warband is already in position. He should open with Spike Growth or Plant Growth across the approach to wreck the party's movement, then sit in Call Lightning and keep re-aiming the bolt every turn while the goblins screen him. He uses Cure Wounds and Lesser Restoration on himself and key minions. His Regeneration means chip damage is wasted, so the party needs to burst him or bring Acid or Fire to shut the regeneration off for a round. Magic Resistance makes save-or-suck spells unreliable against him. Do not run him alone. Field him with the full camp warband so the party has to clear minions while the regeneration ticks. A cluster of characters standing in Call Lightning plus Moonbeam can see two or three of them dropped in a round.
+
+### Treasure
+- Yellow Crystal
+- Stuff Hob Gob has on him like Druid Focus
+- Other magical items and gear. 
+
+
+## Area 8: Well
+
+**Read Aloud (at the well)**
+> A plain stone well sits here, and the water in it is clear and clean. It is the first clean thing you have seen in this whole place.
+
+This is just a simple well with clean water.. Something pretty rare in this place.. Drinking from this well allows the players to gain 2d4+2 Temp HP. 
+
+## Area 9: Huts
+
+**Read Aloud (entering)**
+> A cluster of rough goblin huts. This is where the goblins sleep, and you can hear children hidden somewhere inside, kept quiet while the fighting goes on.
+
+This is where the Goblins sleep and where their children are hiding during the fight.. 
+
+### Monsters: The Camp Warband
+
+The camp defenders muster here and deploy across Areas 4, 5, 7, and 9. Roster: Feywild Guard x3 (stat block in Area 4), Goblin Warrior x15, Caster Goblin x1, Bombardier Goblin x1, Goblin Artificer x1 (stat block in Area 1), Shaman Goblin x1, Goblin Dog x2, plus Flying Goblins. Area assignment is GM discretion.
+
+**Read Aloud (when the warband musters)**
+> Horns go up across the camp, and goblins pour out of the huts and off the walls, far more of them than you were hoping for. They form up with blades, bows, and bombs, a shaman barking orders from the back.
+
+#### Goblin Warrior
+
+*Small Fey (Goblinoid), Chaotic Neutral* | **AC** 15 (leather armor, shield) | **HP** 10 (3d6) | **Speed** 30 ft.
+
+| STR | DEX | CON | INT | WIS | CHA |
+| --- | --- | --- | --- | --- | --- |
+| 8 (-1) | 15 (+2) | 10 (+0) | 10 (+0) | 8 (-1) | 8 (-1) |
+
+**Skills** Stealth +6 | **Senses** darkvision 60 ft., passive Perception 9 | **Languages** Common, Goblin | **Challenge** 1/4 (50 XP) **PB** +2
+
+***Scimitar.*** +4, reach 5 ft. *Hit:* 5 (1d6 + 2) Slashing, plus 2 (1d4) if the attack had Advantage.
+***Shortbow.*** +4, range 80/320 ft. *Hit:* 5 (1d6 + 2) Piercing, plus 2 (1d4) if the attack had Advantage.
+***Nimble Escape (Bonus Action).*** Takes Disengage or Hide.
+
+#### Caster Goblin
+
+*Small Fey (Goblinoid), Chaotic Neutral* | **AC** 15 (leather armor, shield) | **HP** 10 (3d6) | **Speed** 30 ft.
+
+| STR | DEX | CON | INT | WIS | CHA |
+| --- | --- | --- | --- | --- | --- |
+| 8 (-1) | 15 (+2) | 10 (+0) | 10 (+0) | 8 (-1) | 14 (+2) |
+
+**Skills** Stealth +6 | **Senses** darkvision 60 ft., passive Perception 9 | **Languages** Common, Goblin | **Challenge** 1/4 (50 XP) **PB** +2
+
+**Spellcasting.** Level 3 Sorcerer, Charisma based, spell save DC 12, +4 to hit. 4 first-level and 2 second-level slots.
+
+- At will: *Fire Bolt* (120 ft spell attack +4, 1d10 fire); *Ray of Frost* (60 ft spell attack +4, 1d8 cold, Speed -10 ft); *Minor Illusion*; *Prestidigitation*.
+- 1st, 4 slots: *Magic Missile* (120 ft, three darts 1d4+1 force each, no save); *Shield* (reaction, +5 AC, blocks Magic Missile); *Thunderwave* (self 15 ft cube, CON save DC 12, 2d8 thunder and push 10 ft, half and no push on save).
+- 2nd, 2 slots: *Scorching Ray* (120 ft, three spell attacks +4, 2d6 fire each); *Misty Step* (teleport 30 ft); *Invisibility* (touch, concentration 1 hr).
+
+***Quarterstaff.*** +1, reach 5 ft. *Hit:* 2 (1d6 - 1) or 3 (1d8 - 1) two-handed Bludgeoning.
+***Scimitar.*** +4, reach 5 ft. *Hit:* 5 (1d6 + 2) Slashing, plus 2 (1d4) with Advantage.
+***Nimble Escape (Bonus Action).*** Takes Disengage or Hide.
+
+#### Bombardier Goblin
+
+*Small Fey (Goblinoid), Chaotic Neutral* | **AC** 18 (plate armor) | **HP** 21 (6d6) | **Speed** 20 ft.
+
+| STR | DEX | CON | INT | WIS | CHA |
+| --- | --- | --- | --- | --- | --- |
+| 10 (+0) | 15 (+2) | 10 (+0) | 10 (+0) | 8 (-1) | 10 (+0) |
+
+**Skills** Stealth +6 | **Senses** darkvision 60 ft., passive Perception 9 | **Languages** Common, Goblin | **Challenge** 1 (200 XP) **PB** +2
+
+***Multiattack.*** Two Shortsword attacks.
+***Gob Stopper (10).*** Thrown up to 30 ft, explodes on impact. DEX save DC 13. Within 10 ft, 7 (2d6) Fire on a fail. Over 10 ft but within 15 ft, 3 (1d6) Fire on a fail. Half on a success.
+***Shortsword.*** +4, reach 5 ft. *Hit:* 5 (1d6 + 2) Piercing, plus 2 (1d4) with Advantage.
+***Dagger.*** +4, reach 5 ft or range 20/60 ft. *Hit:* 4 (1d4 + 2) Piercing, plus 2 (1d4) with Advantage.
+***Nimble Escape (Bonus Action).*** Takes Disengage or Hide.
+***Redirect Attack (Reaction).*** When targeted by an attack, swaps places with a goblin within 5 ft; that goblin becomes the target instead.
+
+#### Shaman Goblin / Medicine Man (Healer)
+
+*Small Fey (Goblinoid), Chaotic Neutral* | **AC** 15 (leather armor, shield) | **HP** 10 (3d6) | **Speed** 30 ft.
+
+| STR | DEX | CON | INT | WIS | CHA |
+| --- | --- | --- | --- | --- | --- |
+| 8 (-1) | 15 (+2) | 10 (+0) | 10 (+0) | 14 (+2) | 8 (-1) |
+
+**Skills** Stealth +6 | **Senses** darkvision 60 ft., passive Perception 12 | **Languages** Common, Goblin | **Challenge** 1/4 (50 XP) **PB** +2
+
+**Spellcasting.** Level 2 Cleric, Wisdom based, spell save DC 12, +4 to hit. 3 first-level slots.
+
+- At will: *Sacred Flame* (60 ft, DEX save DC 12, 1d8 radiant, ignores cover); *Guidance* (touch, +1d4 to one skill, concentration); *Thaumaturgy*.
+- 1st, 3 slots: *Cure Wounds* (touch, 2d8+2); *Bless* (30 ft, up to three allies add 1d4 to attacks and saves, concentration); *Healing Word* (60 ft, 2d4+2); *Sanctuary* (30 ft, WIS save DC 12 or attacker must retarget, ends if the ward attacks).
+
+***Scimitar.*** +4, reach 5 ft. *Hit:* 5 (1d6 + 2) Slashing, plus 2 (1d4) with Advantage.
+***Shortbow.*** +4, range 80/320 ft. *Hit:* 5 (1d6 + 2) Piercing, plus 2 (1d4) with Advantage.
+***Nimble Escape (Bonus Action).*** Takes Disengage or Hide.
+
+#### Flying Goblin
+
+*Small Fey (Goblinoid), Chaotic Neutral* | **AC** 13 (leather armor) | **HP** 10 (3d6) | **Speed** 30 ft., fly 30 ft. (glider)
+
+| STR | DEX | CON | INT | WIS | CHA |
+| --- | --- | --- | --- | --- | --- |
+| 8 (-1) | 15 (+2) | 10 (+0) | 10 (+0) | 8 (-1) | 8 (-1) |
+
+**Skills** Stealth +6 | **Senses** darkvision 60 ft., passive Perception 9 | **Languages** Common, Goblin | **Challenge** 1/4 (50 XP) **PB** +2
+
+***Gob Stopper (1).*** Thrown up to 30 ft, explodes on impact. DEX save DC 13. Within 10 ft, 7 (2d6) Fire on a fail. Over 10 ft but within 15 ft, 3 (1d6) Fire on a fail. Half on a success.
+***Shortbow.*** +4, range 80/320 ft. *Hit:* 5 (1d6 + 2) Piercing, plus 2 (1d4) with Advantage.
+***Dagger.*** +4, reach 5 ft or range 20/60 ft. *Hit:* 4 (1d4 + 2) Piercing, plus 2 (1d4) with Advantage.
+***Net.*** +4, range 5/15 ft., one Large or smaller creature. *Hit:* Restrained. DC 10 Strength action to free, or 5 Slashing to the net (AC 10).
+***Nimble Escape (Bonus Action).*** Takes Disengage or Hide.
+
+#### Goblin Dog
+
+*Medium Beast, Unaligned* | **AC** 12 | **HP** 5 (1d8 + 1) | **Speed** 40 ft.
+
+| STR | DEX | CON | INT | WIS | CHA |
+| --- | --- | --- | --- | --- | --- |
+| 13 (+1) | 14 (+2) | 12 (+1) | 3 (-4) | 12 (+1) | 7 (-2) |
+
+**Skills** Perception +3 | **Senses** passive Perception 13 | **Languages** None | **Challenge** 1/8 (25 XP) **PB** +2
+
+***Keen Hearing and Smell.*** Advantage on Perception relying on hearing or smell.
+***Bite.*** +3, reach 5 ft. *Hit:* 4 (1d6 + 1) Piercing. On a hit against a creature, STR save DC 11 or Prone.
+
+## Area 10: Hob Gobs Hut.. 
+
+**Read Aloud (entering)**
+> The Goblin King's own hut, bigger than the rest and stuffed with the pick of his loot. Coin, scrolls, and old magic are piled in the corners.
+
+There is treasure in this room.. Gold and such as well as scrolls/magic tomes, etc.

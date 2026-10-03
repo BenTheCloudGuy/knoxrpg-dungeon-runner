@@ -1,0 +1,2 @@
+Client: Iceman/master/v4.23346-9-g6150d8fc5-dirty-suspect 2026-09-19 18:10:42 b528753c0 compiler: MinGW-w64 16.2.0 OS:Windows (64b) ARCH:x86_64
+

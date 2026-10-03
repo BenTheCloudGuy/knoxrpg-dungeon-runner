@@ -4,13 +4,16 @@ category: Magic Item
 rarity: Uncommon
 type: WondrousItem
 requires_attunement: Yes
+cost: 150 GP
 source: free-rules, dmg, pg. 244
-image: https://cloudgeekcusgaming01.blob.core.windows.net/images/magic-items/9228408.jpeg
+image: ../images/cloak-of-elvenkind.png
 ---
+
 
 # Cloak of Elvenkind
 
-![Cloak of Elvenkind](https://cloudgeekcusgaming01.blob.core.windows.net/images/magic-items/9228408.jpeg)
+![Cloak of Elvenkind](../images/cloak-of-elvenkind.png)
+
 
 Wondrous Item, uncommon (requires attunement)
  

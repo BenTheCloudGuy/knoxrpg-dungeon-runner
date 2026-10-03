@@ -4,10 +4,15 @@ category: Magic Item
 rarity: Uncommon
 type: Ring
 requires_attunement: No
+cost: 75 GP
 source: free-rules, pg. 193
+image: ../images/ring-of-swimming.png
 ---
 
+
 # Ring of Swimming
+
+![Ring of Swimming](../images/ring-of-swimming.png)
 
 Ring, uncommon 
  

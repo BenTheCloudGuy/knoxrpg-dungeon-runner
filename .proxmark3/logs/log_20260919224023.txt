@@ -1,0 +1,7 @@
+[+] execute command from commandline: hw status
+
+[+] Using UART port com6
+
+[!] ERROR: invalid serial port com6
+
+[?] Hint: Try the shell script ``./pm3 --list` to get a list of possible serial ports

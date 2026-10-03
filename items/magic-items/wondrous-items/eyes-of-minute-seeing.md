@@ -4,10 +4,15 @@ category: Magic Item
 rarity: Uncommon
 type: WondrousItem
 requires_attunement: No
+cost: 100 GP
 source: free-rules, dmg, pg. 261
+image: ../images/eyes-of-minute-seeing.png
 ---
 
+
 # Eyes of Minute Seeing
+
+![Eyes of Minute Seeing](../images/eyes-of-minute-seeing.png)
 
 Wondrous Item, uncommon 
  

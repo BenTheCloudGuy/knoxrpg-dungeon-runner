@@ -1,0 +1,86 @@
+hw version
+lf em 4x05 dump
+lf em 4x05 info
+lf em 4x05 read -a 5
+lf search
+lf em 4x05 read -a 4
+lf em 4x05 read -a 5
+lf em 4x05 read -a 6
+lf em 4x05 read -a 7
+lf em 4x05 read -a 8
+lf em 4x05 read -a 5
+lf em 4x05 read -a 5 -p F9DCEBA0
+lf em 4x05 read -a 6 -p F9DCEBA0
+lf em 4x05 read -a 0
+lf em 4x05 read -a 1
+lf em 4x05 read -a 5
+lf em 4x05 read -a 0
+lf em 4x05 read -a 1
+lf em 4x05 read -a 2
+lf em 4x05 read -a 3
+lf em 4x05 read -a 4
+lf em 4x05 read -a 5
+lf em 4x05 read -a 6
+lf em 4x05 read -a 7
+lf em 4x05 read -a 8
+lf em 4x05 read -a 9
+lf em 4x05 read -a 10
+lf em 4x05 read -a 11
+lf em 4x05 read -a 12
+lf em 4x05 read -a 13
+lf em 4x05 read -a 4
+lf em 4x05 read -a 5
+lf em 4x05 read -a 6
+lf em 4x05 read -a 7
+lf em 4x05 read -a 8
+lf em 4x05 read -a 9
+lf em 4x05 read -a 10
+lf em 4x05 read -a 11
+lf em 4x05 read -a 12
+lf em 4x05 read -a 13
+lf em 4x05 read -a 5
+lf em 410x read
+lf em 410x clone -h
+lf em 410x clone --id 0000000C05 --em
+lf em 4x05 read -a 5 -p 00000000
+lf em 4x05 read -a 6 -p 00000000
+lf em 4x05 read -a 4 -p 00000000
+lf em 4x05 read -a 5 -p 00000000
+lf em 410x read
+lf em 4x05 read -a 4 -p 00000000
+lf em 4x05 read -a 5 -p 00000000
+lf em 4x05 read -a 6 -p 00000000
+lf em 4x05 read -a 4 -p 00000000
+lf em 4x05 read -a 5 -p 00000000
+lf em 4x05 read -a 6 -p 00000000
+lf em 4x05 read -a 4 -p 00000000
+lf em 4x05 read -a 5 -p 00000000
+lf em 4x05 read -a 6 -p 00000000
+lf em 4x05 read -a 4 -p 00000000
+lf em 4x05 read -a 5 -p 00000000
+lf em 4x05 read -a 6 -p 00000000
+lf em 4x05 read -a 4 -p 00000000
+lf em 4x05 read -a 5 -p 00000000
+lf em 4x05 read -a 6 -p 00000000
+lf em 4x05 read -a 4 -p 00000000
+lf em 4x05 read -a 5 -p 00000000
+lf em 4x05 read -a 6 -p 00000000
+lf em 4x05 read -a 4 -p 00000000
+lf em 4x05 read -a 5 -p 00000000
+lf em 4x05 read -a 6 -p 00000000
+lf em 4x05 read -a 4 -p 00000000
+lf em 4x05 read -a 5 -p 00000000
+lf em 4x05 read -a 6 -p 00000000
+lf em 4x05 write -a 5 -d FF800000 -p 00000000
+lf em 4x05 write -a 6 -d 000C0152 -p 00000000
+lf em 4x05 write -a 5 -d FF800000 -p 00000000
+lf em 4x05 write -a 6 -d 000C0152 -p 00000000
+lf em 4x05 write -a 5 -d FF800000 -p 00000000
+lf em 4x05 write -a 6 -d 000C0152 -p 00000000
+lf em 4x05 write -a 5 -d FF800000 -p 00000000
+lf em 4x05 write -a 6 -d 000C0152 -p 00000000
+lf em 4x05 write -a 5 -d FF800000 -p 00000000
+lf em 4x05 write -a 6 -d 000C0152 -p 00000000
+lf em 4x05 write -a 5 -d FF800000 -p 00000000
+lf em 4x05 write -a 6 -d 000C0152 -p 00000000
+lf em 4x05 read -a 6 -p 00000000

@@ -4,13 +4,14 @@ category: Magic Item
 rarity: Uncommon
 type: WondrousItem
 requires_attunement: No
+cost: 100 GP
 source: free-rules, pg. 172
-image: https://cloudgeekcusgaming01.blob.core.windows.net/images/magic-items/4648.jpeg
+image: ../images/goggles-of-night.png
 ---
 
 # Goggles of Night
 
-![Goggles of Night](https://cloudgeekcusgaming01.blob.core.windows.net/images/magic-items/4648.jpeg)
+![Goggles of Night](../images/goggles-of-night.png)
 
 Wondrous Item, uncommon 
  

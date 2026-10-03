@@ -1,0 +1,9 @@
+[+] loaded `C:/Users/benthebuilder/.working/knoxrpg-dungeon-runner/.proxmark3/preferences.json`
+[+] execute command from commandline: lf search
+
+[+] Using UART port COM6
+[+] Communicating with PM3 over USB-CDC
+[usb|script] pm3 --> lf search
+[!] command execution time out
+[!!] failed to get current device config
+[-] Data in Graphbuffer was too small.

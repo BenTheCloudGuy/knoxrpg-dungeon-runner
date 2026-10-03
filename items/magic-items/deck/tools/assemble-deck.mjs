@@ -1,6 +1,6 @@
 // assemble-deck.mjs — print-and-play sheet assembler for the magic-item deck.
 //
-// Reads the 53 rendered card fronts and per-item backs (in deck sort order),
+// Reads the 88 rendered card fronts and per-item backs (in deck sort order),
 // lays them out 3x3 (9 cards) per US Letter page at true 2.5"x3.5" @ 300
 // dpi, adds light crop-mark cut guides in the margins, and writes a duplex-ready
 // PDF. Page order is interleaved front, back, front, back... For Ben's HP 3301dw
@@ -9,7 +9,7 @@
 // back stays in its own row and only its column flips. Both PDF pages read upright
 // on screen and each back prints right-side up behind its own front.
 //
-//   53 fronts -> 6 front pages (9,9,9,9,9,8) + 6 back pages = 12 pages.
+//   88 fronts -> 10 front pages (9 cards each, last partial) + 10 back pages = 20 pages.
 //
 // Output: items/magic-items/deck/magic-item-deck-printandplay.pdf
 // Fronts are read from build/fronts/ by default; override with FRONTS_DIR=...
@@ -33,11 +33,19 @@ const outPath = path.join(deckDir, "magic-item-deck-printandplay.pdf");
 const ORDER = [
   "gob-stopper",
   "goblin-juice", "flask-of-acid", "vial-of-poison", "potion-of-cure-disease",
-  "artificer-s-arsenal", "protector-s-codex", "healer-s-gift", "tomb-warden", "escape-route", "scout-s-tome",
+  "artificer-s-arsenal", "handbook-of-lloth", "protector-s-codex", "healer-s-gift", "tomb-warden", "escape-route", "scout-s-tome",
   "spell-scroll-of-fire-bolt", "spell-scroll-of-mind-sliver", "spell-scroll-of-guidance", "spell-scroll-of-cure-wounds", "spell-scroll-of-magic-missile", "spell-scroll-of-shield", "spell-scroll-of-scorching-ray", "spell-scroll-of-lesser-restoration", "spell-scroll-of-see-invisibility", "spell-scroll-of-mass-healing-word", "spell-scroll-of-dispel-magic", "spell-scroll-of-fireball", "scroll-of-protection",
   "enduring-spellbook", "bag-of-holding", "rope-of-climbing", "driftglobe", "feather-token-feather-fall",
+  "sending-stones", "lantern-of-revealing", "goggles-of-night", "brooch-of-shielding", "gloves-of-swimming-and-climbing", "boots-of-elvenkind", "cloak-of-protection",
+  "ring-of-protection", "ring-of-jumping", "ring-of-swimming", "ring-of-feather-falling", "ring-of-the-steadfast",
+  "amulet-of-proof-against-detection-and-location", "netherese-latch-charm", "velvet-maws-patient-charm",
+  "cloak-of-elvenkind", "cloak-of-the-manta-ray", "shroud-of-the-failed-apprentice",
+  "hat-of-disguise", "eyes-of-minute-seeing", "circlet-of-blasting",
+  "boots-of-striding-and-springing", "boots-of-the-winterlands", "grave-dust-softsteps",
+  "gloves-of-missile-snaring", "grave-tender-gloves", "xhaltheris-white-handling-gloves",
+  "bracers-of-measured-draw", "bracers-of-the-starving-ward", "bracers-of-anchor-grip", "bracers-of-deflection", "periapt-of-vigor",
   "potion-of-healing", "potion-of-healing-greater", "potion-of-resistance", "potion-of-climbing", "potion-of-water-breathing", "potion-of-heroism",
-  "longsword-1", "greatsword-1", "rapier-1", "shortbow-1", "dagger-1", "mace-1", "handaxe-1", "spear-1", "warhammer-1", "crossbow-light-1",
+  "longsword-1", "greatsword-1", "rapier-1", "shortbow-1", "dagger-1", "mace-1", "handaxe-1", "spear-1", "warhammer-1", "crossbow-light-1", "goblin-artificers-scoped-musket", "three-headed-snake-whip",
   "leather-1", "studded-leather-1", "hide-1", "chain-shirt-1", "breastplate-1", "half-plate-1", "plate-1", "shield-1",
 ].map((n) => n + ".png");
 

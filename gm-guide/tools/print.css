@@ -1,0 +1,346 @@
+/* ============================================================
+   The Vault of the Starving Mind - Master GM Guide
+   Print stylesheet: markdown-it HTML -> headless Edge -> PDF
+   Look: published 5e adventure module (Homebrewery / GM Binder).
+   Fonts: Windows-installed only. No @font-face, no web fonts.
+   Backgrounds: solid colors only + print-color-adjust:exact so
+   Chromium actually renders the parchment tint and boxes.
+   ============================================================ */
+
+/* ---- Page ---- */
+@page {
+  size: Letter portrait;
+  /* Pull the paper margin in tight so the parchment background extends
+     close to the sheet edge. The readable text column is then inset by
+     the body padding below, leaving a parchment band on all four sides. */
+  margin: 0.4in;
+}
+
+/* ---- Palette ---- */
+:root {
+  --ink:        #1b1510;  /* warm near-black body text        */
+  --ink-soft:   #46382a;  /* muted brown for secondary text   */
+  --red:        #58180d;  /* signature deep-red module header */
+  --red-2:      #7a2411;  /* sub-head / room red tie-in       */
+  --gold:       #c9ad6f;  /* decorative gold-tan rule         */
+  --rule:       #c2b08f;  /* table / hairline rule            */
+
+  --parchment:  #fbf4e3;  /* page tint                        */
+  --read-bg:    #f6ead0;  /* read-aloud cream box             */
+  --read-bar:   #9c7a3c;  /* read-aloud left accent           */
+  --read-edge:  #d8c08a;  /* read-aloud border                */
+  --read-ink:   #2b2015;  /* read-aloud text                  */
+
+  --gm-bg:      #eceadd;  /* GM note cooler stone tint        */
+  --gm-edge:    #c4bda4;  /* GM note border                   */
+
+  --table-head: #e7dcbf;  /* table header row                 */
+  --table-alt:  #f4ecd9;  /* table zebra row                  */
+  --code-bg:    #efe8d6;  /* code / pre background            */
+}
+
+/* ---- Font stacks (all shipped with Windows) ---- */
+/* Body:    Book Antiqua / Palatino family (warm humanist serif) */
+/* Display: same serif rendered in small-caps as a Trajan stand-in */
+/* Labels:  Segoe UI for stat-table heads and the GM Note bar     */
+:root {
+  --serif: "Book Antiqua", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
+  --sans:  "Segoe UI", "Segoe UI Semibold", Tahoma, "Helvetica Neue", Arial, sans-serif;
+  --mono:  "Consolas", "Lucida Console", "Courier New", monospace;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+body {
+  font-family: var(--serif);
+  color: var(--ink);
+  background: var(--parchment);
+  font-size: 10.5pt;
+  line-height: 1.42;
+  margin: 0;
+  /* Inset the text column within the parchment so body text never runs
+     flush to the parchment edge. Combined with the 0.4in @page margin
+     this leaves a visible parchment band around the text on all sides. */
+  padding: 0.55in;
+  text-rendering: optimizeLegibility;
+}
+
+p { margin: 0.45em 0; text-align: left; }
+
+/* ============================================================
+   HEADINGS - module hierarchy
+   ============================================================ */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--serif);
+  color: var(--red);
+  line-height: 1.15;
+  margin: 0.7em 0 0.3em;
+  font-weight: 700;
+}
+
+/* h1 = Part / section title. Flows continuously (no forced page break). */
+h1 {
+  font-size: 23pt;
+  font-variant: small-caps;
+  letter-spacing: 0.02em;
+  text-align: left;
+  padding-bottom: 0.12em;
+  margin-top: 0;
+  border-bottom: 3px solid var(--red);
+  box-shadow: 0 3px 0 0 var(--gold);  /* second, thinner gold rule under the red */
+  page-break-after: avoid;
+}
+
+/* h2 = dungeon area */
+h2 {
+  font-size: 15.5pt;
+  font-variant: small-caps;
+  letter-spacing: 0.01em;
+  color: var(--red);
+  padding-bottom: 0.08em;
+  border-bottom: 1.5px solid var(--gold);
+  page-break-after: avoid;
+}
+
+/* h3 = room */
+h3 {
+  font-size: 13pt;
+  color: var(--red-2);
+  page-break-after: avoid;
+}
+
+/* h4 / h5 = sub-mechanics (keep the red tie-in) */
+h4 {
+  font-size: 11.5pt;
+  color: var(--red-2);
+  page-break-after: avoid;
+}
+h5 {
+  font-size: 10.5pt;
+  font-variant: small-caps;
+  letter-spacing: 0.03em;
+  color: var(--ink-soft);
+  page-break-after: avoid;
+}
+h6 {
+  font-size: 10pt;
+  font-style: italic;
+  color: var(--ink-soft);
+  page-break-after: avoid;
+}
+
+/* ============================================================
+   READ-ALOUD BOXED TEXT - the signature element
+   Plain <blockquote> (not the GM note). Cream parchment card,
+   gold edge, heavy left accent, italic serif the DM reads aloud.
+   ============================================================ */
+blockquote:not(.gmnote) {
+  margin: 0.7em 0.15em;
+  padding: 0.6em 1em 0.6em 1.05em;
+  background: var(--read-bg);
+  border: 1px solid var(--read-edge);
+  border-left: 5px solid var(--read-bar);
+  color: var(--read-ink);
+  font-style: italic;
+  font-size: 10.5pt;
+  line-height: 1.4;
+  page-break-inside: avoid;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+blockquote:not(.gmnote) p { margin: 0.3em 0; text-align: left; }
+blockquote:not(.gmnote) p:first-child { margin-top: 0; }
+blockquote:not(.gmnote) p:last-child { margin-bottom: 0; }
+/* Bold inside read-aloud stays upright so it still pops. */
+blockquote:not(.gmnote) strong { font-style: normal; color: var(--red-2); }
+
+/* ============================================================
+   GM-ONLY NOTE - distinct sidebar callout, never read-aloud
+   <div class="gmnote"><p class="gmnote-title">GM Note</p>...</div>
+   ============================================================ */
+.gmnote {
+  margin: 0.7em 0.15em;
+  padding: 0 0 0.1em 0;
+  background: var(--gm-bg);
+  border: 1px solid var(--gm-edge);
+  border-left: 5px solid var(--red);
+  page-break-inside: avoid;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+p.gmnote-title {
+  margin: 0;
+  padding: 3px 10px 4px;
+  background: var(--red);
+  color: #f4e9cf;
+  font-family: var(--sans);
+  font-weight: 700;
+  font-size: 8.5pt;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  font-style: normal;
+}
+.gmnote p { margin: 0.4em 0; padding: 0 10px; font-size: 10pt; }
+.gmnote p.gmnote-title { padding: 3px 10px 4px; }
+.gmnote ul, .gmnote ol { margin: 0.3em 0 0.3em 1.4em; padding-left: 0.6em; }
+.gmnote > *:last-child { margin-bottom: 0.45em; }
+
+/* ============================================================
+   STAT-BLOCK / BOLD-LABEL STYLING
+   The bestiary uses markdown headings + bold labels. Bold
+   labels read as stat lines; bold-italic reads as trait names.
+   ============================================================ */
+strong { font-weight: 700; color: var(--ink); }
+/* Trait / action names: ***Name.*** -> deep red, italic, like a module */
+strong em, em strong { color: var(--red-2); font-style: italic; font-weight: 700; }
+
+/* Optional tan stat-block frame if content supplies .statblock */
+.statblock {
+  background: #f7efda;
+  border: 1px solid var(--read-edge);
+  border-top: 3px solid var(--red);
+  padding: 0.5em 0.8em;
+  margin: 0.7em 0;
+  page-break-inside: avoid;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+.statblock p { margin: 0.15em 0; }
+
+/* ============================================================
+   TABLES - module stat tables
+   ============================================================ */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0.6em 0;
+  font-size: 9.5pt;
+  page-break-inside: avoid;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+caption {
+  caption-side: top;
+  font-variant: small-caps;
+  letter-spacing: 0.03em;
+  color: var(--red);
+  font-weight: 700;
+  padding-bottom: 0.2em;
+}
+th, td {
+  border: 1px solid var(--rule);
+  padding: 4px 7px;
+  text-align: left;
+  vertical-align: top;
+}
+th {
+  background: var(--table-head);
+  font-family: var(--sans);
+  font-size: 9pt;
+  font-weight: 700;
+  color: var(--red);
+  letter-spacing: 0.02em;
+}
+tbody tr:nth-child(even) td { background: var(--table-alt); }
+
+/* ============================================================
+   IMAGES - centered, never split across pages
+   ============================================================ */
+img {
+  max-width: 100%;
+  /* Cap height so a tall photo cannot overflow the page and strand the
+     heading above it (or emit a blank page). 7.4in leaves room for an
+     h1 area title to sit on the same page as its opening map, since the
+     US Letter printable area at 0.7in margins is about 9.6in tall. */
+  max-height: 7.4in;
+  height: auto;
+  width: auto;
+  display: block;
+  margin: 0.6em auto;
+  page-break-inside: avoid;
+}
+/* Full-page maps are deliberate; let them run larger. */
+img.map {
+  max-height: 9in;
+  width: auto;
+  max-width: 100%;
+  margin: 0.4em auto;
+}
+
+/* ============================================================
+   DECORATIVE RULE
+   ============================================================ */
+hr {
+  border: none;
+  height: 0;
+  margin: 1.1em auto;
+  width: 82%;
+  border-top: 2px solid var(--red);
+  box-shadow: 0 3px 0 -1px var(--gold);  /* paired gold underline */
+}
+
+/* ============================================================
+   CODE
+   ============================================================ */
+code {
+  font-family: var(--mono);
+  font-size: 9pt;
+  background: var(--code-bg);
+  padding: 0 3px;
+  border-radius: 2px;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+pre {
+  background: var(--code-bg);
+  padding: 0.6em 0.8em;
+  border: 1px solid var(--rule);
+  border-left: 4px solid var(--gold);
+  font-size: 9pt;
+  line-height: 1.35;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  page-break-inside: avoid;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+pre code { background: transparent; padding: 0; }
+
+/* ============================================================
+   LISTS
+   ============================================================ */
+ul, ol { margin: 0.35em 0 0.5em 1.3em; padding-left: 0.4em; }
+li { margin: 0.18em 0; }
+li p { margin: 0.2em 0; text-align: left; }
+
+/* Nested lists step visibly: each deeper level indents further and
+   carries a distinct marker so the hierarchy is obvious on the page. */
+ul { list-style-type: disc; }
+ul ul { list-style-type: circle; margin-left: 1.5em; }
+ul ul ul { list-style-type: square; margin-left: 1.6em; }
+ul ul ul ul { list-style-type: disc; margin-left: 1.6em; }
+
+ol { list-style-type: decimal; }
+ol ol { list-style-type: lower-alpha; margin-left: 1.5em; }
+ol ol ol { list-style-type: lower-roman; margin-left: 1.6em; }
+
+/* Mixed nesting keeps the deeper marker distinct from its parent. */
+ul ol { margin-left: 1.5em; }
+ol ul { list-style-type: circle; margin-left: 1.5em; }
+
+/* ============================================================
+   LINKS - printed, so keep them as plain ink
+   ============================================================ */
+a { color: var(--red-2); text-decoration: none; }
+
+/* ============================================================
+   PRINT SAFETY - keep blocks whole, headings with their content
+   ============================================================ */
+blockquote, .gmnote, table, figure, pre, .statblock { page-break-inside: avoid; }
+h1, h2, h3, h4, h5, h6 { page-break-after: avoid; }
+img, tr, th, td { page-break-inside: avoid; }

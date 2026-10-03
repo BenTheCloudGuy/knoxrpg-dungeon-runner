@@ -32,11 +32,19 @@ fs.mkdirSync(backsDir, { recursive: true });
 const FILES = [
   "weapons/gob-stopper.md",
   "potions/goblin-juice.md", "potions/flask-of-acid.md", "potions/vial-of-poison.md", "potions/potion-of-cure-disease.md",
-  "spellbooks/artificer-s-arsenal.md", "spellbooks/protector-s-codex.md", "spellbooks/healer-s-gift.md", "spellbooks/tomb-warden.md", "spellbooks/escape-route.md", "spellbooks/scout-s-tome.md",
+  "spellbooks/artificer-s-arsenal.md", "spellbooks/handbook-of-lloth.md", "spellbooks/protector-s-codex.md", "spellbooks/healer-s-gift.md", "spellbooks/tomb-warden.md", "spellbooks/escape-route.md", "spellbooks/scout-s-tome.md",
   "scrolls/spell-scroll-of-fire-bolt.md", "scrolls/spell-scroll-of-mind-sliver.md", "scrolls/spell-scroll-of-guidance.md", "scrolls/spell-scroll-of-cure-wounds.md", "scrolls/spell-scroll-of-magic-missile.md", "scrolls/spell-scroll-of-shield.md", "scrolls/spell-scroll-of-scorching-ray.md", "scrolls/spell-scroll-of-lesser-restoration.md", "scrolls/spell-scroll-of-see-invisibility.md", "scrolls/spell-scroll-of-mass-healing-word.md", "scrolls/spell-scroll-of-dispel-magic.md", "scrolls/spell-scroll-of-fireball.md", "scrolls/scroll-of-protection.md",
   "wondrous-items/enduring-spellbook.md", "wondrous-items/bag-of-holding.md", "wondrous-items/rope-of-climbing.md", "wondrous-items/driftglobe.md", "wondrous-items/feather-token-feather-fall.md",
+  "wondrous-items/sending-stones.md", "wondrous-items/lantern-of-revealing.md", "wondrous-items/goggles-of-night.md", "wondrous-items/brooch-of-shielding.md", "wondrous-items/gloves-of-swimming-and-climbing.md", "wondrous-items/boots-of-elvenkind.md", "wondrous-items/cloak-of-protection.md",
+  "rings/ring-of-protection.md", "rings/ring-of-jumping.md", "rings/ring-of-swimming.md", "rings/ring-of-feather-falling.md", "rings/ring-of-the-steadfast.md",
+  "wondrous-items/amulet-of-proof-against-detection-and-location.md", "wondrous-items/netherese-latch-charm.md", "wondrous-items/velvet-maws-patient-charm.md",
+  "wondrous-items/cloak-of-elvenkind.md", "wondrous-items/cloak-of-the-manta-ray.md", "wondrous-items/shroud-of-the-failed-apprentice.md",
+  "wondrous-items/hat-of-disguise.md", "wondrous-items/eyes-of-minute-seeing.md", "wondrous-items/circlet-of-blasting.md",
+  "wondrous-items/boots-of-striding-and-springing.md", "wondrous-items/boots-of-the-winterlands.md", "wondrous-items/grave-dust-softsteps.md",
+  "wondrous-items/gloves-of-missile-snaring.md", "wondrous-items/grave-tender-gloves.md", "wondrous-items/xhaltheris-white-handling-gloves.md",
+  "wondrous-items/bracers-of-measured-draw.md", "wondrous-items/bracers-of-the-starving-ward.md", "wondrous-items/bracers-of-anchor-grip.md", "wondrous-items/bracers-of-deflection.md", "wondrous-items/periapt-of-vigor.md",
   "potions/potion-of-healing.md", "potions/potion-of-healing-greater.md", "potions/potion-of-resistance.md", "potions/potion-of-climbing.md", "potions/potion-of-water-breathing.md", "potions/potion-of-heroism.md",
-  "weapons/longsword-1.md", "weapons/greatsword-1.md", "weapons/rapier-1.md", "weapons/shortbow-1.md", "weapons/dagger-1.md", "weapons/mace-1.md", "weapons/handaxe-1.md", "weapons/spear-1.md", "weapons/warhammer-1.md", "weapons/crossbow-light-1.md",
+  "weapons/longsword-1.md", "weapons/greatsword-1.md", "weapons/rapier-1.md", "weapons/shortbow-1.md", "weapons/dagger-1.md", "weapons/mace-1.md", "weapons/handaxe-1.md", "weapons/spear-1.md", "weapons/warhammer-1.md", "weapons/crossbow-light-1.md", "weapons/goblin-artificers-scoped-musket.md", "weapons/three-headed-snake-whip.md",
   "armor/leather-1.md", "armor/studded-leather-1.md", "armor/hide-1.md", "armor/chain-shirt-1.md", "armor/breastplate-1.md", "armor/half-plate-1.md", "armor/plate-1.md", "armor/shield-1.md",
 ];
 

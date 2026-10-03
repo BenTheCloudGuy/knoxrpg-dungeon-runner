@@ -12,13 +12,12 @@ This is a lethal D&D 5e 2024 one-shot dungeon grinder for 8 to 12 players, built
 
 Death is final. If your character dies, you are out.
 
-To escape, the survivors must find all 7 Crystal Shards and place them in the final puzzle in the correct order. More than $500 worth of real-world prizes are also on the line. The top prize is a Dungeons & Dragons 2024 Core Rulebook Set + GM Screen.
+To escape, the survivors must find all 8 Crystal Shards and place them in the final puzzle in the correct order. More than $500 worth of real-world prizes are also on the line. The top prize is a Dungeons & Dragons 2024 Core Rulebook Set + GM Screen.
 
 ## Event Details
 
 **Event:** 10/10/2026, 12:00 PM to 8:00 PM EST, at the Open Workshops.
 
 Show up ready to play. Claim a seat if you want to see how far you get.
-
 
 

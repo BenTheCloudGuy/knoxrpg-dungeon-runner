@@ -4,13 +4,16 @@ category: Magic Item
 rarity: Uncommon
 type: WondrousItem
 requires_attunement: Yes
+cost: 100 GP
 source: free-rules, pg. 150
-image: https://cloudgeekcusgaming01.blob.core.windows.net/images/magic-items/4569.jpeg
+image: ../images/amulet-of-proof-against-detection-and-location.png
 ---
+
 
 # Amulet of Proof against Detection and Location
 
-![Amulet of Proof against Detection and Location](https://cloudgeekcusgaming01.blob.core.windows.net/images/magic-items/4569.jpeg)
+![Amulet of Proof against Detection and Location](../images/amulet-of-proof-against-detection-and-location.png)
+
 
 Wondrous Item, uncommon (requires attunement)
  

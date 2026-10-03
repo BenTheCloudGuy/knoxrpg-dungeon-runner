@@ -1,0 +1,77 @@
+[+] loaded `C:/Users/benthebuilder/.working/knoxrpg-dungeon-runner/.proxmark3/preferences.json`
+[+] execute command from commandline: lf em 4x05 read -a 4 -p 00000000; lf em 4x05 read -a 5 -p 00000000; lf em 4x05 read -a 6 -p 00000000; lf em 4x05 read -a 4 -p 00000000; lf em 4x05 read -a 5 -p 00000000; lf em 4x05 read -a 6 -p 00000000; lf em 4x05 read -a 4 -p 00000000; lf em 4x05 read -a 5 -p 00000000; lf em 4x05 read -a 6 -p 00000000; lf em 4x05 read -a 4 -p 00000000; lf em 4x05 read -a 5 -p 00000000; lf em 4x05 read -a 6 -p 00000000; lf em 4x05 read -a 4 -p 00000000; lf em 4x05 read -a 5 -p 00000000; lf em 4x05 read -a 6 -p 00000000; lf em 4x05 read -a 4 -p 00000000; lf em 4x05 read -a 5 -p 00000000; lf em 4x05 read -a 6 -p 00000000; lf em 4x05 read -a 4 -p 00000000; lf em 4x05 read -a 5 -p 00000000; lf em 4x05 read -a 6 -p 00000000; lf em 4x05 read -a 4 -p 00000000; lf em 4x05 read -a 5 -p 00000000; lf em 4x05 read -a 6 -p 00000000
+
+[+] Using UART port COM6
+[+] Communicating with PM3 over USB-CDC
+[usb|script] pm3 --> lf em 4x05 read -a 4 -p 00000000
+[=] Reading address 04 using password 00000000
+[!] No answer from tag
+[usb|script] pm3 --> lf em 4x05 read -a 5 -p 00000000
+[=] Reading address 05 using password 00000000
+[!] No answer from tag
+[usb|script] pm3 --> lf em 4x05 read -a 6 -p 00000000
+[=] Reading address 06 using password 00000000
+[!] No answer from tag
+[usb|script] pm3 --> lf em 4x05 read -a 4 -p 00000000
+[=] Reading address 04 using password 00000000
+[!] No answer from tag
+[usb|script] pm3 --> lf em 4x05 read -a 5 -p 00000000
+[=] Reading address 05 using password 00000000
+[!] No answer from tag
+[usb|script] pm3 --> lf em 4x05 read -a 6 -p 00000000
+[=] Reading address 06 using password 00000000
+[!] No answer from tag
+[usb|script] pm3 --> lf em 4x05 read -a 4 -p 00000000
+[=] Reading address 04 using password 00000000
+[!] No answer from tag
+[usb|script] pm3 --> lf em 4x05 read -a 5 -p 00000000
+[=] Reading address 05 using password 00000000
+[!] No answer from tag
+[usb|script] pm3 --> lf em 4x05 read -a 6 -p 00000000
+[=] Reading address 06 using password 00000000
+[!] No answer from tag
+[usb|script] pm3 --> lf em 4x05 read -a 4 -p 00000000
+[=] Reading address 04 using password 00000000
+[!] No answer from tag
+[usb|script] pm3 --> lf em 4x05 read -a 5 -p 00000000
+[=] Reading address 05 using password 00000000
+[!] No answer from tag
+[usb|script] pm3 --> lf em 4x05 read -a 6 -p 00000000
+[=] Reading address 06 using password 00000000
+[!] No answer from tag
+[usb|script] pm3 --> lf em 4x05 read -a 4 -p 00000000
+[=] Reading address 04 using password 00000000
+[!] No answer from tag
+[usb|script] pm3 --> lf em 4x05 read -a 5 -p 00000000
+[=] Reading address 05 using password 00000000
+[!] No answer from tag
+[usb|script] pm3 --> lf em 4x05 read -a 6 -p 00000000
+[=] Reading address 06 using password 00000000
+[!] No answer from tag
+[usb|script] pm3 --> lf em 4x05 read -a 4 -p 00000000
+[=] Reading address 04 using password 00000000
+[!] No answer from tag
+[usb|script] pm3 --> lf em 4x05 read -a 5 -p 00000000
+[=] Reading address 05 using password 00000000
+[!] No answer from tag
+[usb|script] pm3 --> lf em 4x05 read -a 6 -p 00000000
+[=] Reading address 06 using password 00000000
+[!] No answer from tag
+[usb|script] pm3 --> lf em 4x05 read -a 4 -p 00000000
+[=] Reading address 04 using password 00000000
+[!] No answer from tag
+[usb|script] pm3 --> lf em 4x05 read -a 5 -p 00000000
+[=] Reading address 05 using password 00000000
+[!] No answer from tag
+[usb|script] pm3 --> lf em 4x05 read -a 6 -p 00000000
+[=] Reading address 06 using password 00000000
+[!] No answer from tag
+[usb|script] pm3 --> lf em 4x05 read -a 4 -p 00000000
+[=] Reading address 04 using password 00000000
+[!] No answer from tag
+[usb|script] pm3 --> lf em 4x05 read -a 5 -p 00000000
+[=] Reading address 05 using password 00000000
+[!] No answer from tag
+[usb|script] pm3 --> lf em 4x05 read -a 6 -p 00000000
+[=] Reading address 06 using password 00000000
+[!] No answer from tag

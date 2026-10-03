@@ -1,0 +1,11 @@
+[+] loaded `C:/Users/benthebuilder/.working/knoxrpg-dungeon-runner/.proxmark3/preferences.json`
+[+] execute command from commandline: lf em 410x read; lf em 410x read; lf em 410x read
+
+[+] Using UART port COM6
+[+] Communicating with PM3 over USB-CDC
+[usb|script] pm3 --> lf em 410x read
+[!] command execution time out
+[!!] failed to get current device config
+[!] Failed to copy from graphbuffer
+[usb|script] pm3 --> lf em 410x read
+[usb|script] pm3 --> lf em 410x read

@@ -4,13 +4,14 @@ category: Magic Item
 rarity: Uncommon
 type: WondrousItem
 requires_attunement: No
+cost: 125 GP
 source: free-rules, dmg, pg. 275
-image: https://cloudgeekcusgaming01.blob.core.windows.net/images/magic-items/9228811.jpeg
+image: ../images/lantern-of-revealing.png
 ---
 
 # Lantern of Revealing
 
-![Lantern of Revealing](https://cloudgeekcusgaming01.blob.core.windows.net/images/magic-items/9228811.jpeg)
+![Lantern of Revealing](../images/lantern-of-revealing.png)
 
 Wondrous Item, uncommon 
  

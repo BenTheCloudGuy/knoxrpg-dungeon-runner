@@ -4,13 +4,16 @@ category: Magic Item
 rarity: Uncommon
 type: WondrousItem
 requires_attunement: Yes
+cost: 125 GP
 source: free-rules, dmg, pg. 265
-image: https://cloudgeekcusgaming01.blob.core.windows.net/images/magic-items/9228697.jpeg
+image: ../images/gloves-of-missile-snaring.png
 ---
+
 
 # Gloves of Missile Snaring
 
-![Gloves of Missile Snaring](https://cloudgeekcusgaming01.blob.core.windows.net/images/magic-items/9228697.jpeg)
+![Gloves of Missile Snaring](../images/gloves-of-missile-snaring.png)
+
 
 Wondrous Item, uncommon (requires attunement)
  

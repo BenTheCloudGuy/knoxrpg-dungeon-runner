@@ -4,13 +4,16 @@ category: Magic Item
 rarity: Uncommon
 type: WondrousItem
 requires_attunement: No
+cost: 100 GP
 source: free-rules, pg. 158
-image: https://cloudgeekcusgaming01.blob.core.windows.net/images/magic-items/4603.jpeg
+image: ../images/circlet-of-blasting.png
 ---
+
 
 # Circlet of Blasting
 
-![Circlet of Blasting](https://cloudgeekcusgaming01.blob.core.windows.net/images/magic-items/4603.jpeg)
+![Circlet of Blasting](../images/circlet-of-blasting.png)
+
 
 Wondrous Item, uncommon 
  
