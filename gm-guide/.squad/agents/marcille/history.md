@@ -141,3 +141,11 @@ Fixes made this pass (4 leaks, read-aloud wording only; every secret already liv
 Verified clean (no change needed): TheCaverns.md and GoblinCamp.md read-alouds all describe visible scenes; hidden slime/Drider/kamikaze flyers/plants are only shown in trigger boxes. Borderline cues judged FAIR and kept: C2 "the bridge shifts the moment you put weight on it" (felt, not hidden), C3 "you catch movement behind it" (a perceived glimpse, not an unseen ambush), R7 "something made of fire and running rock is moving" down a passage (glowing elemental visible at distance), GoblinCamp A3 open fleshy plant ringed with bones (plant is in plain sight, consequence not stated).
 
 Design principle for future rooms: write the "entering" box as the visible establishing shot only. Put the ambush/trap payload in a separate "Read Aloud (when X)" trigger box or a GM NOTE. Do not let the establishing shot spend the surprise.
+
+## Learnings
+
+### 2026-10-03 - Berhan journal trader, purple stone, and climbing pass
+
+- Added Flaxese trader section and `map-goblin-trader.png` reference to Berhan's Acid Resistance page. Flaxese keeps his stall or den just north of the way out to the Drift Stones; routes include the far north-east Main Hall hidden door past undisturbed bodies, or the trap door above his patch reached from the Drift Stone room. The nearby secret door only seems to stay shut when the old hoard beside it remains in place.
+- Added Berhan's purple-stone cavern note to the Greater Healing page, tied to the old Dwarven Forge caverns, spider risk, needed tools, and whether Flaxese might know more.
+- Tightened the Climbing page's trailing notes while preserving the bottle-clinging success sign, the failed-batch sign, Berhan's reluctance to enter the spider-infested forge, and the goblins warning him to leave the forge alone.

@@ -55,6 +55,13 @@ A successful batch turns pearl-gray, with a thin shell climbing the bottle walls
 
 I'm also nearly out of the pale polishing grit from the old Dwarven Forge. It collects in the stone seams behind the quenching troughs and cleans the scale pans without scratching them. I haven't found it anywhere else down here. There were thick webs across the lower doorway when I went for another sack, so I left it where it was. I'll ask the goblins whether they've been in recently.
 
+The trader's name is Flaxese. He keeps his stall in a den just north of the way out to the Drift Stones. He is fairer than most of his kind, which is not saying much, and he is still as greedy as any goblin with both hands free.
+
+There are two ways to reach him that I know. One is through a hidden door at the far north-east of the Main Hall, past bodies that are best left undisturbed. The other is a trap door above his patch, reached straight off the Drift Stone room. I've also noticed a secret door near him that only seems to hold shut when the old hoard beside it is stacked in place. When the hoard has been moved, the door stands open like a broken cupboard.
+
+I've drawn the map below in case anything ever happens to me in this cursed place.
+![Map to Flaxese's den](map-goblin-trader.png)
+
 ---
 
 ## Journal Page 3
@@ -198,6 +205,20 @@ The trader tried to count the glass as part of the payment again. I charge for t
 
 He asked after my hand once we'd finished arguing and gave me a cup of something hot from the stove. It was too salty, but I stayed and drank it. I hadn't sat and talked to anyone for a while without having to keep one eye on a batch.
 
+**Purple stone**
+
+I keep thinking about the caverns outside the old Dwarven Forge. On the last trip before the webs got too thick, I saw a seam of purple stone running through the wall behind the lower supports. It was dull until the lamp came close, then it showed a clean violet line under the soot. I don't think it was amethyst. It sat too deep in the rock and had a dry powder on the edges, almost like it had been sweating and then gone cold again.
+
+I am sure it could be made useful if I could bring back enough to test. Purple materials can be treacherous in healing work because everyone assumes they belong with Nightshade Berries, and most of them only make the bitterness worse. This stone felt different under the knife point. It left a faint grit on the blade, and the grit held to the metal until I wiped it with vinegar. It may draw a charge the way Thunderhead Lichen does, or it may bind sour reagents before they spoil the mouth of a draught. I would want to try it first with Moonwater and a very small amount of Troll Blood, nowhere near a salable batch.
+
+I did not have the pick or the little hammer with me. I had only gone for polishing grit and a look at the troughs, so I took the lamp, two sacks, and the bad knife I use for scraping. I tried to pry a little loose and only chipped the knife. That was foolish, because I knew better as soon as I started. A proper sample needs a clean break, not a dirty smear from the wall.
+
+Going back for it would mean taking the pick, the hammer, a covered lantern, two sacks, and probably a climbing dose if the lower path is webbed again. It would also mean deciding that a purple seam in the rock is worth walking into a place the spiders have claimed. I can hear how that sounds when I write it out. Good ingredients make men stupid, and I am not as young as I was when stupidity healed overnight.
+
+Still, I keep turning it over. The forge caverns are dangerous, but the stone was close enough to the entrance that I might manage it if I went quietly and did not stop to sort grit at the same time. I would need to clear the webbing from the doorway without burning it, because smoke down there sits in the throat. I would need one sack for the stone and one for the polishing grit, and I would need to leave the metal stock alone no matter how useful it looks. That last part may be the hardest, since the bent stirring rod mocks me every morning.
+
+I might ask Flaxese whether he knows the stone. He will either pretend he has never heard of it or charge me for the privilege of hearing him lie. If he has a porter who has seen the seam, that would still be worth knowing. I should ask as if I am curious about pretty rock for grinding color. If he hears ingredient in my voice, the price will climb before I finish the sentence.
+
 ---
 
 ## Journal Page 7
@@ -265,11 +286,9 @@ I had to come down with the bottle between my teeth because the pocket I meant t
 5. Add the Honey of the Sun Bee in three drops while the thread remains taut.
 6. Remove the thread before bottling.
 
-The finished potion crawls up the bottle instead of settling. With the stopper out, it clings in a thick green ribbon. If it sinks like mud and the Ironvine Thread breaks into loose fibers, the batch has gone wrong and won't grip glass or stone.
+The finished potion crawls up the bottle instead of settling. With the stopper out, it clings in a green ribbon. If it sinks like mud and the Ironvine Thread breaks into loose fibers, the batch has failed.
 
-I wondered whether climbing above the forge doorway would let me avoid the webs. That didn't seem nearly as sensible once I remembered what had made them. There's good metal stock in there as well as the grit, and I could use some to replace the bent stirring rod, but I'm not going in after it.
-
-I asked whether the goblins knew another entrance. They told me to leave the forge alone. Nobody even offered to sell me a map, which settled it for me.
+I thought about using it above the forge doorway to avoid the webs, then remembered what made the webs. There is grit and good metal stock in there, and the bent stirring rod needs replacing, but I am not climbing into a spider-filled forge for either. I asked whether the goblins knew another way in. They told me to leave the forge alone and would not even try to sell me a map, which settled it.
 
 ---
 
